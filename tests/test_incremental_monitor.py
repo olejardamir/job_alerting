@@ -352,10 +352,9 @@ class InventoryTests(unittest.TestCase):
             writer.writeheader()
             writer.writerows(rows)
 
-    def test_inventory_builds_targets(self):
+    def test_load_targets_from_inventory(self):
         """A three-row job_sources.csv produces exactly three extraction targets."""
-        import csv
-        from extract_jobs_unified import clean as ext_clean
+        from extract_jobs_unified import load_targets_from_inventory
         with tempfile.TemporaryDirectory() as directory:
             csv_path = Path(directory) / "job_sources.csv"
             rows = [
@@ -379,26 +378,32 @@ class InventoryTests(unittest.TestCase):
                  "previous_result": "jobs_extracted"},
             ]
             self._write_sources_csv(csv_path, rows)
-
-            targets = []
-            with csv_path.open(newline="", encoding="utf-8-sig") as f:
-                for row in csv.DictReader(f):
-                    url = (ext_clean(row.get("source_api_url"))
-                           or ext_clean(row.get("source_listing_url"))
-                           or ext_clean(row.get("monitor_url")))
-                    if not ext_clean(row.get("record_id")) or not url.startswith(("http://", "https://")):
-                        continue
-                    targets.append({
-                        "record_id": ext_clean(row.get("record_id")),
-                        "organization_name": ext_clean(row.get("organization_name")),
-                        "monitor_url": url,
-                        "source_type": ext_clean(row.get("source_type")),
-                        "source_provider": ext_clean(row.get("source_provider")),
-                    })
+            targets = load_targets_from_inventory(csv_path)
             self.assertEqual(len(targets), 3)
             self.assertEqual(targets[0]["source_type"], "ats")
+            self.assertEqual(targets[0]["source_provider"], "greenhouse")
             self.assertEqual(targets[1]["source_type"], "static_html_listing")
             self.assertEqual(targets[2]["source_provider"], "lever")
+
+    def test_inventory_only_source_included(self):
+        """An inventory-only source absent from Stage 1/2 is still included."""
+        from extract_jobs_unified import load_targets_from_inventory
+        with tempfile.TemporaryDirectory() as directory:
+            csv_path = Path(directory) / "job_sources.csv"
+            rows = [
+                {"record_id": "99", "organization_name": "NewCo",
+                 "monitor_url": "https://newco.example/careers",
+                 "source_type": "public_job_api", "source_provider": "",
+                 "source_listing_url": "https://newco.example/careers",
+                 "source_api_url": "https://newco.example/api/jobs",
+                 "source_stage": "stage1_ats_review",
+                 "previous_result": ""},
+            ]
+            self._write_sources_csv(csv_path, rows)
+            targets = load_targets_from_inventory(csv_path)
+            self.assertEqual(len(targets), 1)
+            self.assertEqual(targets[0]["source_type"], "public_job_api")
+            self.assertEqual(targets[0]["source_api_url"], "https://newco.example/api/jobs")
 
     def test_inventory_source_type_filter(self):
         """source_type=static_html_listing selects correct inventory rows."""
@@ -423,6 +428,70 @@ class InventoryTests(unittest.TestCase):
         ]
         filtered = filter_sources(rows, provider="greenhouse")
         self.assertEqual(len(filtered), 2)
+
+
+class ClassificationPreservationTests(unittest.TestCase):
+    """Prove that classify_source() trusts inventory and does not rediscover."""
+
+    def _make_target(self, **overrides):
+        base = {
+            "record_id": "1", "organization_name": "Acme",
+            "monitor_url": "https://acme.example/careers",
+            "source_type": "", "source_provider": "",
+            "source_listing_url": "", "source_api_url": "",
+            "detected_ats": "", "detected_ats_provider": "",
+            "previous_result": "",
+        }
+        base.update(overrides)
+        return base
+
+    def test_public_job_api_remains_public_job_api(self):
+        """Inventory public_job_api is not reclassified as unknown."""
+        from extract_jobs_unified import classify_source
+        target = self._make_target(
+            source_type="public_job_api",
+            source_api_url="https://acme.example/api/jobs",
+        )
+        import asyncio
+        result = asyncio.run(classify_source(None, target, 25))
+        self.assertEqual(result["source_type"], "public_job_api")
+        self.assertEqual(result["api_url"], "https://acme.example/api/jobs")
+
+    def test_static_html_remains_static_html(self):
+        from extract_jobs_unified import classify_source
+        target = self._make_target(source_type="static_html_listing")
+        import asyncio
+        result = asyncio.run(classify_source(None, target, 25))
+        self.assertEqual(result["source_type"], "static_html_listing")
+
+    def test_no_openings_remains_no_openings(self):
+        from extract_jobs_unified import classify_source
+        target = self._make_target(source_type="no_openings")
+        import asyncio
+        result = asyncio.run(classify_source(None, target, 25))
+        self.assertEqual(result["source_type"], "no_openings")
+
+    def test_ats_retains_provider(self):
+        from extract_jobs_unified import classify_source
+        target = self._make_target(
+            source_type="ats", source_provider="greenhouse",
+            source_listing_url="https://boards.greenhouse.io/acme",
+        )
+        import asyncio
+        result = asyncio.run(classify_source(None, target, 25))
+        self.assertEqual(result["source_type"], "ats")
+        self.assertEqual(result["source_provider"], "greenhouse")
+        self.assertEqual(result["listing_url"], "https://boards.greenhouse.io/acme")
+
+    def test_no_http_when_inventory_classified(self):
+        """classify_source should not make HTTP request when source_type is set."""
+        from extract_jobs_unified import classify_source
+        target = self._make_target(source_type="ats", source_provider="lever")
+        import asyncio
+        # Passing None as client proves no HTTP is attempted
+        result = asyncio.run(classify_source(None, target, 25))
+        self.assertEqual(result["source_type"], "ats")
+        self.assertEqual(result["source_provider"], "lever")
 
 
 class IndeterminatePersistenceTests(unittest.TestCase):

@@ -372,6 +372,20 @@ async def classify_source(
 ) -> dict[str, str]:
     """Determine source_type, source_provider, listing_url, api_url for a target."""
     url = target["monitor_url"]
+
+    # Trust the inventory classification when source_type is already established
+    inventory_type = clean(target.get("source_type"))
+    if inventory_type:
+        return {
+            "source_type": inventory_type,
+            "source_provider": clean(target.get("source_provider")),
+            "listing_url": (
+                clean(target.get("source_listing_url"))
+                or clean(target.get("monitor_url"))
+            ),
+            "api_url": clean(target.get("source_api_url")),
+        }
+
     detected_ats = target.get("detected_ats", "")
     detected_provider = target.get("detected_ats_provider", "")
     previous = target.get("previous_result", "")
@@ -1228,6 +1242,33 @@ def export_outputs(records: list[dict], out_dir: Path) -> None:
     print(f"Wrote jobs_current.csv ({len(job_rows)} jobs)")
 
 
+def load_targets_from_inventory(path: Path) -> list[dict[str, str]]:
+    """Build extraction targets directly from the authoritative job_sources.csv inventory."""
+    import csv as csv_mod
+    targets = []
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv_mod.DictReader(f):
+            url = (
+                clean(row.get("source_api_url"))
+                or clean(row.get("source_listing_url"))
+                or clean(row.get("monitor_url"))
+            )
+            if not clean(row.get("record_id")) or not url.startswith(("http://", "https://")):
+                continue
+            targets.append({
+                "record_id": clean(row.get("record_id")),
+                "organization_name": clean(row.get("organization_name")),
+                "monitor_url": url,
+                "source_type": clean(row.get("source_type")),
+                "source_provider": clean(row.get("source_provider")),
+                "source_listing_url": clean(row.get("source_listing_url")),
+                "source_api_url": clean(row.get("source_api_url")),
+                "source_stage": clean(row.get("source_stage")),
+                "previous_result": clean(row.get("previous_result")),
+            })
+    return targets
+
+
 async def main() -> None:
     args = parse_args()
     jsonl_path = Path(args.jsonl)
@@ -1236,28 +1277,7 @@ async def main() -> None:
     # Use job_sources.csv as authoritative inventory when available
     sources_path = Path(args.sources_file)
     if sources_path.exists():
-        import csv as csv_mod
-        targets = []
-        with sources_path.open(newline="", encoding="utf-8-sig") as f:
-            for row in csv_mod.DictReader(f):
-                url = (
-                    clean(row.get("source_api_url"))
-                    or clean(row.get("source_listing_url"))
-                    or clean(row.get("monitor_url"))
-                )
-                if not clean(row.get("record_id")) or not url.startswith(("http://", "https://")):
-                    continue
-                targets.append({
-                    "record_id": clean(row.get("record_id")),
-                    "organization_name": clean(row.get("organization_name")),
-                    "monitor_url": url,
-                    "source_type": clean(row.get("source_type")),
-                    "source_provider": clean(row.get("source_provider")),
-                    "source_listing_url": clean(row.get("source_listing_url")),
-                    "source_api_url": clean(row.get("source_api_url")),
-                    "source_stage": clean(row.get("source_stage")),
-                    "previous_result": clean(row.get("previous_result")),
-                })
+        targets = load_targets_from_inventory(sources_path)
         print(f"Loaded {len(targets)} targets from {sources_path}")
     else:
         print("Collecting targets from all stages...")
