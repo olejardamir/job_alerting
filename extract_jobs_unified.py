@@ -238,6 +238,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--limit", type=int, default=0, help="0 = all records")
     p.add_argument("--timeout", type=int, default=25)
     p.add_argument("--concurrency", type=int, default=5)
+    p.add_argument("--source-id", default="", help="Filter to specific record_id")
+    p.add_argument("--source-type", default="", help="Filter by source type (ats, static_html_listing, etc.)")
+    p.add_argument("--provider", default="", help="Filter by ATS provider (greenhouse, lever, etc.)")
     return p.parse_args()
 
 
@@ -1241,6 +1244,15 @@ async def main() -> None:
     ats_targets = [t for t in targets if t.get("detected_ats") or t.get("detected_ats_provider")]
     print(f"  Targets with ATS detection: {len(ats_targets)}")
 
+    # Apply filters before limiting
+    if args.source_id:
+        targets = [t for t in targets if t.get("record_id") == args.source_id]
+        print(f"Filtered to record_id={args.source_id}: {len(targets)} targets")
+    if args.provider:
+        targets = [t for t in targets
+                   if args.provider.lower() in (t.get("detected_ats_provider", "") or "").lower()
+                   or args.provider.lower() in (t.get("detected_ats", "") or "").lower()]
+        print(f"Filtered to provider={args.provider}: {len(targets)} targets")
     if args.limit > 0:
         targets = targets[:args.limit]
         print(f"Limited to {len(targets)} records")

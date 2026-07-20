@@ -24,6 +24,35 @@ class SourceStatusTests(unittest.TestCase):
             "jobs_found": "0", "extraction_error": "",
         }))
 
+    def test_generic_no_jobs_found_is_indeterminate(self):
+        """Generic no_jobs_found must not advance removal counters."""
+        self.assertFalse(source_is_successful({
+            "source_type": "ats", "extraction_result": "no_jobs_found",
+            "extraction_reason": "", "jobs_found": "0", "extraction_error": "",
+        }))
+
+    def test_static_html_no_jobs_found_is_indeterminate(self):
+        """Even static HTML no_jobs_found is indeterminate without confirmation."""
+        self.assertFalse(source_is_successful({
+            "source_type": "static_html_listing", "extraction_result": "no_jobs_found",
+            "extraction_reason": "", "jobs_found": "0", "extraction_error": "",
+        }))
+
+    def test_http_error_no_jobs_found_is_failure(self):
+        """HTTP errors with no_jobs_found are failures, not indeterminate."""
+        self.assertFalse(source_is_successful({
+            "source_type": "ats", "extraction_result": "no_jobs_found",
+            "extraction_reason": "", "jobs_found": "0",
+            "extraction_error": "TimeoutError",
+        }))
+
+    def test_confirmed_career_page_no_openings_is_success(self):
+        self.assertTrue(source_is_successful({
+            "source_type": "ats",
+            "extraction_result": "confirmed_career_page_no_openings",
+            "jobs_found": "0", "extraction_error": "",
+        }))
+
 
 class ComparisonTests(unittest.TestCase):
     def setUp(self):
@@ -59,7 +88,8 @@ class ComparisonTests(unittest.TestCase):
         self.assertEqual(changed[0]["canonical_job_id"], self.job["canonical_job_id"])
 
     def test_first_absence_is_possible_removal(self):
-        status = {**self.success, "jobs_found": "0", "extraction_result": "no_jobs_found"}
+        status = {**self.success, "jobs_found": "0",
+                  "extraction_result": "confirmed_no_openings"}
         result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [status],
                               confirm_removal_after=2, now=self.now)
         self.assertEqual(result.events[0]["event_type"], "POSSIBLY_REMOVED")
@@ -67,7 +97,8 @@ class ComparisonTests(unittest.TestCase):
 
     def test_second_absence_removes(self):
         old = {**self.job, "status": "possibly_removed", "missing_successful_runs": 1}
-        status = {**self.success, "jobs_found": "0", "extraction_result": "no_jobs_found"}
+        status = {**self.success, "jobs_found": "0",
+                  "extraction_result": "confirmed_no_openings"}
         result = compare_jobs({old["canonical_job_id"]: old}, [], [status],
                               confirm_removal_after=2, now=self.now)
         self.assertEqual(result.events[0]["event_type"], "REMOVED")
@@ -78,6 +109,24 @@ class ComparisonTests(unittest.TestCase):
         result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [failure], now=self.now)
         self.assertEqual(result.events, [])
         self.assertEqual(len(result.source_failures), 1)
+
+    def test_indeterminate_source_never_removes(self):
+        """Generic no_jobs_found must not advance removal counters."""
+        indeterminate = {**self.success, "extraction_result": "no_jobs_found",
+                         "jobs_found": "0", "extraction_error": ""}
+        result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [indeterminate], now=self.now)
+        # No removal events — indeterminate sources don't advance removal
+        self.assertEqual(result.events, [])
+        # Indeterminate sources are NOT in successful_source_ids
+        self.assertNotIn("10", result.successful_source_ids)
+
+    def test_parser_empty_with_error_never_removes(self):
+        """Parser failure resulting in no jobs + error must not remove."""
+        failure = {**self.success, "extraction_result": "no_jobs_found",
+                   "jobs_found": "0", "extraction_error": "ParseError"}
+        result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [failure], now=self.now)
+        self.assertEqual(result.events, [])
+        self.assertEqual(len(result.failed_source_ids), 1)
 
     def test_removed_job_reopens(self):
         old = {**self.job, "status": "removed", "missing_successful_runs": 2}
@@ -142,6 +191,41 @@ class DatabaseTests(unittest.TestCase):
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0], 1)
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM job_events WHERE event_type='NEW'").fetchone()[0], 1)
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM crawl_runs").fetchone()[0], 1)
+
+
+class FilterTests(unittest.TestCase):
+    def test_provider_filter_selects_before_extraction(self):
+        """--provider greenhouse should filter targets before extraction."""
+        from monitoring.core import filter_sources
+        rows = [
+            {"record_id": "1", "source_type": "ats", "source_provider": "greenhouse"},
+            {"record_id": "2", "source_type": "ats", "source_provider": "lever"},
+            {"record_id": "3", "source_type": "static_html_listing", "source_provider": ""},
+            {"record_id": "4", "source_type": "ats", "source_provider": "greenhouse"},
+        ]
+        filtered = filter_sources(rows, provider="greenhouse")
+        self.assertEqual(len(filtered), 2)
+        self.assertTrue(all(r["source_provider"] == "greenhouse" for r in filtered))
+
+    def test_source_type_filter(self):
+        from monitoring.core import filter_sources
+        rows = [
+            {"record_id": "1", "source_type": "ats", "source_provider": "greenhouse"},
+            {"record_id": "2", "source_type": "static_html_listing", "source_provider": ""},
+        ]
+        filtered = filter_sources(rows, source_type="ats")
+        self.assertEqual(len(filtered), 1)
+        self.assertEqual(filtered[0]["source_type"], "ats")
+
+    def test_combined_filters(self):
+        from monitoring.core import filter_sources
+        rows = [
+            {"record_id": "1", "source_type": "ats", "source_provider": "greenhouse"},
+            {"record_id": "2", "source_type": "ats", "source_provider": "lever"},
+        ]
+        filtered = filter_sources(rows, source_type="ats", provider="greenhouse")
+        self.assertEqual(len(filtered), 1)
+        self.assertEqual(filtered[0]["source_provider"], "greenhouse")
 
 
 if __name__ == "__main__":

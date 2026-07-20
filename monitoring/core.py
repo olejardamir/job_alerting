@@ -17,19 +17,16 @@ TRACKED_FIELDS = (
 )
 
 SUCCESS_RESULTS = {
-    "jobs_extracted", "active_jobs_extracted", "confirmed_no_openings",
-    "confirmed_career_page_no_openings", "confirmed_external_ats_no_openings",
+    "jobs_extracted", "active_jobs_extracted",
+    "confirmed_no_openings", "confirmed_career_page_no_openings",
+    "confirmed_external_ats_no_openings",
     "confirmed_career_page_active", "confirmed_external_ats_active",
 }
+INDETERMINATE_RESULTS = {"no_jobs_found"}
 FAILURE_TOKENS = (
     "crawl_failed", "blocked", "challenge", "needs_manual_review",
     "unsupported", "error", "failed", "unknown_platform",
 )
-ZERO_SAFE_TYPES = {
-    "ats", "public_job_api", "static_html_listing", "javascript_listing",
-    "iframe_listing", "individual_job_pages", "downloadable_document",
-    "email_application", "no_openings",
-}
 
 
 class MonitorError(RuntimeError):
@@ -91,20 +88,25 @@ def write_csv(path: Path, rows: Sequence[Mapping[str, Any]]) -> None:
 
 
 def source_is_successful(row: Mapping[str, Any]) -> bool:
-    """Only return True when an empty result can safely imply job absence."""
+    """Only return True when an empty result can safely imply job absence.
+
+    Generic 'no_jobs_found' is indeterminate — it could mean the parser
+    failed, the site blocked us, or the ATS changed structure. Only
+    explicitly confirmed results (confirmed_no_openings, etc.) advance
+    removal counters.
+    """
     result = clean(row.get("extraction_result") or row.get("result")).lower()
     reason = clean(row.get("extraction_reason") or row.get("reason")).lower()
     error = clean(row.get("extraction_error") or row.get("error"))
-    source_type = clean(row.get("source_type")).lower()
     jobs_found = safe_int(row.get("jobs_found"))
     if error or any(token in result for token in FAILURE_TOKENS):
         return False
-    if jobs_found > 0 or result in SUCCESS_RESULTS:
+    if jobs_found > 0:
         return True
-    if result == "no_jobs_found":
-        return (source_type in ZERO_SAFE_TYPES
-                and "unknown ats" not in reason
-                and "requires browser" not in reason)
+    if result in SUCCESS_RESULTS:
+        return True
+    if result in INDETERMINATE_RESULTS:
+        return False
     return False
 
 

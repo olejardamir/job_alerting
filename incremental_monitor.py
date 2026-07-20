@@ -58,6 +58,12 @@ def run_extractor(args, run_dir: Path):
         "--output-dir", str(run_dir), "--limit", str(args.limit),
         "--timeout", str(args.timeout), "--concurrency", str(args.concurrency),
     ]
+    if args.source_id:
+        command.extend(["--source-id", args.source_id])
+    if args.source_type:
+        command.extend(["--source-type", args.source_type])
+    if args.provider:
+        command.extend(["--provider", args.provider])
     print("Running extractor:", " ".join(command))
     completed = subprocess.run(command, check=False)
     if completed.returncode:
