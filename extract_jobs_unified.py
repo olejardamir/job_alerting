@@ -947,10 +947,28 @@ async def extract_jobs_for_target(
     reason = ""
 
     try:
+        # no_openings sources are revisited like any other — employers may
+        # have published new openings since the last check.
         if source_type == "no_openings":
-            base_result["extraction_result"] = "confirmed_no_openings"
-            base_result["extraction_reason"] = "Career page explicitly shows no openings"
-            return base_result
+            status, final_url, html = await fetch_page(client, listing_url, timeout)
+            if html:
+                soup = BeautifulSoup(html, "html.parser")
+                jobs = await _extract_jsonld(soup, final_url)
+                if not jobs:
+                    jobs = await _extract_static_html(soup, final_url)
+                if not jobs:
+                    body = _html_to_text(html).lower()
+                    if contains_any(body, NO_OPENING_MARKERS):
+                        base_result["extraction_result"] = "confirmed_no_openings"
+                        base_result["extraction_reason"] = "Career page still shows no openings"
+                        return base_result
+                    base_result["extraction_result"] = "no_jobs_found"
+                    base_result["extraction_reason"] = "Previously empty page revisited, no jobs found"
+                    return base_result
+            else:
+                base_result["extraction_result"] = "no_jobs_found"
+                base_result["extraction_reason"] = "Previously empty page unreachable"
+                return base_result
 
         if source_type == "passive_application":
             base_result["extraction_result"] = "passive_application_only"
