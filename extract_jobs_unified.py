@@ -1060,9 +1060,22 @@ async def extract_jobs_for_target(
                         if jobs:
                             break
                 if not jobs:
-                    base_result["extraction_result"] = "needs_manual_review"
-                    base_result["extraction_reason"] = "No jobs found via generic extraction"
-                    return base_result
+                    # Try LLM extraction as fallback for unknown sources
+                    from llm_extractor import extract_jobs_with_llm, is_llm_worthy
+                    if html and is_llm_worthy("needs_manual_review", 0, source_type):
+                        jobs = await asyncio.to_thread(
+                            extract_jobs_with_llm, html, listing_url
+                        )
+                        if jobs:
+                            reason = f"LLM extracted {len(jobs)} jobs from unknown source"
+                        else:
+                            base_result["extraction_result"] = "needs_manual_review"
+                            base_result["extraction_reason"] = "No jobs found via generic or LLM extraction"
+                            return base_result
+                    else:
+                        base_result["extraction_result"] = "needs_manual_review"
+                        base_result["extraction_reason"] = "No jobs found via generic extraction"
+                        return base_result
 
     except Exception as exc:
         base_result["extraction_result"] = "crawl_failed"
