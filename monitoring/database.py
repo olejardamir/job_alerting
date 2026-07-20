@@ -262,7 +262,8 @@ def apply_commit(conn: sqlite3.Connection, comparison: ComparisonResult,
                    missing, now if event_type == "REMOVED" else "", cid))
         _insert_event(conn, event, source_ids.get(rid), crawl_ids.get(rid))
 
-    for event in [*comparison.source_failures, *comparison.source_recoveries]:
+    for event in [*comparison.source_failures, *comparison.source_recoveries,
+                   *comparison.source_indeterminate]:
         rid = clean(event.get("record_id"))
         _insert_event(conn, event, source_ids.get(rid), crawl_ids.get(rid), source_event=True)
 

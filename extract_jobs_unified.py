@@ -35,6 +35,7 @@ import hashlib
 import json
 import re
 import time
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -1232,47 +1233,55 @@ async def main() -> None:
     jsonl_path = Path(args.jsonl)
     out_dir = Path(args.output_dir)
 
-    print("Collecting targets from all stages...")
-    targets = collect_targets()
-    print(f"Collected {len(targets)} unique targets")
-
-    # Source stage breakdown
-    from collections import Counter
-    stages = Counter(t["source_stage"] for t in targets)
-    for s, c in stages.most_common():
-        print(f"  {s:20s}: {c}")
-
-    # Detected ATS breakdown
-    ats_targets = [t for t in targets if t.get("detected_ats") or t.get("detected_ats_provider")]
-    print(f"  Targets with ATS detection: {len(ats_targets)}")
-
     # Use job_sources.csv as authoritative inventory when available
     sources_path = Path(args.sources_file)
     if sources_path.exists():
         import csv as csv_mod
+        targets = []
         with sources_path.open(newline="", encoding="utf-8-sig") as f:
-            source_rows = {clean(r.get("record_id")): r
-                           for r in csv_mod.DictReader(f) if clean(r.get("record_id"))}
-        print(f"Loaded {len(source_rows)} sources from {sources_path}")
+            for row in csv_mod.DictReader(f):
+                url = (
+                    clean(row.get("source_api_url"))
+                    or clean(row.get("source_listing_url"))
+                    or clean(row.get("monitor_url"))
+                )
+                if not clean(row.get("record_id")) or not url.startswith(("http://", "https://")):
+                    continue
+                targets.append({
+                    "record_id": clean(row.get("record_id")),
+                    "organization_name": clean(row.get("organization_name")),
+                    "monitor_url": url,
+                    "source_type": clean(row.get("source_type")),
+                    "source_provider": clean(row.get("source_provider")),
+                    "source_listing_url": clean(row.get("source_listing_url")),
+                    "source_api_url": clean(row.get("source_api_url")),
+                    "source_stage": clean(row.get("source_stage")),
+                    "previous_result": clean(row.get("previous_result")),
+                })
+        print(f"Loaded {len(targets)} targets from {sources_path}")
+    else:
+        print("Collecting targets from all stages...")
+        targets = collect_targets()
+        print(f"Collected {len(targets)} unique targets")
 
-        # Filter targets by authoritative inventory
-        target_ids = {t.get("record_id") for t in targets}
-        matched = [source_rows[rid] for rid in target_ids if rid in source_rows]
-        print(f"  Matched {len(matched)} targets in source inventory")
+        stages = Counter(t["source_stage"] for t in targets)
+        for s, c in stages.most_common():
+            print(f"  {s:20s}: {c}")
 
-    # Apply filters before limiting
+        ats_targets = [t for t in targets if t.get("detected_ats") or t.get("detected_ats_provider")]
+        print(f"  Targets with ATS detection: {len(ats_targets)}")
+
+    # Apply filters
     if args.source_id:
-        targets = [t for t in targets if t.get("record_id") == args.source_id]
+        targets = [t for t in targets if t["record_id"] == args.source_id]
         print(f"Filtered to record_id={args.source_id}: {len(targets)} targets")
     if args.source_type:
-        targets = [t for t in targets if args.source_type.lower() in
-                   (t.get("detected_ats", "") or "").lower()
-                   or args.source_type.lower() in (t.get("source_type", "") or "").lower()]
+        targets = [t for t in targets
+                   if t.get("source_type", "").lower() == args.source_type.lower()]
         print(f"Filtered to source_type={args.source_type}: {len(targets)} targets")
     if args.provider:
         targets = [t for t in targets
-                   if args.provider.lower() in (t.get("detected_ats_provider", "") or "").lower()
-                   or args.provider.lower() in (t.get("detected_ats", "") or "").lower()]
+                   if t.get("source_provider", "").lower() == args.provider.lower()]
         print(f"Filtered to provider={args.provider}: {len(targets)} targets")
     if args.limit > 0:
         targets = targets[:args.limit]
