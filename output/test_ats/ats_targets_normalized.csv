@@ -1,0 +1,11 @@
+record_id,organization_name,ats_provider,career_url,resolved_monitor_url,source_stage,previous_result
+1,1Valet,bamboohr,https://1valet.com/careers,https://1valet.com/careers,stage1,confirmed_external_ats_active
+7,407 ETR Concession Company Limited,workday,https://407etr.com/en/careers,https://407etr.com/en/careers,stage1,external_ats_needs_review
+14,A Thinking Ape (Canada),greenhouse,https://athinkingape.com/careers/,https://athinkingape.com/careers/,stage1,confirmed_external_ats_active
+19,Aastra Technologies,workday,https://www.mitel.com/careers,https://www.mitel.com/careers,stage1,confirmed_external_ats_active
+23,Abbotsford Regional Hospital and Cancer Centre,icims,https://careers.fraserhealth.ca/,https://careers.fraserhealth.ca/,stage1,confirmed_external_ats_active
+34,Acadia Broadcasting,oracle,https://hdrc.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?,https://hdrc.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?,stage1,external_ats_needs_review
+40,Access Alliance Multicultural Health and Community Services,adp,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=350843e4-3b30-435a-be98-a1f888829f26&ccId=19000101_000001&lang=en_CA,stage1,external_ats_needs_review
+45,Achieve Life Sciences (Canada),bamboohr,https://achievelifesciences.com/about/careers/,https://achievelifesciences.com/about/careers/,stage1,external_ats_needs_review
+69,Advanced Chemistry Development,adp,https://www.acdlabs.com/about/careers/,https://www.acdlabs.com/about/careers/,stage1,confirmed_external_ats_no_openings
+72,Adtran Networks Canada Inc.,workday,https://www.adtran.com/en/about-us/careers,https://www.adtran.com/en/about-us/careers,stage1,external_ats_needs_review

@@ -1,0 +1,241 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+1,found.csv,2,1Valet,no,https://1valet.com/,https://1valet.com/,https://1valet.com/,1valet.com,FOUND,https://1valet.com/careers,CareersJoin our growing team,60,,careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:40:30.178847+00:00,https://1valet.com/careers,https://1valet.com/careers,200,Careers | 1VALET,bamboohr,0,16,https://1valet.bamboohr.com/careers/173 | https://1valet.bamboohr.com/careers/182 | https://1valet.bamboohr.com/careers/178 | https://1valet.bamboohr.com/careers/167 | https://1valet.bamboohr.com/careers/168,confirmed_external_ats_active,bamboohr page with job records or job links,"PRODUCTS
+INTEGRATIONS
+SOLUTIONS
+ABOUT
+BLOG
+EN
+LOGIN
+SUPPORT
+FREE CONSULTATION
+
+CAREERS
+
+Join our
+team.
+
+We're building the future of smart buildings. Explore open positions and find your place at 1VALET.
+
+Open Positions
+CONSTRUCTION & CHANNEL SALES
+Channel Sales Coordinator
+Toronto, ON (Hybrid)
+Senior Territory Manager
+Remote
+OPERATIONS
+Customer Success Specialist
+Remote
+Field Technician Support
+Ottawa, ON
+Field Technician Support
+Remote
+Field Technician Support
+Toronto, ON
+Systems Analyst - Technical Support
+Remote
+Technical Project Manager
+Remote
+Open Positions
+CONSTRUCTION & CHANNEL SALES
+Channel Sales Coordinator
+Toronto, ON (Hybrid)
+Senior Territory Manager
+Remote
+OPERATIONS
+Customer Success Specialist
+Remote
+Field Technician Support
+Ottawa, ON
+Field Technician Support
+Remote
+Field Technician Support
+Toronto, ON
+Systems Analyst - Technical Support
+Remote
+Technical Project Manager
+Remote
+Powered by
+
+The smart building ecosystem that combines software, hardware, and services into one unified platform.
+
+PRODUCTS
+Smart Intercom
+Management Portal
+Resident App
+Integrations
+GET IN TOUCH
+Free Consultation
+Get Support
+Contact
+OFFICES
+
+Ottawa, ON
+
+Toronto, ON
+
+Phoenix, AZ
+
+Dubai, UAE
+
+© 2026 1VALET. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Security",
+3,found.csv,4,1-800-GOT-JUNK?,no,https://1800gotjunk.com/,https://1800gotjunk.com/us_en,https://1800gotjunk.com/us_en,1800gotjunk.com,FOUND,https://jobs.1800gotjunk.com/us_en,Careers,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:40:36.812953+00:00,https://jobs.1800gotjunk.com/us_en,https://jobs.1800gotjunk.com/us_en,200,1-800-GOT-JUNK? Jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Image
+WHAT WE DO
+WHAT WE TAKE
+PRICING
+START A FRANCHISE
+MORE
+ 
+WE HIRE HAPPY PEOPLE.
+START YOUR CAREER
+WHY WORK HERE
+IT'S ALL ABOUT PEOPLE
+FIND A JOB
+Our Franchise Partners provide exceptional opportunities for happy, ambitious people who want to grow, excel and own their success.
+
+From day one at 1-800-GOT-JUNK?, you’ll learn what it takes to grow a successful business, have fun and be given opportunities to drive your career.
+
+Image
+WHY WORK HERE
+Image
+IT'S ALL ABOUT PEOPLE
+Image
+FIND A JOB
+We asked Truck Team Members to share their story of why they consider this the best job they've ever had. Start your own story by applying today.
+FIND JOBS ON INDEED
+We’re a franchise system, and we also have roles available at our head office that support all our franchises and other brands.
+
+We’ve been recognized as one of ‘Canada's 10 Most Admired Corporate Cultures’, a ‘Top 50 Small & Medium Employer’ and a ‘Most Engaged Workplace’. Our ‘Junktion’ offices in Vancouver and Toronto offer exciting roles where you can grow and make a big impact. Visit our site to see why people love working with us at 1-800-GOT-JUNK? and our umbrella company O2E Brands.
+
+VIEW HEAD OFFICE JOBS
+
+Check Availability
+
+ 
+ GO
+No Credit Card Required 24/7 Customer Service At 1-866-924-2479
+United States  
+Services
+Pricing
+FAQ
+Book an Appointment
+What We Do
+What We Take
+Business Services
+No Contact Junk Removal
+About Us
+Company
+Reviews
+Locations
+Environment
+Blog
+Careers
+Contact
+Start a Franchise
+Affiliate Program",
+7,found.csv,8,407 ETR Concession Company Limited,no,https://407etr.com/,https://407etr.com/en/home,https://407etr.com/en/home,407etr.com,FOUND,https://407etr.com/en/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:40:42.814454+00:00,https://407etr.com/en/careers,https://407etr.com/en/careers,200,"Careers | 407 ETR, Express Toll Route",workday,0,0,,external_ats_needs_review,"workday detected, but no jobs were confidently identified","Travel With Us
+Billing & Payments
+Community
+Support
+My Account
+
+407 ETR and authorized third parties use web technologies and tools, like cookies, to collect web data about you. We do this, for example, to improve user experiences and promotions. By clicking “Okay” you’re giving us consent. For more information, please see 407 ETR’s Privacy Notice.
+
+Decline
+Okay
+
+Home
+
+Careers
+
+Careers
+Join our team and help shape the future of transportation
+
+We’re looking for passionate collaborators who understand that success is a team effort, and that your enthusiasm will drive the innovation that sets us apart.
+
+Find a rewarding career in one of our many departments, including Customer Service, Finance, Highway Operations, Information Technology, Data Analytics and more.
+
+If you’re interested in a career opportunity with one of the safest, most advanced highways in North America, visit our career opportunities to view and apply for available positions.
+
+Career Opportunities
+Vision
+
+To be the GTA’s highway of choice, driving productivity and strengthening communities
+
+Mission
+
+To provide a fast, safe and reliable customer experience on and off the highway.
+
+At 407 ETR, we’re proud to live our corporate values of excellence and integrity. On the road, we’re focused on helping drivers get where they need to go quickly and safely, and do this by innovating to find safer and more efficient ways of working.
+
+Off the road, we’re working towards reducing our environmental footprint and making i",
+8,found.csv,9,3 Brewers,no,https://les3brasseurs.ca/,https://www.3brasseurs.ca/en/,https://www.3brasseurs.ca/en/,3brasseurs.ca,FOUND,https://www.3brasseurs.ca/en/career,Join our team,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:40:50.733415+00:00,https://www.3brasseurs.ca/en/career,https://www.3brasseurs.ca/en/career,200,Job Offer Restaurant Bar Brewery 3 Brasseurs,,0,1,https://3brasseurs.breezy.hr/,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to content
+BEERS
+MENUS
+MICROBREWERIES
+REWARDS & GIFT CARDS
+GROUPS & EVENTS
+FRANCHISE
+EN
+BOOK
+A TABLE
+TAKEOUT
+& DELIVERY
+YOUR CAREER AT 3 BRASSEURS
+
+JOIN OUR FAMILY OF BREWER AND RESTAURATEURS
+
+APPLY NOW
+
+A CAREER AT 3 BRASSEURS
+
+JOIN US NOW
+
+BREW YOUR PASSION, GETTING THE BEST OF YOURSELF!
+Stimulating atmosphere in a friendly team
+Flexibility
+Work in the exciting world of beer
+Opportunities for career advancement
+JOIN OUR TEAM!
+
+3 Brasseurs is a growing company that takes its social responsibilities seriously and puts people at the heart of these decisions and its strategy.
+
+VIEW ALL POSITIONS
+
+SIMPLICITY, GENEROSITY AND CONVIVIALITY
+
+CONTACT US
+BOOK YOUR FUN
+ORDER ONLINE
+FIND A 3 BRASSEURS
+CAREER
+ABOUT US
+BLOG
+PLAN EVENT
+REWARDS PROGRAM
+GIFT CARD
+FRANCHISE RESTAURANT
+DISCOVER THE FEAST !",
+9,found.csv,10,9 Story Media Group,no,https://9story.com/,https://9story.com/,https://9story.com/,9story.com,FOUND,https://9story.com/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,2,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:40:56.301950+00:00,https://9story.com/careers/,https://9story.com/careers/,200,Careers - 9 Story Media Group,,0,1,https://9story.com/jobs/,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to main content
+CAREERS & CULTURE
+Our goal is to create excellent entertainment for kids; to make them laugh, to help them learn, and to bring us all closer together… and we love it!
+Come Join Our Team
+CURRENT VACANCIES
+WHAT GUIDES US
+
+9 Story is a vibrant creative organization with locations in Toronto, New York, Dublin and Bali. Making stand out/exceptional content for kids is at the heart of everything we do, and our bar is always set to “excellent” when it comes to the quality of our work. Our studios are highly collaborative spaces, where mentoring and on the job training is built into our daily practices. Our team members benefit from competitive compensation packages, working on award-winning 2D and 3D content, and a thriving work culture and maybe too much cake!
+
+Creativity
+
+You can see it in our walk, our talk, and most of all our WORK! Creativity guides everything we do, and drives us to make amazing content that stands out from the crowd!
+
+Community
+
+Great shows don’t just create themselves, you need great people to make them happen! And our studio is teeming with a talented community of individuals, who strive to improve their work environment and the cities where they live. A community who is always ready to share their knowledge and help others grow.
+
+Communication
+
+It’s essential that people feel they can be themselves. We are creating a culture where candor is not only valued but encouraged. Everyone must feel free to share ideas, opinions and criticisms.",

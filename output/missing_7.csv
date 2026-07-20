@@ -1,0 +1,98 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+4445,found.csv,4446,Saskatchewan Registered Nurses Association,no,https://srna.org/,https://www.crns.ca/,https://www.crns.ca/,crns.ca,FOUND,https://www.crns.ca/about-us/get-involved/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,3,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:06:54.886333+00:00,https://www.crns.ca/about-us/get-involved/careers/,https://www.crns.ca/about-us/get-involved/careers/,200,Careers - College of Registered Nurses of Saskatchewan (CRNS),,0,10,https://www.crns.ca/about-us/our-direction/executive-director-registrar-message/ | https://www.crns.ca/nursing-practice/nursing-practice-resources/rn-manager-tool/ | https://www.crns.ca/register-license/#applicant | https://www.crns.ca/register-license/#applicant | https://www.crns.ca/register-license/#NPapplicant,confirmed_career_page_no_openings,Employer-career language and explicit no-opening signal,"CRNS PortalSign In
+Skip to content
+Home
+	
+About Us
+Practice & Education
+Register & License
+Complaints & Discipline
+Home»About Us»Get Involved»Careers
+Careers
+Our Purpose
+Our Direction
+Governance
+News & Communications
+Get Involved
+Careers
+
+There are currently no job postings with the CRNS.
+
+Contact Information
+
+CRNS Office: 1-3710 Eastgate Dr, Regina, SK S4Z 1A5
+
+Office hours: 8:00 - 4:30 | Monday to Friday
+
+Phone: (306) 359-4200 Toll Free: 1(800) 667-9945 Fax: (306)359-0257
+
+Email: info@crns.ca
+
+Connect With Us
+
+Facebook
+
+Instagram
+
+LinkedIn
+
+Youtube
+
+Copyright © 2026 College of Registered Nurses of Saskatchewan (CRNS)Online Privacy Statement
+Scroll to top",
+4125,found.csv,4126,Q137366481,yes,https://gaeliccollege.edu/,https://gaeliccollege.edu/,https://gaeliccollege.edu/,gaeliccollege.edu,FOUND,https://gaeliccollege.edu/about/work-with-us/,Work With Us Work With Us,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:00.616456+00:00,https://gaeliccollege.edu/about/work-with-us/,,,,,0,0,,crawl_failed,All configured retries failed,,HttpStatusCodeError: Error status code returned (status code: 502).
+4180,found.csv,4181,Q137366658,yes,https://vcc.ca/,https://www.vcc.ca/,https://www.vcc.ca/,vcc.ca,FOUND,https://www.vcc.ca/about/college-information/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,3,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:03.985982+00:00,https://www.vcc.ca/about/college-information/careers/,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+4217,found.csv,4218,QuickPlay Media,no,https://quickplay.com/,https://quickplay.com/,https://quickplay.com/,quickplay.com,FOUND,https://www.linkedin.com/company/quickplay-ott/jobs/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:09.516369+00:00,https://www.linkedin.com/company/quickplay-ott/jobs/,,,,,0,0,,crawl_failed,All configured retries failed,,HttpStatusCodeError: Error status code returned (status code: 999).
+4928,found.csv,4929,Theatre Under The Stars,no,https://tuts.ca/,https://www.tuts.ca/,https://www.tuts.ca/,tuts.ca,FOUND,https://www.tuts.ca/about-tuts/join-our-team/,Join Our Team,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:10.365228+00:00,https://www.tuts.ca/about-tuts/join-our-team/,https://www.tuts.ca/about-tuts/join-our-team/,200,Join Our Team | Theatre Under the Stars,,0,4,https://www.tuts.ca/seasonal-staff-application/ | https://www.tuts.ca/seasonal-staff-application/ | https://www.tuts.ca/seasonal-staff-application/ | https://www.tuts.ca/seasonal-staff-application/,confirmed_career_page_active,Employer-career language plus job records or job links,"SHOWS AND TICKETS
+SPECIAL EVENTS
+VISITOR INFO
+PROGRAMS AND RENTALS
+ABOUT TUTS
+Our Story
+Support TUTS
+Board & Staff
+Alumni
+Join Our Team
+Membership
+Request a Donation
+Contact
+JOIN OUR TEAM
+Spend the Summer in Stanley Park!
+
+Theatre Under the Stars has several seasonal positions available from May – September. Our Operations Team is focused on providing valuable and fun experiences through mentorship and teamwork. Often, we are funded by Canada Summer Job Grants, but will also have positions that do not fall under that category.
+
+Our 2026 positions are now filled. Please check back next spring for our 2027 season positions.
+
+Administrative Assistant
+
+Box Office Supervisor
+
+Front of House Manager
+
+Site Assistant
+
+Theatre Under the Stars Musical Society
+
+610 Pipeline Rd, Malkin Bowl, Stanley Park
+
+Mailing Address
+
+2099 Beach Avenue
+
+Vancouver, BC, V6G 1Z4
+
+Contact
+
+info@tuts.ca
+604-734-1917
+
+Box Office
+
+1-800-514-3849
+
+Subscribe to the TUTS email list
+Privacy Policy
+
+© Theatre Under the Stars Musical Society 2026",
+4617,found.csv,4618,Source Cable,no,https://sourcecable.ca/,https://www.sourcecable.ca/,https://www.sourcecable.ca/,sourcecable.ca,FOUND,https://www.sourcecable.ca/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,2,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:13.174534+00:00,https://www.sourcecable.ca/careers/,,,,,0,0,,crawl_failed,All configured retries failed,,HttpStatusCodeError: Error status code returned (status code: 500).
+4690,found.csv,4691,Staples,no,https://stores.staples.ca/,https://stores.staples.ca/,https://stores.staples.ca/,stores.staples.ca,FOUND,https://careers.staples.ca/,Careers,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-18T04:07:16.026332+00:00,https://careers.staples.ca/,,,,,0,0,,crawl_failed,All configured retries failed,,HttpStatusCodeError: Error status code returned (status code: 502).

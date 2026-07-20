@@ -1,0 +1,208 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error,stage2_checked_at_utc,stage2_result,stage2_reason,resolved_monitor_url,resolved_ats,stage2_jsonld_jobposting_count,stage2_probable_job_link_count,stage2_sample_job_links,candidate_urls_found,candidate_visits_json,stage2_error
+3,found.csv,4,1-800-GOT-JUNK?,no,https://1800gotjunk.com/,https://1800gotjunk.com/us_en,https://1800gotjunk.com/us_en,1800gotjunk.com,FOUND,https://jobs.1800gotjunk.com/us_en,Careers,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T21:21:23.238231+00:00,https://jobs.1800gotjunk.com/us_en,https://jobs.1800gotjunk.com/us_en,200,1-800-GOT-JUNK? Jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Image
+WHAT WE DO
+WHAT WE TAKE
+PRICING
+START A FRANCHISE
+MORE
+ 
+WE HIRE HAPPY PEOPLE.
+START YOUR CAREER
+WHY WORK HERE
+IT'S ALL ABOUT PEOPLE
+FIND A JOB
+Our Franchise Partners provide exceptional opportunities for happy, ambitious people who want to grow, excel and own their success.
+
+From day one at 1-800-GOT-JUNK?, you’ll learn what it takes to grow a successful business, have fun and be given opportunities to drive your career.
+
+Image
+WHY WORK HERE
+Image
+IT'S ALL ABOUT PEOPLE
+Image
+FIND A JOB
+We asked Truck Team Members to share their story of why they consider this the best job they've ever had. Start your own story by applying today.
+FIND JOBS ON INDEED
+We’re a franchise system, and we also have roles available at our head office that support all our franchises and other brands.
+
+We’ve been recognized as one of ‘Canada's 10 Most Admired Corporate Cultures’, a ‘Top 50 Small & Medium Employer’ and a ‘Most Engaged Workplace’. Our ‘Junktion’ offices in Vancouver and Toronto offer exciting roles where you can grow and make a big impact. Visit our site to see why people love working with us at 1-800-GOT-JUNK? and our umbrella company O2E Brands.
+
+VIEW HEAD OFFICE JOBS
+
+Check Availability
+
+ 
+ GO
+No Credit Card Required 24/7 Customer Service At 1-866-924-2479
+United States  
+Services
+Pricing
+FAQ
+Book an Appointment
+What We Do
+What We Take
+Business Services
+No Contact Junk Removal
+About Us
+Company
+Reviews
+Locations
+Environment
+Blog
+Careers
+Contact
+Start a Franchise
+Affiliate Program",,2026-07-18T14:41:21.845837+00:00,confirmed_career_page_active,Career language and job links detected,https://www.o2ebrands.com/jobs,,0,1,https://recruiting.ultipro.ca/OEB5000OEBI/JobBoard/9eca249f-c54e-407e-b0ac-e9b01432f1d9/,160:https://www.indeed.com/cmp/1--800--got--junk%3F/jobs | 70:https://www.o2ebrands.com/jobs | 60:https://jobs.1800gotjunk.com/au_en,"[{""url"": ""https://www.indeed.com/cmp/1--800--got--junk%3F/jobs"", ""result"": ""confirmed_career_landing_unresolved"", ""ats"": """", ""score"": 160}, {""url"": ""https://www.o2ebrands.com/jobs"", ""result"": ""confirmed_career_page_active"", ""ats"": """", ""score"": 70}]",
+10,found.csv,11,9Round,no,https://9round.com/,https://www.9round.com/,https://www.9round.com/,9round.com,FOUND,https://www.9round.com/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T21:21:43.062539+00:00,https://www.9round.com/careers,https://www.9round.com/careers,200,9Round US - 9Round Kickboxing - Careers and Fitness Instructor Jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Press Option+1 for screen-reader mode, Option+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+TRY 9ROUND
+The Workout
+Locations
+On Demand
+Own A Studio
+Shop
+
+CAREERS
+
+JOIN THE
+9ROUND
+TEAM
+LEAD THE WAY
+
+Want to help people show up stronger every day? Join a high-energy team that empowers members to live better lives through kickboxing fitness, nutrition and community.
+
+OUR CULTURE
+
+As a family owned and operated business, we believe that people should feel fulfilled when they’re at work. We want our team members to find a sense of belonging when they join 9Round. Our franchise model gives potential employees the opportunity to find a studio they can thrive in, and our business model gives people the satisfaction of knowing they’re helping people transform their lives and grow healthier every day.
+
+OUR MISSION
+
+From the CEO to the instructors in our boutique fitness studios, we're all about making members stronger physically and mentally, so they can show up every day ready to fight.
+
+ABOUT 9ROUND
+
+9Round has been delivering fast, effective kickboxing workouts for more than 10 years. Founded in 2008 by husband and wife, Shannon and Heather Hudson, in Greenville, South Carolina, the circuit training format provides a killer workout in just 30 minutes. With more than 600 locations in 17 countries across the globe, 9Round continues to gain popularity as people search for a workout that they don't have to schedule their lives around. With no",,2026-07-18T14:41:35.759300+00:00,confirmed_career_page_active,Career language and job links detected,https://app.careerplug.com/jobs?aggregator_id=180022&embed=1,,0,30,https://app.careerplug.com/jobs/2276918?embed=1 | https://app.careerplug.com/jobs/3081837?embed=1 | https://app.careerplug.com/jobs/3473254?embed=1 | https://app.careerplug.com/jobs/1974196?embed=1 | https://app.careerplug.com/jobs/1196418?embed=1,70:https://app.careerplug.com/jobs?aggregator_id=180022&embed=1 | 60:https://www.9round.com/careers,"[{""url"": ""https://app.careerplug.com/jobs?aggregator_id=180022&embed=1"", ""result"": ""confirmed_career_page_active"", ""ats"": """", ""score"": 70}]",
+13,found.csv,14,613 Electric Inc,no,https://613electric.com/,https://613electric.com/,https://613electric.com/,613electric.com,FOUND,https://613electric.com/join-our-team-3/,JOIN OUR TEAM,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T21:21:54.961317+00:00,https://613electric.com/join-our-team-3/,https://613electric.com/join-our-team-3/,200,JOIN OUR TEAM – 613 Electric Inc.,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","613-870-3550
+ 613-870-3551
+ 24 / 7
+ admin@613electric.com
+	
+ABOUT US
+OUR SERVICES
+CONTACT US
+JOIN OUR TEAM
+REQUEST A QUOTE
+JOIN OUR TEAM
+	
+You Are Here:
+HOME
+/
+JOIN OUR TEAM
+
+At 613 Electric, we believe great companies are built by great people – and we’re always looking for skilled, motivated individuals to grow with us. Whether you’re an experienced electrician or just starting your career in the trade, you’ll find a supportive environment, opportunities to learn, and team that values quality workmanship and professionalism.
+
+We take pride in our work, our clients, and the people who represent our company every day. If you’re passionate about the electrical field and driven to deliver top-quality results, we’d love to hear from you.
+
+Fill out the form below to get started.
+
+© Copyright 2019 - 613 Electric Inc",,2026-07-18T14:41:51.376254+00:00,confirmed_career_landing_unresolved,Valid career landing page; downstream job source not resolved,https://613electric.com/join-our-team-3/,,0,0,,65:https://form.jotform.com/253295136537260?parentURL=https%3A%2F%2F613electric.com%2Fjoin-our-team-3%2F&jsForm=true,"[{""url"": ""https://form.jotform.com/253295136537260?parentURL=https%3A%2F%2F613electric.com%2Fjoin-our-team-3%2F&jsForm=true"", ""result"": ""confirmed_career_landing_unresolved"", ""ats"": """", ""score"": 65}]",
+16,found.csv,17,5N Plus Inc.,no,https://5nplus.com/,https://www.5nplus.com/en/,https://www.5nplus.com/en/,5nplus.com,FOUND,https://www.5nplus.com/en/career/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T21:22:00.826135+00:00,https://www.5nplus.com/en/career/,https://www.5nplus.com/en/career/,200,Career | 5N Plus,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Careers
+Contact us
+Français
+Deutsch
+About Us
+Markets
+Products
+Innovation
+Sustainability
+Investors
+News
+DEUTSCH
+Home 
+Career
+Careers
+Join our team!
+
+At 5N Plus we are building a culture of innovation, collaboration and growth. We are looking for passionate individuals ready to make an impact. Explore our open positions and submit your application today.
+
+OUR JOB POSTINGS
+Why Work at 5N Plus?
+
+At 5N Plus, our mission is to be critical to our customers, valued by our employees and trusted by our shareholders. Find out more about how this translates in our day-to-day work and corporate culture
+
+Our
+Culture
+Career Development
+
+To ensure we have the talented resources we need to realise our vision, we provide stimulating career opportunities, training, continuous learning through projects and assignments to our people to develop and prepare for their next challenge.
+
+A Preferred Employer, Driving Innovation
+
+Success starts with the right talent and we are fortunate to have some of the best resources in our industry to generate innovative ideas for our customers. This, combined with a high level of employee engagement, enables us to efficiently deliver high quality products to our clients and prepare for future business opportunities.
+
+Respect in Meeting Employee Needs
+
+We respect the cultural, historical and regional differences at all our global locations and we ask our people what they want and need through employee surveys, focus groups and informal meetings. We ask what we are",,2026-07-18T14:42:02.396753+00:00,confirmed_career_landing_unresolved,Valid career landing page; downstream job source not resolved,https://www.5nplus.com/en/career/,,0,0,,115:https://www.5nplus.com/en/career/ | 60:https://www.5nplus.com/en/career/jobs-list/,"[{""url"": ""https://www.5nplus.com/en/career/jobs-list/"", ""result"": ""confirmed_career_landing_unresolved"", ""ats"": """", ""score"": 60}]",
+20,found.csv,21,ABCO Industries Lunenburg Shipyard,no,https://abco.ca/,https://abco.ca/,https://abco.ca/,abco.ca,FOUND,https://abco.ca/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T21:22:06.566630+00:00,https://abco.ca/careers/,https://abco.ca/careers/,200,Careers - ABCO,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to content
+Home
+Industries
+About ABCO
+Resources
+Careers
+Contact
+Discuss Your Project
+HOME / CAREERS
+JOIN OUR TEAM
+
+Build your career working on real engineering challenges — where precision, accountability, and performance matter.
+
+Why Work At ABCO
+A CULTURE OF EXCELLENCE
+
+
+We work on projects that require precision, accountability, and real problem-solving.
+
+Whether in engineering, fabrication, or operations, every role contributes directly to building solutions that perform in demanding environments.
+
+At ABCO, you’re not just part of a team — you’re part of delivering work that matters.
+
+“Having the right attitude is very important. If you have the right attitude, we’re willing to train and promote you. We’ll provide what you need to do your job properly. ”
+
+— GRAHAM GERHARDT – PRESIDENT, ABCO
+
+Open Positions
+CURRENT OPPORTUNITIES
+FABRICATOR/WELDER
+FULL-TIME // LUNENBURG, NS
+NAVAL ARCHITECT
+FULL-TIME // LUNENBURG, NS
+MACHINIST
+FULL-TIME // LUNENBURG, NS
+MARINE ELECTRICIAN
+FULL-TIME // LUNENBURG, NS
+LABOURER
+FULL-TIME // LUNENBURG, NS
+
+81 TANNERY ROAD LUNENBURG, NOVA SCOTIA, CANADA B0J 2C0
+
+(866) 634-8821
+
+INFO@ABCO.CA
+
+WHAT WE DO
+Aluminum Vessels
+Industrial Systems
+Environmental
+COMPANY
+About ABCO
+Why ABCO
+Careers – Open Positions
+GET IN TOUCH
+
+Don’t miss the latest news
+
+Receive ABCO News
+
+© 2026 ABCO Industries. All rights reserved.
+
+Privacy Policy | Terms of Service",,2026-07-18T14:42:07.775540+00:00,confirmed_career_landing_unresolved,Valid career landing page; downstream job source not resolved,https://abco.ca/careers/,,0,0,,60:https://abco.ca/careers/#main,[],

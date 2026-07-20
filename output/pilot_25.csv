@@ -1,0 +1,1055 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+1,found.csv,2,1Valet,no,https://1valet.com/,https://1valet.com/,https://1valet.com/,1valet.com,FOUND,https://1valet.com/careers,CareersJoin our growing team,60,,careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:41:53.400074+00:00,https://1valet.com/careers,https://1valet.com/careers,200,Careers | 1VALET,bamboohr,0,16,https://1valet.bamboohr.com/careers/173 | https://1valet.bamboohr.com/careers/182 | https://1valet.bamboohr.com/careers/178 | https://1valet.bamboohr.com/careers/167 | https://1valet.bamboohr.com/careers/168,confirmed_external_ats_active,bamboohr page with job records or job links,"PRODUCTS
+INTEGRATIONS
+SOLUTIONS
+ABOUT
+BLOG
+EN
+LOGIN
+SUPPORT
+FREE CONSULTATION
+
+CAREERS
+
+Join our
+team.
+
+We're building the future of smart buildings. Explore open positions and find your place at 1VALET.
+
+Open Positions
+CONSTRUCTION & CHANNEL SALES
+Channel Sales Coordinator
+Toronto, ON (Hybrid)
+Senior Territory Manager
+Remote
+OPERATIONS
+Customer Success Specialist
+Remote
+Field Technician Support
+Ottawa, ON
+Field Technician Support
+Remote
+Field Technician Support
+Toronto, ON
+Systems Analyst - Technical Support
+Remote
+Technical Project Manager
+Remote
+Open Positions
+CONSTRUCTION & CHANNEL SALES
+Channel Sales Coordinator
+Toronto, ON (Hybrid)
+Senior Territory Manager
+Remote
+OPERATIONS
+Customer Success Specialist
+Remote
+Field Technician Support
+Ottawa, ON
+Field Technician Support
+Remote
+Field Technician Support
+Toronto, ON
+Systems Analyst - Technical Support
+Remote
+Technical Project Manager
+Remote
+Powered by
+
+The smart building ecosystem that combines software, hardware, and services into one unified platform.
+
+PRODUCTS
+Smart Intercom
+Management Portal
+Resident App
+Integrations
+GET IN TOUCH
+Free Consultation
+Get Support
+Contact
+OFFICES
+
+Ottawa, ON
+
+Toronto, ON
+
+Phoenix, AZ
+
+Dubai, UAE
+
+© 2026 1VALET. All rights reserved.
+
+Privacy Policy
+Terms of Service
+Security",
+3,found.csv,4,1-800-GOT-JUNK?,no,https://1800gotjunk.com/,https://1800gotjunk.com/us_en,https://1800gotjunk.com/us_en,1800gotjunk.com,FOUND,https://jobs.1800gotjunk.com/us_en,Careers,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:41:57.206963+00:00,https://jobs.1800gotjunk.com/us_en,https://jobs.1800gotjunk.com/us_en,200,1-800-GOT-JUNK? Jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Image
+WHAT WE DO
+WHAT WE TAKE
+PRICING
+START A FRANCHISE
+MORE
+ 
+WE HIRE HAPPY PEOPLE.
+START YOUR CAREER
+WHY WORK HERE
+IT'S ALL ABOUT PEOPLE
+FIND A JOB
+Our Franchise Partners provide exceptional opportunities for happy, ambitious people who want to grow, excel and own their success.
+
+From day one at 1-800-GOT-JUNK?, you’ll learn what it takes to grow a successful business, have fun and be given opportunities to drive your career.
+
+Image
+WHY WORK HERE
+Image
+IT'S ALL ABOUT PEOPLE
+Image
+FIND A JOB
+We asked Truck Team Members to share their story of why they consider this the best job they've ever had. Start your own story by applying today.
+FIND JOBS ON INDEED
+We’re a franchise system, and we also have roles available at our head office that support all our franchises and other brands.
+
+We’ve been recognized as one of ‘Canada's 10 Most Admired Corporate Cultures’, a ‘Top 50 Small & Medium Employer’ and a ‘Most Engaged Workplace’. Our ‘Junktion’ offices in Vancouver and Toronto offer exciting roles where you can grow and make a big impact. Visit our site to see why people love working with us at 1-800-GOT-JUNK? and our umbrella company O2E Brands.
+
+VIEW HEAD OFFICE JOBS
+
+Check Availability
+
+ 
+ GO
+No Credit Card Required 24/7 Customer Service At 1-866-924-2479
+United States  
+Services
+Pricing
+FAQ
+Book an Appointment
+What We Do
+What We Take
+Business Services
+No Contact Junk Removal
+About Us
+Company
+Reviews
+Locations
+Environment
+Blog
+Careers
+Contact
+Start a Franchise
+Affiliate Program",
+7,found.csv,8,407 ETR Concession Company Limited,no,https://407etr.com/,https://407etr.com/en/home,https://407etr.com/en/home,407etr.com,FOUND,https://407etr.com/en/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:01.921049+00:00,https://407etr.com/en/careers,https://407etr.com/en/careers,200,"Careers | 407 ETR, Express Toll Route",workday,0,0,,external_ats_needs_review,"workday detected, but no jobs were confidently identified","Travel With Us
+Billing & Payments
+Community
+Support
+My Account
+
+407 ETR and authorized third parties use web technologies and tools, like cookies, to collect web data about you. We do this, for example, to improve user experiences and promotions. By clicking “Okay” you’re giving us consent. For more information, please see 407 ETR’s Privacy Notice.
+
+Decline
+Okay
+
+Home
+
+Careers
+
+Careers
+Join our team and help shape the future of transportation
+
+We’re looking for passionate collaborators who understand that success is a team effort, and that your enthusiasm will drive the innovation that sets us apart.
+
+Find a rewarding career in one of our many departments, including Customer Service, Finance, Highway Operations, Information Technology, Data Analytics and more.
+
+If you’re interested in a career opportunity with one of the safest, most advanced highways in North America, visit our career opportunities to view and apply for available positions.
+
+Career Opportunities
+Vision
+
+To be the GTA’s highway of choice, driving productivity and strengthening communities
+
+Mission
+
+To provide a fast, safe and reliable customer experience on and off the highway.
+
+At 407 ETR, we’re proud to live our corporate values of excellence and integrity. On the road, we’re focused on helping drivers get where they need to go quickly and safely, and do this by innovating to find safer and more efficient ways of working.
+
+Off the road, we’re working towards reducing our environmental footprint and making i",
+8,found.csv,9,3 Brewers,no,https://les3brasseurs.ca/,https://www.3brasseurs.ca/en/,https://www.3brasseurs.ca/en/,3brasseurs.ca,FOUND,https://www.3brasseurs.ca/en/career,Join our team,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:06.080236+00:00,https://www.3brasseurs.ca/en/career,https://www.3brasseurs.ca/en/career,200,Job Offer Restaurant Bar Brewery 3 Brasseurs,,0,1,https://3brasseurs.breezy.hr/,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to content
+BEERS
+MENUS
+MICROBREWERIES
+REWARDS & GIFT CARDS
+GROUPS & EVENTS
+FRANCHISE
+EN
+BOOK
+A TABLE
+TAKEOUT
+& DELIVERY
+YOUR CAREER AT 3 BRASSEURS
+
+JOIN OUR FAMILY OF BREWER AND RESTAURATEURS
+
+APPLY NOW
+
+A CAREER AT 3 BRASSEURS
+
+JOIN US NOW
+
+BREW YOUR PASSION, GETTING THE BEST OF YOURSELF!
+Stimulating atmosphere in a friendly team
+Flexibility
+Work in the exciting world of beer
+Opportunities for career advancement
+JOIN OUR TEAM!
+
+3 Brasseurs is a growing company that takes its social responsibilities seriously and puts people at the heart of these decisions and its strategy.
+
+VIEW ALL POSITIONS
+
+SIMPLICITY, GENEROSITY AND CONVIVIALITY
+
+CONTACT US
+BOOK YOUR FUN
+ORDER ONLINE
+FIND A 3 BRASSEURS
+CAREER
+ABOUT US
+BLOG
+PLAN EVENT
+REWARDS PROGRAM
+GIFT CARD
+FRANCHISE RESTAURANT
+DISCOVER THE FEAST !",
+9,found.csv,10,9 Story Media Group,no,https://9story.com/,https://9story.com/,https://9story.com/,9story.com,FOUND,https://9story.com/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,2,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:07.501945+00:00,https://9story.com/careers/,https://9story.com/careers/,200,Careers - 9 Story Media Group,,0,1,https://9story.com/jobs/,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to main content
+CAREERS & CULTURE
+Our goal is to create excellent entertainment for kids; to make them laugh, to help them learn, and to bring us all closer together… and we love it!
+Come Join Our Team
+CURRENT VACANCIES
+WHAT GUIDES US
+
+9 Story is a vibrant creative organization with locations in Toronto, New York, Dublin and Bali. Making stand out/exceptional content for kids is at the heart of everything we do, and our bar is always set to “excellent” when it comes to the quality of our work. Our studios are highly collaborative spaces, where mentoring and on the job training is built into our daily practices. Our team members benefit from competitive compensation packages, working on award-winning 2D and 3D content, and a thriving work culture and maybe too much cake!
+
+Creativity
+
+You can see it in our walk, our talk, and most of all our WORK! Creativity guides everything we do, and drives us to make amazing content that stands out from the crowd!
+
+Community
+
+Great shows don’t just create themselves, you need great people to make them happen! And our studio is teeming with a talented community of individuals, who strive to improve their work environment and the cities where they live. A community who is always ready to share their knowledge and help others grow.
+
+Communication
+
+It’s essential that people feel they can be themselves. We are creating a culture where candor is not only valued but encouraged. Everyone must feel free to share ideas, opinions and criticisms.",
+10,found.csv,11,9Round,no,https://9round.com/,https://www.9round.com/,https://www.9round.com/,9round.com,FOUND,https://www.9round.com/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:12.005079+00:00,https://www.9round.com/careers,https://www.9round.com/careers,200,9Round US - 9Round Kickboxing - Careers and Fitness Instructor Jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Press Alt+1 for screen-reader mode, Alt+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+TRY 9ROUND
+The Workout
+Locations
+On Demand
+Own A Studio
+Shop
+
+CAREERS
+
+JOIN THE
+9ROUND
+TEAM
+LEAD THE WAY
+
+Want to help people show up stronger every day? Join a high-energy team that empowers members to live better lives through kickboxing fitness, nutrition and community.
+
+OUR CULTURE
+
+As a family owned and operated business, we believe that people should feel fulfilled when they’re at work. We want our team members to find a sense of belonging when they join 9Round. Our franchise model gives potential employees the opportunity to find a studio they can thrive in, and our business model gives people the satisfaction of knowing they’re helping people transform their lives and grow healthier every day.
+
+OUR MISSION
+
+From the CEO to the instructors in our boutique fitness studios, we're all about making members stronger physically and mentally, so they can show up every day ready to fight.
+
+ABOUT 9ROUND
+
+9Round has been delivering fast, effective kickboxing workouts for more than 10 years. Founded in 2008 by husband and wife, Shannon and Heather Hudson, in Greenville, South Carolina, the circuit training format provides a killer workout in just 30 minutes. With more than 600 locations in 17 countries across the globe, 9Round continues to gain popularity as people search for a workout that they don't have to schedule their lives around. With no class ",
+13,found.csv,14,613 Electric Inc,no,https://613electric.com/,https://613electric.com/,https://613electric.com/,613electric.com,FOUND,https://613electric.com/join-our-team-3/,JOIN OUR TEAM,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:18.344577+00:00,https://613electric.com/join-our-team-3/,https://613electric.com/join-our-team-3/,200,JOIN OUR TEAM – 613 Electric Inc.,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","613-870-3550
+ 613-870-3551
+ 24 / 7
+ admin@613electric.com
+	
+ABOUT US
+OUR SERVICES
+CONTACT US
+JOIN OUR TEAM
+REQUEST A QUOTE
+JOIN OUR TEAM
+	
+You Are Here:
+HOME
+/
+JOIN OUR TEAM
+
+At 613 Electric, we believe great companies are built by great people – and we’re always looking for skilled, motivated individuals to grow with us. Whether you’re an experienced electrician or just starting your career in the trade, you’ll find a supportive environment, opportunities to learn, and team that values quality workmanship and professionalism.
+
+We take pride in our work, our clients, and the people who represent our company every day. If you’re passionate about the electrical field and driven to deliver top-quality results, we’d love to hear from you.
+
+Fill out the form below to get started.
+
+© Copyright 2019 - 613 Electric Inc",
+15,found.csv,16,7Geese,no,https://7geese.com/,https://www.paycor.com/7geese/,https://www.paycor.com/7geese/,paycor.com,FOUND,https://www.paycor.com/company/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,4,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:32.222859+00:00,https://www.paycor.com/company/careers/,https://www.paycor.com/company/careers/,200,Paycor Careers,,0,0,,likely_false_positive,"Career-related event, service, award, or educational content","___
+Skip to content
+Customer Hub
+Customer Hub
+Contact Support
+Professional Services
+Sign In
+HCM Software
+HR Services
+Who We Serve
+Partners
+Resource Center
+Company
+Get Started
+Take a Guided Tour
+Search
+PAYCOR WISE
+HR + PAYROLL SOFTWARE
+TALENT ACQUISITION
+TALENT MANAGEMENT
+WORKFORCE MANAGEMENT
+BENEFITS ADMINISTRATION
+COMPLIANCE SOLUTIONS
+INTEGRATION PLATFORM
+HCM Overview
+WISE is the expert-enabled AI teammate that monitors, guides, and acts on your behalf, delivered inside the tools you already use every day.
+
+PAYCOR WISE
+
+INTELLIGENT HCM SOFTWARE
+
+AI GUIDING PRINCIPLES
+
+PAYCOR ASSISTANT
+
+Automate routine tasks, mitigate compliance risks, and drive efficiencies across your organization.
+
+PAYROLL SOFTWARE
+
+HR SOFTWARE
+
+ANALYTICS
+
+EXPENSE MANAGEMENT SOFTWARE
+
+Streamline all aspects of recruiting and hiring so you can discover new candidates, quickly fill open positions, and provide engaging onboarding.
+
+RECRUITING SOFTWARE
+
+AUTOMATED TALENT SOURCING
+
+ONBOARDING SOFTWARE
+
+Build a great place to work where employees show up, make a difference and win together.
+
+TALENT DEVELOPMENT
+
+CAREER MANAGEMENT SOFTWARE
+
+PAYCOR PATHS
+
+LEARNING MANAGEMENT SYSTEM
+
+PULSE SURVEYS
+
+COMPENSATION MANAGEMENT
+
+Reduce labor spend, manage overtime, and maximize productivity across your workforce.
+
+TIME + ATTENDANCE SOFTWARE
+
+SCHEDULING SOFTWARE
+
+Transform open enrollment and simplify the complexity of benefits admin.
+
+BENEFITS ADVISOR
+
+ACA REPORTING SOFTWARE
+
+WORKERS’ COMPENSATION
+
+Reduce risk, save time,",
+14,found.csv,15,A Thinking Ape (Canada),no,https://athinkingape.com/,https://athinkingape.com/,https://athinkingape.com/,athinkingape.com,FOUND,https://athinkingape.com/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:32.455961+00:00,https://athinkingape.com/careers/,https://athinkingape.com/careers/,200,Careers,greenhouse,0,1,https://job-boards.greenhouse.io/athinkingape/jobs/7954408,confirmed_external_ats_active,greenhouse page with job records or job links,"OUR STORY
+GAMES
+CAREERS
+PRESS
+CONTACT
+VALUES
+WHAT WE OFFER
+HIRING PROCESS
+JOBS
+WHAT OUR PEOPLE SAY
+CAREERS
+SEE OPEN JOBS
+VALUES
+
+When we set out to make great games with massive online communities, we knew that we first had to create the ideal environment for building ambitious things. A place where brilliant and inspiring people could come together and build games that make millions of players happy. We realized that we needed to find incredibly talented people and get out of their way. Since then we've paid careful attention to how we like to work together. This is a brief summary of our guiding principles.
+
+HOW WE GET WORK DONE
+
+CURIOSITY IS A SUPERPOWER
+The drive to improve always begins with curiosity. We question everything and seek to understand how things work so we can reimagine and remake them even better.
+
+MAKE SOMETHING PEOPLE WANT
+We aim to make commercially successful games. That means looking beyond our own preferences to understand what players actually want through research, observation, and listening.
+
+DETERMINED TO ACHIEVE AMBITIOUS GOALS
+We set ambitious goals, and find realistic ways to reach them. We write the big goals in pen and the small goals in pencil, revising our plan over and over as we move forward. We don’t wait for perfect resources or perfect timing, we get things done and we’re proud of what we achieve.
+
+THINK, ACT, MEASURE - THEN REPEAT
+We think before we act. We take action without waiting for perfection. And we always measure the impact. ",
+16,found.csv,17,5N Plus Inc.,no,https://5nplus.com/,https://www.5nplus.com/en/,https://www.5nplus.com/en/,5nplus.com,FOUND,https://www.5nplus.com/en/career/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:36.893441+00:00,https://www.5nplus.com/en/career/,https://www.5nplus.com/en/career/,200,Career | 5N Plus,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Careers
+Contact us
+Français
+Deutsch
+About Us
+Markets
+Products
+Innovation
+Sustainability
+Investors
+News
+DEUTSCH
+Home 
+Career
+Careers
+Join our team!
+
+At 5N Plus we are building a culture of innovation, collaboration and growth. We are looking for passionate individuals ready to make an impact. Explore our open positions and submit your application today.
+
+OUR JOB POSTINGS
+Why Work at 5N Plus?
+
+At 5N Plus, our mission is to be critical to our customers, valued by our employees and trusted by our shareholders. Find out more about how this translates in our day-to-day work and corporate culture
+
+Our
+Culture
+Career Development
+
+To ensure we have the talented resources we need to realise our vision, we provide stimulating career opportunities, training, continuous learning through projects and assignments to our people to develop and prepare for their next challenge.
+
+A Preferred Employer, Driving Innovation
+
+Success starts with the right talent and we are fortunate to have some of the best resources in our industry to generate innovative ideas for our customers. This, combined with a high level of employee engagement, enables us to efficiently deliver high quality products to our clients and prepare for future business opportunities.
+
+Respect in Meeting Employee Needs
+
+We respect the cultural, historical and regional differences at all our global locations and we ask our people what they want and need through employee surveys, focus groups and informal meetings. We ask what we are ",
+18,found.csv,19,AB Sciex,no,https://sciex.com/,https://sciex.com/,https://sciex.com/,sciex.com,FOUND,https://jobs.danaher.com/global/en/sciex,Careers opportunities,80,,strong careers/jobs link text,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:42.362813+00:00,https://jobs.danaher.com/global/en/sciex,https://jobs.danaher.com/global/en/sciex,200,SCIEX Careers,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+Skip to main content
+About Danaher Our Businesses Candidate Resources Our StoriesStudents Search Jobs
+-
+-
+A Danaher Life Sciences company
+ 
+Careers
+at SCIEX
+A leader in mass spectrometry and capillary electrophoresis solutions, SCIEX is there, where it counts. Time and time again. Providing the precision detection and quantitation of molecules needed for scientists to make discoveries that change the world. Whether your career focus lies in sales, engineering, marketing or science, there's a place for you here. As part of the SCIEX team, you’ll accelerate your professional and personal development to amplify both your career and your impact on the world. 
+Search SCIEX jobs
+Search job title or location
+	Search
+Engineering jobs →  
+Sales jobs →
+Technical service and support jobs →
+Life at SCIEX
+	
+Innovation
+ 
+SCIEX empowers our customers to solve the most impactful analytical challenges in quantitation and characterization through ground-breaking innovation and outstanding reliability and support.​ SCIEX has been at the forefront of the field for over 50 years. ​
+
+
+
+Learn more → 
+Impact
+ 
+Since the launch of the first-ever commercially successful triple quadrupole in 1981, we continue to develop technologies and solutions that influence life-changing research and outcomes. That’s why thousands of life science experts around the world choose SCIEX to get the answers they can trust.​
+Learn more → 
+People
+ 
+SCIEX associates are passionate about innovation in a",
+21,found.csv,22,"Abbotsford Parks, Recreation & Culture",no,https://abbotsford.ca/,https://www.abbotsford.ca/,https://www.abbotsford.ca/,abbotsford.ca,FOUND,https://www.abbotsford.ca/city-hall/human-resources/career-opportunities,Career Opportunities,140,,strong careers/jobs link text; careers/jobs URL path,4,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:52.318738+00:00,https://www.abbotsford.ca/city-hall/human-resources/career-opportunities,https://www.abbotsford.ca/city-hall/human-resources/career-opportunities,200,Career Opportunities | City of Abbotsford,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+slide 1 of 1
+May 1, 2026 - 8:00am
+Stage 1 Water Restrictions now in effect.
+Alert Level: Low
+Abbotsford and Mission’s water restrictions follow four stages, which are tied to the level of Dickson Lake. Dickson Lake is the main source of drinking water for both communities. Conserving water keeps the water level in Dickson… Read More
+MyCity Online
+Let's Talk
+Accessibility
+Select Language
+English
+العربية
+Български
+简体中文
+繁體中文
+Hrvatski
+Čeština‎
+Dansk
+Nederlands
+Suomi
+Français
+Deutsch
+Ελληνικά
+हिन्दी
+Italiano
+日本語
+한국어
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Español
+Svenska
+Català
+Filipino
+עִבְרִית
+Bahasa Indonesia
+Latviešu valoda
+Lietuvių kalba
+Српски језик
+Slovenčina
+Slovenščina
+Українська
+Tiếng Việt
+Shqip
+Eesti
+Galego
+Magyar
+Maltese
+ไทย
+Türkçe
+فارسی
+Afrikaans
+Bahasa Melayu
+Kiswahili
+Gaeilge
+Cymraeg
+Беларуская мова
+Íslenska
+Македонски јазик
+יידיש
+Հայերեն
+Azərbaycan dili
+Euskara
+ქართული
+Kreyol ayisyen
+اردو
+বাংলা
+Bosanski
+Cebuano
+Esperanto
+ગુજરાતી
+Harshen Hausa
+Hmong
+Igbo
+Basa Jawa
+ಕನ್ನಡ
+ភាសាខ្មែរ
+ພາສາລາວ
+Latin
+Te Reo Māori
+मराठी
+Монгол
+नेपाली
+ਪੰਜਾਬੀ
+Afsoomaali
+தமிழ்
+తెలుగు
+Yorùbá
+Zulu
+Search
+Menu
+Close
+Section navigation
+City Hall
+City Hall
+Human Resources
+Career Opportunities
+Student Opportunities
+Lifeguard Opportunities
+Firefighter Opportunities
+Benefits & Training
+Diversity & Inclusion
+Image
+Did you know?
+
+The City of Abbotsford has a mobile friendly job application system (powered by Njoyn) to make the application process easier from start to finish!
+
+L",
+22,found.csv,23,AbCellera,no,https://abcellera.com/,https://www.abcellera.com/,https://www.abcellera.com/,abcellera.com,FOUND,https://www.abcellera.com/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,3,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:54.402232+00:00,https://www.abcellera.com/careers,https://www.abcellera.com/careers?location=vancouver,200,Careers at AbCellera,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","We Value Your Privacy
+
+We use cookies to help you navigate efficiently, deliver certain features, and to collect information with the goal of improving user experience. For details and to adjust your preferences please select “Customize”. By clicking ""Accept All"", you consent to our use of cookies. View our Privacy Policy
+
+Customise
+Reject All
+Accept All
+Skip to Main Content
+About
+Pipeline
+Platform
+Investors
+Careers
+Careers at AbCellera
+Stretch and explore through work that matters.
+Who We Are
+
+We’re scientists, engineers, and business professionals who work together to turn scientific insights into breakthrough medicines.
+
+We Value
+
+We pursue truth and scientific rigor. We think independently, act with conviction, and have the courage to work at the edge of the unknown.
+
+We Offer
+
+The opportunity to stretch and explore, and to work on things that matter.
+
+Team focus areas.
+Biology
+Business Operations
+Clinical Manufacturing
+Data Science, ML, IT & Engineering
+Partnering
+Pre-clinical & Clinical Development
+Process Development
+Protein Science
+Quality
+Students
+
+We focus on driving the immune response to find rare, diverse, and potent antibodies from any species against even the most difficult disease targets. This includes clever immunization strategies using various immunogen formats including nucleic acids and membrane proteins, development of assays using mammalian cell lines and primary cells, development of media conditions and cell enrichment strategies, and design of compl",
+24,found.csv,25,Absinthe,no,https://absinthecafe.ca/,https://absinthecafe.ca/,https://absinthecafe.ca/,absinthecafe.ca,FOUND,https://absinthecafe.ca/About/Employment/tabid/106691/Default.aspx,Employment,60,,careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:42:58.959025+00:00,https://absinthecafe.ca/About/Employment/tabid/106691/Default.aspx,https://absinthecafe.ca/About/Employment/tabid/106691/Default.aspx,200,Employment,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"1208 WELLINGTON ST WEST  |  OTTAWA, ON  |  613-761-1138
+
+Menus
+Gifts
+Events
+Distinctions
+Private Events
+About
+Reservations
+	
+Employment
+		
+
+
+
+
+	Waitstaff with wine knowledge (FT or PT)
+Unpretentious, playful, authentic, kind, unique and a wee bit magical. If that's you, we invite you to join us!
+
+We're looking for waitstaff with wine knowledge who would love to work and build their skills elbow-to-elbow with Chef Patrick Garland.
+
+Chef Patrick has been the mastermind behind the flavourful, rich, market-driven flavours at Absinthe Café since 2006. He won the prestigious Gold Medal Plates competition in Ottawa in 2014, and at the other end of the spectrum, is a two-time winner of the Parkdale Food Centre's ""Fork Off!"" competition.
+
+His signature dishes, ranging from steak frites to stuffed quail to delicate Parisienne desserts, are always tasty, accessible and leave his guests feeling full and happy.
+
+Waitstaff positions are available as full or part-time. Experience an asset. Bilingual (English/French) is an asset.
+
+To apply, please email your resume to info@absinthecafe.ca or drop into the café at 1208 Wellington Street West in Hintonburg and ask for Emily or Chef Pat.
+
+We look forward to meeting you!
+
+Job Type:
+Full-time or Part-time
+
+Supplemental pay types:
+Tips
+
+To apply be prepared to describe your wine knowledge.
+
+Required Experience:
+Serving: minimum 1 year (required)
+
+Language:
+English (required)
+French (preferred)
+
+Licence/Certification:
+Smart Serve (required)
+
+Work L",
+25,found.csv,26,Aberdeen Hospital,no,https://nshealth.ca/,https://www.nshealth.ca/,https://www.nshealth.ca/,nshealth.ca,FOUND,https://jobs.nshealth.ca/,Careers at Nova Scotia Health,80,,strong careers/jobs link text,6,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:02.725470+00:00,https://jobs.nshealth.ca/,https://jobs.nshealth.ca/,200,,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.
+
+Modify Cookie Preferences
+Accept All Cookies
+Physician Recruitment
+IWK Health Staff & Physician Recruitment
+NS Health Recruitment
+External Login
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+View Postings
+View Postings
+View Postings",
+27,found.csv,28,Abbott Canada,no,https://abbott.ca/,https://www.ca.abbott/en/homepage.html,https://www.ca.abbott/en/homepage.html,ca.abbott,FOUND,https://www.ca.abbott/en/careers.html,CAREERS CAREERS,80,,strong careers/jobs link text,6,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:07.063869+00:00,https://www.ca.abbott/en/careers.html,https://www.ca.abbott/en/careers.html,200,Abbott Jobs in Canada / Careers in Canada,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","CAREERS
+MEDIA
+(FRANÇAIS)
+PRODUCTS
+ABOUT US
+HOME
+CAREERS
+Previous
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+
+ABBOTT PROUD TO BE
+RANKED AS A MONTRÉAL
+TOP EMPLOYER
+LEARN MORE
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+
+ABBOTT PROUD TO BE
+RANKED AS A MONTRÉAL
+TOP EMPLOYER
+LEARN MORE
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+Next
+1
+2
+DISCOVER CAREERS
+WORKING WITH US
+
+Discover unparalleled opportunities at Abbott.
+
+ 
+
+ 
+
+PROFESSIONALS
+
+Learn how you can make a positive impact in the world.
+
+ 
+
+ 
+
+STUDENTS
+
+Help others while you gain experience across our global healthcare businesses.
+
+ 
+
+ 
+
+WORKING AT ABBOTT
+
+Join our global team helping people live fuller, healthier lives. Every day we strive to reach more people in more places with innovative health technologies. Our goal is to reach 3 billion people each year by 2030. At Abbott you can be part of this, doing work that matters while living your own best life personally and professionally.
+
+ 
+
+ 
+
+PRODUCTS
+ABOUT US
+RESPONSIBILITY
+PARTNERS
+CAREERS
+MEDIA
+SITE MAP
+CONTACTS
+GLOBAL WEBSITES
+PRIVACY POLICY
+TERMS & CONDITIONS
+ACCESSIBILITY
+
+© 2026 Abbott. All Rights Reserved. Please read the Legal Notice for further details.
+
+Unless otherwise specified, all product and service names appearing in this Internet site are trademarks owned by or licensed to Abbott, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, o",
+28,found.csv,29,Aboriginal Sport Circle,no,https://aboriginalsportcircle.ca/,https://www.aboriginalsportcircle.ca/,https://www.aboriginalsportcircle.ca/,aboriginalsportcircle.ca,FOUND,https://www.aboriginalsportcircle.ca/employment-opportunities,Employment Opportunities,80,,strong careers/jobs link text,2,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:08.927802+00:00,https://www.aboriginalsportcircle.ca/employment-opportunities,https://www.aboriginalsportcircle.ca/employment-opportunities,200,Employment Opportunities | Aboriginal Sport Circle,,0,0,,confirmed_career_page_no_openings,Employer-career language and explicit no-opening signal,"Employment Opportunities
+
+There are no positions available at this time.
+
+	
+How to Apply
+
+Individuals interested in joining the team are encouraged to submit a cover letter, current resume and 3 professional references to:
+
+careers@aboriginalsportcircle.ca
+
+Aascoffice@aboriginalsportcircle.ca     x613-518-8353     TF1-855-814-4574
+
+	
+	
+
+^ * & ( EN | FR
+
+Aboriginal Sport Circle
+Home
+  
+About
+  
+Programs
+  
+Awards
+  
+National Strategy
+  
+News and Media
+  
+Events
+  
+Contact
+  
+Workshop Portal
+Sign up to receive the latest ASC news, announcements and more!
+A
+	
+Get in touch
+
+Aboriginal Sport Circle
+c/o House of Sport RA Centre
+2451 Riverside Drive
+Ottawa, Ontario, Canada, K1H 7X7
+x 613-518-8353    TF 1-855-814-4574
+A ascoffice@aboriginalsportcircle.ca
+
+	
+Quick Links
+
+Home
+News and Media
+Workshop Portal
+
+	
+
+About
+Events
+
+	
+
+National Strategy
+Contact
+
+^ * & (
+
+Copyright © 2026 Aboriginal Sport Circle. All Rights Reserved.",
+29,found.csv,30,28th Nepean Girl Guide Garden,no,https://justfood.ca/,https://justfood.ca/,https://justfood.ca/,justfood.ca,FOUND,https://justfood.ca/get-involved/jobs-and-internships/,Jobs and Internships,80,,strong careers/jobs link text,3,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:12.493691+00:00,https://justfood.ca/get-involved/jobs-and-internships/,https://justfood.ca/get-involved/jobs-and-internships/,200,Jobs and Internships - Just Food,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to content
+About Us
+Our Projects
+Resources
+Media
+Get Involved
+Contact
+English
+Jobs and Internships
+Sign up for our Newsletter
+Volunteer Opportunities
+Jobs and Internships
+Food/Farm Work in the Ottawa Region
+Click here for our current job opportunities!
+
+Other Food Work In the Ottawa Region
+
+We have partnered with Foodwork.ca to provide a list of all food related job postings in the Ottawa region from their website.
+
+View up to date Local food Jobs in Ottawa
+
+Search
+DONATE
+Newsbites
+The Hands That Feed Us Public Screening & Discussion
+June 3, 2026
+Save the Date: SeedLing Saturday 2026 is coming May 9th!
+February 6, 2026
+Genetically Engineered (GE) Seeds – The Purple Tomato and what you need to know
+January 26, 2026
+Community Gardening on City-land: Applications now open
+January 7, 2026
+New Emergency Food Security Fund direction Passes at City Council
+December 10, 2025
+Start-up Farm Program
+
+Just Food established the Start-Up Farm Program to support new farmers in the Ottawa region. By offering access to land, shared infrastructure/equipment, and training, the program aims to enable more people in this region to start their own successful farm business.
+
+> Read More about Just Food’s Start-up Farm program
+
+613-824-7771
+info@justfood.ca
+2389 Pépin Court, Ottawa K1B 4Z3
+Donate
+OUR PROJECTS
+Just Food Farm
+Start-up Farm Program
+Buy Local Food Guide
+Community Gardening Network
+Ottawa Farm School
+ABOUT US
+Mission, Vision, and Mandate
+Who We Are
+Our Background
+Our Partners
+Contac",
+30,found.csv,31,Accent Decor,no,https://placedorleans.com/,https://placedorleans.com/,https://placedorleans.com/,placedorleans.com,FOUND,https://placedorleans.com/jobs,Jobs,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:16.881279+00:00,https://placedorleans.com/jobs,https://placedorleans.com/jobs/,200,Find Job Opportunities at the Mall | Place d'Orleans,,0,1,https://placedorleans.com/jobs/#main-content,confirmed_career_page_no_openings,Employer-career language and explicit no-opening signal,"Skip to Content
+Open Now Until 8:00 PM
+Search 
+EN  |  FR
+Stores
+Store Directory
+Centre Map
+Promotions
+Sales & Promos
+Events
+Gift Cards
+Overview
+In Person
+Digital
+Corporate
+Get My Balance
+Our Services
+Our Services
+Accessibility
+Jobs
+About Us
+Parking & Directions
+Centre Hours
+Contact Us
+About Primaris
+There are currently no job postings listed. Please check back soon.
+
+© 2026 PLACE D'ORLÉANS ALL RIGHTS RESERVED
+
+MANAGED & LEASED BY PRIMARIS | PRIVACY POLICY | POWERED BY MALL MAVERICK",
+34,found.csv,35,Acadia Broadcasting,no,https://acadiabroadcasting.ca/,https://acadiabroadcasting.ca/,https://acadiabroadcasting.ca/,acadiabroadcasting.ca,FOUND,https://hdrc.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?,Careers,180,oracle,known ATS: oracle; strong careers/jobs link text,1,likely_external_ats,Recognized ATS domain: oracle,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:22.793066+00:00,https://hdrc.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?,https://hdrc.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs,200,Search Jobs - Acadia Broadcasting Careers,oracle,0,0,,external_ats_needs_review,"oracle detected, but no jobs were confidently identified","Skip to main content.
+Search Jobs - Acadia Broadcasting Careers
+FIND JOBS
+Job title, skill, keyword
+NEAR LOCATION
+City, state, country",
+19,found.csv,20,Aastra Technologies,no,https://aastra.com/,https://www.mitel.com/,https://www.mitel.com/,mitel.com,FOUND,https://www.mitel.com/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:23.511094+00:00,https://www.mitel.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 403
+35,found.csv,36,Accelera,no,https://accelerazero.com/,https://www.accelerazero.com/,https://www.accelerazero.com/,accelerazero.com,FOUND,https://www.accelerazero.com/careers,Careers Navigate to Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:24.924952+00:00,https://www.accelerazero.com/careers,https://www.accelerazero.com/careers,200,Careers | Accelera,,0,3,https://cummins.jobs/jobs/?q=accelera | https://cummins.jobs/jobs/?q=accelera | https://cummins.jobs/jobs/?q=accelera,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to main content
+Our Story
+eMobility
+Electrolyzers
+Newsroom
+Contact Us
+Accelera Careers
+
+We’re securing a sustainable future for the industries that keep the world running - and we are powered by people like you.
+
+Accelerate Your Future
+
+We’re focused on understanding your unique talents, skill sets and future goals. As you help us secure a better tomorrow, we're here to help you accelerate your career to the next level.
+
+See all opportunities
+Why choose Accelera?
+Discover your next move
+
+Our employees work hard, and they deserve to take time for themselves and their families. We provide paid vacation and holidays, parental leave, adoption assistance, flexible work environments and more.
+
+In order to always be innovating, we need to always be learning. Accelera supports employees through tuition reimbursement opportunities and full funding for continued education.
+
+While employees help us secure a sustainable future, we aim to help them secure financial wellness. With 401K and pension plans available, our employees can plan for their retirements and improve their financial future all at once.
+
+Financial Wellness
+
+Building a brighter future is important, but only when we continuously put the wellbeing of our employees first. Accelera offers comprehensive health care benefits to our employees and their family.
+
+Everyone loves a good end-of-year bonus. Accelera employees each receive an annual merit and profit share based on individual and company performance.
+
+Every person ",
+20,found.csv,21,ABCO Industries Lunenburg Shipyard,no,https://abco.ca/,https://abco.ca/,https://abco.ca/,abco.ca,FOUND,https://abco.ca/careers/,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:26.494410+00:00,https://abco.ca/careers/,,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 403
+31,found.csv,32,Accents @ Home,no,https://accentsathome.ca/,https://accentsathome.ca/,https://accentsathome.ca/,accentsathome.ca,FOUND,https://accentsathome.ca/pages/careers,Careers,140,,strong careers/jobs link text; careers/jobs URL path,1,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:32.410073+00:00,https://accentsathome.ca/pages/careers,,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 429
+23,found.csv,24,Abbotsford Regional Hospital and Cancer Centre,no,https://fraserhealth.ca/,https://fraserhealth.ca/,https://fraserhealth.ca/,fraserhealth.ca,FOUND,https://careers.fraserhealth.ca/,Careers Employment opportunities with Fraser Health,80,,strong careers/jobs link text,6,likely_employer_career_page,Career-related link text or URL path,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,2026-07-17,2026-07-17T16:43:39.004583+00:00,https://careers.fraserhealth.ca/,https://careers.fraserhealth.ca/,200,Find rewarding careers at Fraser Health,icims,0,12,https://internal-fraserhealth.icims.com/jobs/login?loginOnly=1 | https://careers.fraserhealth.ca/how-to-apply/ | https://internal-fraserhealth.icims.com/jobs/login?loginOnly=1 | https://careers.fraserhealth.ca/how-to-apply/ | https://internal-fraserhealth.icims.com/jobs/login?loginOnly=1,confirmed_external_ats_active,icims page with job records or job links,"Skip to content
+News
+Internal Job Portal
+How to Apply
+Contact Us
+Search Jobs
+Work Here
+Live Here
+Areas of Care
+About Fraser Health
+Events
+Together, we are the  of health care.
+Watch video
+Start your search
+ 
+ 
+Search Jobs
+Are you currently a Fraser Health employee? Browse and apply for jobs on the internal job portal.
+Staff, medical staff and volunteers
+0
+ K+
+Serving over two million British Columbians
+0
+ M+
+Diverse communities
+0
+Acute care hospitals
+0
+Featured Jobs
+Featured Job
+Registered Nurse (RN), Palliative Complex Care Unit
+Location
+Burnaby Hospital
+Apply Now
+Featured Job
+Registered Nurse, Transition Line - Intensive Care Unit (ICU)
+Location
+Peace Arch Hospital
+Apply Now
+Featured Job
+Radiological Technologist - Langley Memorial Hospital
+Location
+Langley Memorial Hospital
+Apply Now
+Featured Job
+Manager, Systems and Data - Home & Community Care Regional Services
+Location
+Surrey
+Apply Now
+Featured Job
+Emergency Physician
+Location
+All Sites
+Apply Now
+Your career starts here.
+
+Choose your health profession below and take the first step toward joining the Fraser Health team.
+
+Nurses (RN / RPN / LPN)
+Health Science Professionals
+Allied Health
+Physicians
+Nurse Practitioners
+Together, we are the heart of health care.
+
+People – those we care for and those who care for them – are at the heart of everything we do.
+
+Our hospital and community-based services are delivered by a team of 50,000+ staff, medical staff and volunteers.
+
+THE FRASER HEALTH REGION
+Join our team of 50K+ staff, ",
