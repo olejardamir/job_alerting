@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+storage/
+browser-profile/
+playwright-report/
+screenshots/
+output/runs/
+output/*.jsonl
+output/*.log
+output/*.db.backup-*
+output/*.db-wal
+output/*.db-shm
+.DS_Store

@@ -1,0 +1,148 @@
+from __future__ import annotations
+
+import sqlite3
+import tempfile
+import unittest
+from pathlib import Path
+
+from monitoring.core import changed_fields, compare_jobs, source_is_successful
+from monitoring.database import apply_commit, migrate_database, table_columns
+
+
+class SourceStatusTests(unittest.TestCase):
+    def test_unknown_ats_zero_is_not_success(self):
+        self.assertFalse(source_is_successful({
+            "source_type": "ats", "extraction_result": "no_jobs_found",
+            "extraction_reason": "Unknown ATS: example", "jobs_found": "0",
+            "extraction_error": "",
+        }))
+
+    def test_explicit_no_openings_is_success(self):
+        self.assertTrue(source_is_successful({
+            "source_type": "no_openings",
+            "extraction_result": "confirmed_no_openings",
+            "jobs_found": "0", "extraction_error": "",
+        }))
+
+
+class ComparisonTests(unittest.TestCase):
+    def setUp(self):
+        self.now = "2026-07-19T20:00:00+00:00"
+        self.job = {
+            "canonical_job_id": "url:acme:/jobs/1", "record_id": "10",
+            "organization_name": "Acme", "source_job_id": "1",
+            "title": "Software Engineer", "normalized_title": "software engineer",
+            "location": "Ottawa, ON", "normalized_location": "Ottawa, ON, Canada",
+            "job_url": "https://acme.example/jobs/1", "application_url": "",
+            "description": "Build software.", "status": "active",
+            "missing_successful_runs": 0,
+        }
+        self.success = {
+            "record_id": "10", "organization_name": "Acme", "source_type": "ats",
+            "source_provider": "greenhouse", "extraction_result": "jobs_extracted",
+            "jobs_found": "1", "extraction_error": "",
+        }
+
+    def test_new_job(self):
+        job = {**self.job, "canonical_job_id": "url:acme:/jobs/2",
+               "source_job_id": "2", "job_url": "https://acme.example/jobs/2"}
+        result = compare_jobs({}, [job], [self.success], now=self.now)
+        self.assertEqual([e["event_type"] for e in result.events], ["NEW"])
+
+    def test_changed_job_matches_by_url(self):
+        current = {**self.job, "canonical_job_id": "hash:different",
+                   "title": "Senior Software Engineer"}
+        result = compare_jobs({self.job["canonical_job_id"]: self.job},
+                              [current], [self.success], now=self.now)
+        changed = [e for e in result.events if e["event_type"] == "CHANGED"]
+        self.assertEqual(len(changed), 1)
+        self.assertEqual(changed[0]["canonical_job_id"], self.job["canonical_job_id"])
+
+    def test_first_absence_is_possible_removal(self):
+        status = {**self.success, "jobs_found": "0", "extraction_result": "no_jobs_found"}
+        result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [status],
+                              confirm_removal_after=2, now=self.now)
+        self.assertEqual(result.events[0]["event_type"], "POSSIBLY_REMOVED")
+        self.assertEqual(result.events[0]["missing_successful_runs"], 1)
+
+    def test_second_absence_removes(self):
+        old = {**self.job, "status": "possibly_removed", "missing_successful_runs": 1}
+        status = {**self.success, "jobs_found": "0", "extraction_result": "no_jobs_found"}
+        result = compare_jobs({old["canonical_job_id"]: old}, [], [status],
+                              confirm_removal_after=2, now=self.now)
+        self.assertEqual(result.events[0]["event_type"], "REMOVED")
+
+    def test_failed_source_never_removes(self):
+        failure = {**self.success, "extraction_result": "crawl_failed",
+                   "jobs_found": "0", "extraction_error": "TimeoutError"}
+        result = compare_jobs({self.job["canonical_job_id"]: self.job}, [], [failure], now=self.now)
+        self.assertEqual(result.events, [])
+        self.assertEqual(len(result.source_failures), 1)
+
+    def test_removed_job_reopens(self):
+        old = {**self.job, "status": "removed", "missing_successful_runs": 2}
+        result = compare_jobs({old["canonical_job_id"]: old}, [dict(self.job)],
+                              [self.success], now=self.now)
+        self.assertIn("REOPENED", [e["event_type"] for e in result.events])
+
+    def test_sparse_snapshot_does_not_clear_fields(self):
+        self.assertNotIn("description", changed_fields(self.job, {**self.job, "description": ""}))
+
+
+class DatabaseTests(unittest.TestCase):
+    def _stage3(self, path: Path):
+        conn = sqlite3.connect(path)
+        conn.executescript("""
+            CREATE TABLE organizations (organization_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                organization_name TEXT NOT NULL, canonical_domain TEXT, first_seen TEXT, last_checked TEXT);
+            CREATE TABLE job_sources (source_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                organization_id INTEGER, source_type TEXT, source_provider TEXT,
+                listing_url TEXT, api_url TEXT, adapter_name TEXT, source_status TEXT,
+                last_successful_check TEXT, consecutive_failures INTEGER DEFAULT 0);
+            CREATE TABLE jobs (canonical_job_id TEXT PRIMARY KEY, organization_id INTEGER,
+                source_job_id TEXT, title TEXT, normalized_title TEXT, location TEXT,
+                normalized_location TEXT, country TEXT, region TEXT, city TEXT,
+                work_arrangement TEXT, employment_type TEXT, salary_min TEXT, salary_max TEXT,
+                currency TEXT, posted_date TEXT, closing_date TEXT, description TEXT,
+                job_url TEXT, application_url TEXT, application_email TEXT,
+                status TEXT DEFAULT 'active', first_seen TEXT, last_seen TEXT, content_hash TEXT);
+            CREATE TABLE crawl_runs (crawl_run_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                source_id INTEGER, started_at TEXT, completed_at TEXT, result TEXT,
+                jobs_found INTEGER, error TEXT);
+            CREATE TABLE job_events (event_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                canonical_job_id TEXT, event_type TEXT, event_time TEXT,
+                old_value TEXT, new_value TEXT, crawl_run_id INTEGER);
+        """)
+        return conn
+
+    def test_migration_and_commit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            conn = self._stage3(Path(directory) / "monitor.db")
+            migrate_database(conn)
+            self.assertIn("missing_successful_runs", table_columns(conn, "jobs"))
+            current = {
+                "canonical_job_id": "url:acme:/jobs/2", "record_id": "10",
+                "organization_name": "Acme", "source_job_id": "2",
+                "source_type": "ats", "source_provider": "greenhouse",
+                "source_listing_url": "https://acme.example/jobs",
+                "title": "Data Engineer", "normalized_title": "data engineer",
+                "description": "Build data systems.",
+                "job_url": "https://acme.example/jobs/2", "first_seen": "2026-07-19",
+                "content_hash": "abc",
+            }
+            status = {
+                "record_id": "10", "organization_name": "Acme", "source_type": "ats",
+                "source_provider": "greenhouse", "source_listing_url": "https://acme.example/jobs",
+                "extraction_result": "jobs_extracted", "jobs_found": "1", "extraction_error": "",
+            }
+            comparison = compare_jobs({}, [current], [status], now="2026-07-19T20:00:00+00:00")
+            apply_commit(conn, comparison, [status], run_batch_id="test",
+                         snapshot_path=Path("snapshot.csv"), now="2026-07-19T20:00:00+00:00")
+            conn.commit()
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0], 1)
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM job_events WHERE event_type='NEW'").fetchone()[0], 1)
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM crawl_runs").fetchone()[0], 1)
+
+
+if __name__ == "__main__":
+    unittest.main()
