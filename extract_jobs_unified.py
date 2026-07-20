@@ -241,6 +241,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--source-id", default="", help="Filter to specific record_id")
     p.add_argument("--source-type", default="", help="Filter by source type (ats, static_html_listing, etc.)")
     p.add_argument("--provider", default="", help="Filter by ATS provider (greenhouse, lever, etc.)")
+    p.add_argument("--sources-file", default="output/job_sources.csv",
+                   help="Authoritative source inventory for pre-extraction filtering")
     return p.parse_args()
 
 
@@ -1244,10 +1246,29 @@ async def main() -> None:
     ats_targets = [t for t in targets if t.get("detected_ats") or t.get("detected_ats_provider")]
     print(f"  Targets with ATS detection: {len(ats_targets)}")
 
+    # Use job_sources.csv as authoritative inventory when available
+    sources_path = Path(args.sources_file)
+    if sources_path.exists():
+        import csv as csv_mod
+        with sources_path.open(newline="", encoding="utf-8-sig") as f:
+            source_rows = {clean(r.get("record_id")): r
+                           for r in csv_mod.DictReader(f) if clean(r.get("record_id"))}
+        print(f"Loaded {len(source_rows)} sources from {sources_path}")
+
+        # Filter targets by authoritative inventory
+        target_ids = {t.get("record_id") for t in targets}
+        matched = [source_rows[rid] for rid in target_ids if rid in source_rows]
+        print(f"  Matched {len(matched)} targets in source inventory")
+
     # Apply filters before limiting
     if args.source_id:
         targets = [t for t in targets if t.get("record_id") == args.source_id]
         print(f"Filtered to record_id={args.source_id}: {len(targets)} targets")
+    if args.source_type:
+        targets = [t for t in targets if args.source_type.lower() in
+                   (t.get("detected_ats", "") or "").lower()
+                   or args.source_type.lower() in (t.get("source_type", "") or "").lower()]
+        print(f"Filtered to source_type={args.source_type}: {len(targets)} targets")
     if args.provider:
         targets = [t for t in targets
                    if args.provider.lower() in (t.get("detected_ats_provider", "") or "").lower()

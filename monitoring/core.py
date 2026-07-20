@@ -16,13 +16,14 @@ TRACKED_FIELDS = (
     "description", "job_url", "application_url", "application_email",
 )
 
-SUCCESS_RESULTS = {
-    "jobs_extracted", "active_jobs_extracted",
+CONFIRMED_NO_OPENINGS = {
     "confirmed_no_openings", "confirmed_career_page_no_openings",
     "confirmed_external_ats_no_openings",
+}
+INDETERMINATE_RESULTS = {
+    "no_jobs_found", "jobs_extracted", "active_jobs_extracted",
     "confirmed_career_page_active", "confirmed_external_ats_active",
 }
-INDETERMINATE_RESULTS = {"no_jobs_found"}
 FAILURE_TOKENS = (
     "crawl_failed", "blocked", "challenge", "needs_manual_review",
     "unsupported", "error", "failed", "unknown_platform",
@@ -87,27 +88,30 @@ def write_csv(path: Path, rows: Sequence[Mapping[str, Any]]) -> None:
         writer.writerows(rows)
 
 
-def source_is_successful(row: Mapping[str, Any]) -> bool:
-    """Only return True when an empty result can safely imply job absence.
+def classify_source(row: Mapping[str, Any]) -> str:
+    """Classify a source extraction result as 'success', 'indeterminate', or 'failure'.
 
-    Generic 'no_jobs_found' is indeterminate — it could mean the parser
-    failed, the site blocked us, or the ATS changed structure. Only
-    explicitly confirmed results (confirmed_no_openings, etc.) advance
-    removal counters.
+    Only explicitly confirmed empty results (confirmed_no_openings, etc.)
+    with zero jobs count as success. Generic no_jobs_found and active results
+    with zero jobs are indeterminate — they must never advance removal counters
+    or increment consecutive_failures.
     """
     result = clean(row.get("extraction_result") or row.get("result")).lower()
-    reason = clean(row.get("extraction_reason") or row.get("reason")).lower()
     error = clean(row.get("extraction_error") or row.get("error"))
     jobs_found = safe_int(row.get("jobs_found"))
     if error or any(token in result for token in FAILURE_TOKENS):
-        return False
+        return "failure"
     if jobs_found > 0:
-        return True
-    if result in SUCCESS_RESULTS:
-        return True
+        return "success"
+    if result in CONFIRMED_NO_OPENINGS:
+        return "success"
     if result in INDETERMINATE_RESULTS:
-        return False
-    return False
+        return "indeterminate"
+    return "indeterminate"
+
+
+def source_is_successful(row: Mapping[str, Any]) -> bool:
+    return classify_source(row) == "success"
 
 
 def filter_sources(rows: list[dict[str, str]], *, limit: int = 0,
@@ -166,8 +170,10 @@ class ComparisonResult:
     current_jobs: dict[str, dict[str, Any]] = field(default_factory=dict)
     source_failures: list[dict[str, Any]] = field(default_factory=list)
     source_recoveries: list[dict[str, Any]] = field(default_factory=list)
+    source_indeterminate: list[dict[str, Any]] = field(default_factory=list)
     successful_source_ids: set[str] = field(default_factory=set)
     failed_source_ids: set[str] = field(default_factory=set)
+    indeterminate_source_ids: set[str] = field(default_factory=set)
 
 
 def compare_jobs(existing: Mapping[str, Mapping[str, Any]],
@@ -184,7 +190,8 @@ def compare_jobs(existing: Mapping[str, Mapping[str, Any]],
         rid = clean(row.get("record_id"))
         if not rid:
             continue
-        if source_is_successful(row):
+        classification = classify_source(row)
+        if classification == "success":
             result.successful_source_ids.add(rid)
             failures = safe_int(prior_source_states.get(rid, {}).get("consecutive_failures"))
             if failures:
@@ -193,7 +200,7 @@ def compare_jobs(existing: Mapping[str, Mapping[str, Any]],
                     "event_time": now, "previous_failures": failures,
                     "result": clean(row.get("extraction_result")),
                 })
-        else:
+        elif classification == "failure":
             result.failed_source_ids.add(rid)
             result.source_failures.append({
                 "record_id": rid,
@@ -202,6 +209,19 @@ def compare_jobs(existing: Mapping[str, Mapping[str, Any]],
                 "source_provider": clean(row.get("source_provider")),
                 "monitor_url": clean(row.get("source_listing_url") or row.get("monitor_url")),
                 "event_type": "SOURCE_FAILED", "event_time": now,
+                "result": clean(row.get("extraction_result")),
+                "error": clean(row.get("extraction_error") or row.get("error")),
+                "reason": clean(row.get("extraction_reason") or row.get("reason")),
+            })
+        else:
+            result.indeterminate_source_ids.add(rid)
+            result.source_indeterminate.append({
+                "record_id": rid,
+                "organization_name": clean(row.get("organization_name")),
+                "source_type": clean(row.get("source_type")),
+                "source_provider": clean(row.get("source_provider")),
+                "monitor_url": clean(row.get("source_listing_url") or row.get("monitor_url")),
+                "event_type": "SOURCE_INDETERMINATE", "event_time": now,
                 "result": clean(row.get("extraction_result")),
                 "error": clean(row.get("extraction_error") or row.get("error")),
                 "reason": clean(row.get("extraction_reason") or row.get("reason")),

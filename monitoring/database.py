@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 from urllib.parse import urlparse
 
-from .core import ComparisonResult, TRACKED_FIELDS, clean, csv_rows, safe_int, source_is_successful
+from .core import ComparisonResult, TRACKED_FIELDS, classify_source, clean, csv_rows, safe_int, source_is_successful
 
 
 def table_columns(conn: sqlite3.Connection, table: str) -> set[str]:
@@ -199,20 +199,26 @@ def apply_commit(conn: sqlite3.Connection, comparison: ComparisonResult,
             continue
         source_id = _upsert_source(conn, row, now)
         source_ids[rid] = source_id
-        success = source_is_successful(row)
-        if success:
+        classification = classify_source(row)
+        if classification == "success":
             conn.execute("""
                 UPDATE job_sources SET source_status='active',last_successful_check=?,
                     last_checked=?,last_result=?,last_error='',consecutive_failures=0
                  WHERE source_id=?
             """, (now, now, clean(row.get("extraction_result")), source_id))
-        else:
+        elif classification == "failure":
             conn.execute("""
                 UPDATE job_sources SET source_status='failed',last_checked=?,last_result=?,
                     last_error=?,consecutive_failures=COALESCE(consecutive_failures,0)+1
                  WHERE source_id=?
             """, (now, clean(row.get("extraction_result")),
                    clean(row.get("extraction_error") or row.get("extraction_reason")), source_id))
+        else:
+            conn.execute("""
+                UPDATE job_sources SET source_status='indeterminate',last_checked=?,
+                    last_result=?,last_error=''
+                 WHERE source_id=?
+            """, (now, clean(row.get("extraction_result")), source_id))
         cursor = conn.execute("""
             INSERT INTO crawl_runs
             (source_id,run_batch_id,started_at,completed_at,result,jobs_found,error,
@@ -221,7 +227,8 @@ def apply_commit(conn: sqlite3.Connection, comparison: ComparisonResult,
         """, (
             source_id, run_batch_id, clean(row.get("extraction_checked_at_utc")) or now,
             now, clean(row.get("extraction_result")), safe_int(row.get("jobs_found")),
-            clean(row.get("extraction_error")), "" if success else "source_failure",
+            clean(row.get("extraction_error")),
+            "" if classification == "success" else classification,
             clean(row.get("extraction_error") or row.get("extraction_reason")), str(snapshot_path),
         ))
         crawl_ids[rid] = int(cursor.lastrowid)

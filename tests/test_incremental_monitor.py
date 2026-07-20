@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from monitoring.core import changed_fields, compare_jobs, source_is_successful
+from monitoring.core import changed_fields, classify_source, compare_jobs, source_is_successful
 from monitoring.database import apply_commit, migrate_database, table_columns
 
 
@@ -52,6 +52,76 @@ class SourceStatusTests(unittest.TestCase):
             "extraction_result": "confirmed_career_page_no_openings",
             "jobs_found": "0", "extraction_error": "",
         }))
+
+
+class ClassifySourceTests(unittest.TestCase):
+    def test_jobs_extracted_zero_jobs_is_indeterminate(self):
+        """jobs_extracted with 0 jobs is indeterminate, not success."""
+        self.assertEqual(classify_source({
+            "extraction_result": "jobs_extracted", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
+
+    def test_active_jobs_extracted_zero_jobs_is_indeterminate(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "active_jobs_extracted", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
+
+    def test_confirmed_career_page_active_zero_jobs_is_indeterminate(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "confirmed_career_page_active", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
+
+    def test_confirmed_external_ats_active_zero_jobs_is_indeterminate(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "confirmed_external_ats_active", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
+
+    def test_jobs_extracted_with_jobs_is_success(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "jobs_extracted", "jobs_found": "5",
+            "extraction_error": "",
+        }), "success")
+
+    def test_confirmed_no_openings_is_success(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "confirmed_no_openings", "jobs_found": "0",
+            "extraction_error": "",
+        }), "success")
+
+    def test_confirmed_career_page_no_openings_is_success(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "confirmed_career_page_no_openings", "jobs_found": "0",
+            "extraction_error": "",
+        }), "success")
+
+    def test_confirmed_external_ats_no_openings_is_success(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "confirmed_external_ats_no_openings", "jobs_found": "0",
+            "extraction_error": "",
+        }), "success")
+
+    def test_crawl_failed_is_failure(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "crawl_failed", "jobs_found": "0",
+            "extraction_error": "TimeoutError",
+        }), "failure")
+
+    def test_no_jobs_found_is_indeterminate(self):
+        self.assertEqual(classify_source({
+            "extraction_result": "no_jobs_found", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
+
+    def test_unknown_result_is_indeterminate(self):
+        """Unknown results default to indeterminate."""
+        self.assertEqual(classify_source({
+            "extraction_result": "something_new", "jobs_found": "0",
+            "extraction_error": "",
+        }), "indeterminate")
 
 
 class ComparisonTests(unittest.TestCase):
@@ -119,6 +189,14 @@ class ComparisonTests(unittest.TestCase):
         self.assertEqual(result.events, [])
         # Indeterminate sources are NOT in successful_source_ids
         self.assertNotIn("10", result.successful_source_ids)
+        # Indeterminate sources are NOT in failed_source_ids
+        self.assertNotIn("10", result.failed_source_ids)
+        # Indeterminate sources ARE in indeterminate_source_ids
+        self.assertIn("10", result.indeterminate_source_ids)
+        # No source failures emitted
+        self.assertEqual(len(result.source_failures), 0)
+        # Indeterminate recorded
+        self.assertEqual(len(result.source_indeterminate), 1)
 
     def test_parser_empty_with_error_never_removes(self):
         """Parser failure resulting in no jobs + error must not remove."""
@@ -191,6 +269,26 @@ class DatabaseTests(unittest.TestCase):
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0], 1)
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM job_events WHERE event_type='NEW'").fetchone()[0], 1)
             self.assertEqual(conn.execute("SELECT COUNT(*) FROM crawl_runs").fetchone()[0], 1)
+
+    def test_indeterminate_does_not_increment_failures(self):
+        """Indeterminate sources must not increment consecutive_failures."""
+        with tempfile.TemporaryDirectory() as directory:
+            conn = self._stage3(Path(directory) / "monitor.db")
+            migrate_database(conn)
+            status = {
+                "record_id": "20", "organization_name": "Beta", "source_type": "ats",
+                "source_provider": "greenhouse", "source_listing_url": "https://beta.example/jobs",
+                "extraction_result": "no_jobs_found", "jobs_found": "0", "extraction_error": "",
+            }
+            comparison = compare_jobs({}, [], [status], now="2026-07-19T20:00:00+00:00")
+            apply_commit(conn, comparison, [status], run_batch_id="test",
+                         snapshot_path=Path("snapshot.csv"), now="2026-07-19T20:00:00+00:00")
+            conn.commit()
+            row = conn.execute(
+                "SELECT consecutive_failures, source_status FROM job_sources WHERE record_id='20'"
+            ).fetchone()
+            self.assertEqual(row[0], 0)  # No failure increment
+            self.assertEqual(row[1], "indeterminate")
 
 
 class FilterTests(unittest.TestCase):

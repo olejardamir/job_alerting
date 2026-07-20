@@ -64,6 +64,8 @@ def run_extractor(args, run_dir: Path):
         command.extend(["--source-type", args.source_type])
     if args.provider:
         command.extend(["--provider", args.provider])
+    if args.sources.exists():
+        command.extend(["--sources-file", str(args.sources)])
     print("Running extractor:", " ".join(command))
     completed = subprocess.run(command, check=False)
     if completed.returncode:
@@ -130,6 +132,7 @@ def main() -> int:
                   [e for e in comparison.events if e.get("event_type") == event_type])
     write_csv(run_dir / "source_failures.csv", comparison.source_failures)
     write_csv(run_dir / "source_recoveries.csv", comparison.source_recoveries)
+    write_csv(run_dir / "source_indeterminate.csv", comparison.source_indeterminate)
 
     counts = Counter(clean(e.get("event_type")) for e in comparison.events)
     summary = {
@@ -140,12 +143,14 @@ def main() -> int:
         "selected_sources": len(statuses),
         "successful_sources": len(comparison.successful_source_ids),
         "failed_sources": len(comparison.failed_source_ids),
+        "indeterminate_sources": len(comparison.indeterminate_source_ids),
         "raw_snapshot_jobs": len(raw_jobs),
         "canonical_snapshot_jobs": len(canonical),
         "rejected_snapshot_jobs": len(rejected),
         "events": dict(counts),
         "source_failures": len(comparison.source_failures),
         "source_recoveries": len(comparison.source_recoveries),
+        "source_indeterminate": len(comparison.source_indeterminate),
     }
 
     if args.commit:
