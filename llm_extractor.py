@@ -65,7 +65,7 @@ def _send_message(session_id: str, prompt: str, system: str = "") -> str:
         method="POST",
     )
 
-    with urllib.request.urlopen(req, timeout=120) as resp:
+    with urllib.request.urlopen(req) as resp:
         result = json.loads(resp.read())
 
     # Extract text from response parts

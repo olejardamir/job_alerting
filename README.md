@@ -1,52 +1,72 @@
-# Job Alerting
+# Job Alerting Monitor
 
-A multi-stage system for discovering employer career pages, identifying how
-jobs are published, extracting normalized vacancies, deduplicating them, and
-monitoring job-level changes.
+## Quick Start
 
-## Current pipeline
-
-1. **Stage 1:** validate candidate career URLs.
-2. **Stage 2A:** resolve probable career pages.
-3. **Stage 2B:** inspect network traffic and interactive job destinations.
-4. **Stage 2C:** detect ATS, APIs, static HTML, iframes, job boards, email
-   applications, and unknown platforms; extract normalized jobs.
-5. **Stage 3A:** quality control, canonicalization, deduplication, and SQLite
-   baseline creation.
-6. **Stage 4:** incremental comparison and job-event tracking.
-
-## Current baseline
-
-- 7,909 raw extracted jobs
-- 6,484 jobs after quality control
-- 5,063 canonical jobs after deduplication
-- SQLite baseline: `output/job_monitor.db`
-
-## Stage 4
-
-The incremental monitor is safe by default:
+### First run (establish baseline)
 
 ```bash
-python incremental_monitor.py --limit 10
+python incremental_monitor.py --run-extractor --commit
 ```
 
-The command above is a dry run. To perform a fresh extraction first:
+This visits all 3,334 sources in `output/job_sources.csv`, extracts current jobs, and saves them to the database. All found jobs are treated as the baseline — nothing is reported as "new" on this run.
+
+### Every subsequent run (find new jobs)
 
 ```bash
+python incremental_monitor.py --run-extractor --commit
+```
+
+Same command. It compares current extractions against the previous baseline and outputs only **new** job openings.
+
+### Output
+
+- **Terminal**: `12 new job openings found` (or `No new job openings since the previous check.`)
+- **CSV**: `output/runs/<timestamp>/new_jobs.csv`
+- **Summary**: `output/runs/<timestamp>/run_summary.json`
+
+### View all job URLs
+
+```bash
+# All 3,469+ job URLs in one file
+output/all_job_urls.csv
+```
+
+### View latest new jobs only
+
+```bash
+# List the most recent run directory
+ls output/runs/ | tail -1
+
+# Then view the new jobs
+cat output/runs/<latest_run>/new_jobs.csv
+```
+
+## Options
+
+| Flag | Effect |
+|------|--------|
+| `--run-extractor` | Run the extraction pipeline (without this, uses cached extraction) |
+| `--commit` | Save results to the database (dry-run by default) |
+| `--limit N` | Process only N sources (for testing) |
+| `--source-type TYPE` | Filter to one source type (e.g. `ats`, `static_html_listing`) |
+| `--provider NAME` | Filter to one provider (e.g. `greenhouse`, `lever`) |
+| `--source-id ID` | Process a single source by record ID |
+
+### Examples
+
+```bash
+# Quick test: 10 sources, no database commit
 python incremental_monitor.py --run-extractor --limit 10
+
+# Only ATS sources
+python incremental_monitor.py --run-extractor --commit --source-type ats
+
+# Only Greenhouse
+python incremental_monitor.py --run-extractor --commit --provider greenhouse
 ```
 
-To update SQLite after reviewing dry-run reports:
+## Database
 
-```bash
-python incremental_monitor.py --run-extractor --limit 10 --commit
-```
-
-See [`docs/STAGE_4.md`](docs/STAGE_4.md) for event semantics, removal
-protection, output files, tests, and rollout instructions.
-
-## Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
+- SQLite: `output/job_monitor.db`
+- Backup created automatically before each committed run
+- Backup location: `output/job_monitor.db.backup-<timestamp>`
