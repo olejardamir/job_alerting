@@ -23,127 +23,10 @@ This step does not remove jobs, but it should be applied whenever a new filtered
 ---
 
 ### 2. Remove jobs with a score of 2 or less
-
-**Cost: negligible once scores already exist**
-
-Remove rows where:
-
-```text
-apply_score_0_to_10 <= 2
-```
-
-Keep only:
-
-```text
-apply_score_0_to_10 > 2
-```
-
-In this run, **337 jobs remained** after this filter.
-
----
-
-### 3. Remove positions below mid-level
-
-**Cost: very low; title matching**
-
-Remove titles containing indicators such as:
-
-```text
-junior
-jr
-intern
-internship
-co-op
-coop
-entry-level
-new grad
-new graduate
-recent graduate
-early career
-student
-trainee
-apprentice
-associate
-graduate program
-graduate role
-engineer I
-engineer 1
-developer I
-developer 1
-analyst I
-analyst 1
-consultant I
-consultant 1
-specialist I
-specialist 1
-technician I
-technician 1
-level I
-level 1
-```
-
-Examples removed in this run included:
-
-* Technical Consultant I
-* Associate Software Engineer
-* Software Developer Intern
-* Software Developer Co-op
-* Pages describing internship experiences rather than current suitable jobs
-
-Keep roles such as:
-
-```text
-intermediate
-mid-level
-senior
-lead
-staff
-principal
-architect
-manager
-director
-head
-```
-
-This removed **7 rows**, leaving **330**.
-
----
-
+### 3. Remove positions below mid-senior level
 ### 4. Remove explicitly non-North-American locations
-
-**Cost: low when location is already structured**
-
-Keep jobs located in:
-
-* Canada
-* United States
-* Mexico
-* Other North American jurisdictions, when applicable
-
-Remove jobs explicitly located outside North America, including locations in:
-
-* Europe
-* Asia
-* Africa
-* South America
-* Australia and Oceania
-* Middle East
-
 Do not automatically remove a row solely because the location field is blank or malformed. Mark it for later verification.
-
----
-
 ### 5. Keep only Ottawa or remote jobs
-
-**Cost: low to moderate when based on existing fields**
-
-Keep a job when one of these is true:
-
-```text
-Location is Ottawa or the Ottawa region
-OR
-The role is explicitly remote
-```
 
 Ottawa-compatible labels can include:
 
@@ -188,21 +71,9 @@ location_uncertain = Yes
 location_filter_basis = explanation
 ```
 
-In this run, **115 rows remained**:
-
-* 41 Remote
-* 32 Ottawa
-* 42 Uncertain
-
-Thus, **215 rows were removed** at this stage from the prior 330.
-
 ---
 
 ### 6. Remove obviously non-IT roles
-
-**Cost: low to moderate; title and organization interpretation**
-
-Remove jobs that clearly have nothing to do with information technology, software, data, computing, digital systems, or closely related technical work.
 
 Examples removed:
 
@@ -269,17 +140,13 @@ Examples that may require an uncertainty label:
 * Implementation Lead
 * Design and Support Engineer
 
-This stage removed **26 clearly non-IT entries**, leaving **89**, including **16 marked uncertain**.
-
 ---
 
 ### 7. Remove unwanted role families and technology stacks identifiable from titles
 
-**Cost: low to moderate**
-
 Remove jobs primarily focused on any of the following.
 
-#### .NET and C#
+.NET and C#
 
 Indicators:
 
@@ -293,7 +160,7 @@ Blazor
 Entity Framework
 ```
 
-#### Frontend development
+Frontend development
 
 Indicators:
 
@@ -315,7 +182,7 @@ HTML/CSS-focused
 
 Do not remove a true backend or data role merely because it interacts with a frontend.
 
-#### Rust
+Rust
 
 Indicators:
 
@@ -325,7 +192,7 @@ Rust developer
 Rust engineer
 ```
 
-#### iOS
+iOS
 
 Indicators:
 
@@ -337,7 +204,7 @@ Apple mobile
 iPhone application
 ```
 
-#### Systems administration
+Systems administration
 
 Indicators:
 
@@ -352,7 +219,7 @@ site infrastructure support
 desktop administrator
 ```
 
-#### DevOps
+DevOps
 
 Indicators:
 
@@ -372,7 +239,7 @@ build and release
 
 A developer-infrastructure leadership position was also removed because its central function aligned with DevOps and engineering infrastructure.
 
-#### Golang
+Golang
 
 Indicators:
 
@@ -385,13 +252,11 @@ Go runtime
 
 Be careful with the standalone word `go`; it should not be used as a raw substring match.
 
-This stage removed **21 jobs**, leaving **68**.
 
 ---
 
 ### 8. Remove business analyst and QA jobs
 
-**Cost: low to moderate from titles; moderate if descriptions are needed**
 
 #### Business analyst exclusions
 
@@ -452,8 +317,6 @@ Examples removed:
 ---
 
 ### 9. Remove C++, embedded, firmware, and hardware jobs
-
-**Cost: moderate; often requires description analysis**
 
 Remove jobs where the principal work involves:
 
@@ -642,6 +505,4 @@ uncertainty_reason = Page may not be a job posting
 20. Open live URLs only for cases still unresolved.
 21. Preserve unresolved rows with an Uncertain status instead of guessing.
 ```
-
-The final sequence reduced the original **3,469 unique URLs** to **48 retained rows**.
 
