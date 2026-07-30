@@ -1,0 +1,6 @@
+record_id,organization_name,monitor_url,source_type,source_provider,source_listing_url,source_api_url,source_stage,previous_result,extraction_result,extraction_reason,jobs_found,extraction_error,extraction_checked_at_utc
+7,Action1,https://apply.workable.com/action1/,ats,workable,https://apply.workable.com/action1/,,stage1,,no_jobs_found,Unknown ATS: workable,0,,2026-07-29T01:03:38.549622+00:00
+17,Aha,https://www.aha.io/company/careers/current-openings,static_html_listing,,https://www.aha.io/company/careers/current-openings,,stage1,,jobs_extracted,10 jobs found,10,,2026-07-29T01:03:38.559671+00:00
+18,Careers,https://careers.aircanada.com/ca/en/,static_html_listing,,https://careers.aircanada.com/ca/en/,,stage1,,no_jobs_found,No jobs extracted,0,,2026-07-29T01:03:38.560408+00:00
+10,Adga,https://www.adga.ca/careers/,static_html_listing,,https://www.adga.ca/careers/,,stage1,,jobs_extracted,34 jobs found,34,,2026-07-29T01:03:38.558848+00:00
+19,Airbus,https://www.airbus.com/en/careers,ats,workday,https://www.airbus.com/en/careers,,stage1,,no_jobs_found,No jobs extracted,0,,2026-07-29T01:03:38.561153+00:00

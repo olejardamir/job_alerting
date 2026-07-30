@@ -1,0 +1,2609 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+356,new_urls,356,Resourcemodelingsolutions,no,https://resourcemodelingsolutions.com/careers,https://resourcemodelingsolutions.com/careers,https://resourcemodelingsolutions.com/careers,resourcemodelingsolutions.com,FOUND,https://resourcemodelingsolutions.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:02:46.602246+00:00,https://resourcemodelingsolutions.com/careers,https://resourcemodelingsolutions.com/careers/,200,Resource Modeling Solutions,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","RMSP
+DHO
+CONSULTING
+TRAINING
+CLIENT STORIES
+Open about menu
+ABOUT
+CONTACT US
+PORTAL
+Careers
+FIND YOUR DREAM JOB BELOW
+
+Want to make an impact?
+
+We are looking for geostatistical experts and driven professionals passionate about the future of resource modeling. With over 100 completed projects, our team continues to grow as we deliver for companies around the world.
+
+Elevate Your Career
+CONTACT US TODAY
+
+Resource Modeling Solutions is a division of GeologicAI, a growing global technology company that provides end-to-end solutions to help mining companies make better decisions and improve their operational efficiencies. To learn more about our parent company and why the brightest technical leaders and new talents are choosing GeologicAI to grow their careers, click below.
+
+EXPLORE GEOLOGICAI
+QUICK LINKS
+User Portal
+Geostatistics Lessons
+Centre for Computational Geostatistics
+CONTACT US
+contact@resmodsol.com
+Offices located in:
+Canada:
+Edmonton, Alberta
+Calgary, Alberta
+Toronto, Ontario
+United States of America:
+Denver, Colorado
+Australia:
+Brisbane, Queensland
+FOLLOW US
+LinkedIn
+Twitter
+Resource Modeling
+Solutions
+Resource Modeling Solutions, a division of GeologicAI, is focused on helping modern mining, environmental, and petroleum companies manage uncertainty and understand geological variability to make the best decisions possible.
+Sign up below for our newsletter
+Name
+Email address
+I have read and understood the Privacy Policy and agree to receive communications from Resourc",
+357,new_urls,357,Retreat,no,https://retreat.guru/careers,https://retreat.guru/careers,https://retreat.guru/careers,retreat.guru,FOUND,https://retreat.guru/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:02:46.867710+00:00,https://retreat.guru/careers,https://retreat.guru/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+360,new_urls,360,Rilith,no,https://rilith.com/careers,https://rilith.com/careers,https://rilith.com/careers,rilith.com,FOUND,https://rilith.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:02:52.253419+00:00,https://rilith.com/careers,https://rilith.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+358,new_urls,358,Rezdy,no,https://rezdy.com/careers,https://rezdy.com/careers,https://rezdy.com/careers,rezdy.com,FOUND,https://rezdy.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:02:52.588872+00:00,https://rezdy.com/careers,https://rezdy.com/careers/,200,We're hiring | Careers at Rezdy,,0,8,https://rezdy.com/channel-manager-for-suppliers/ | https://rezdy.com/channel-manager/ | https://rezdy.com/book-a-demo-channel-manager/ | https://rezdy.com/channel-manager-for-ticketing-software/ | https://developers.rezdy.com/,confirmed_career_page_active,Employer-career language plus job records or job links,"This website uses cookies
+
+We use technologies (e.g. cookies) to store and/or access information on user's devices such as IP addresses or browsing data. For more information on our privacy practices, including legal bases and our use of tracking technologies like cookies, please read our privacy policy and terms.
+
+Show details
+Accept and close
+Customize
+Deny all
+Product Support
+Contact Us
+Login
+Platform
+Solutions
+Resources
+Growth Stories
+Pricing
+Request a Demo
+21-day free trial
+Rezdy Careers
+
+Work flexibly and grow your career within the fast growing Experiences industry
+
+Explore roles
+The world's leading independent B2B cloud-based booking and distribution platform in the travel experiences sector
+
+Some of the world’s most talented engineers, designers, marketers and customer success agents have chosen to grow their career and join our exciting mission to power the experiences industry, as the last major segment of travel to be largely digitized.
+
+Our fast growing teams are working with flexibility from Australia and the US, helping customers in over 130 countries globally.
+
+Rezdy benefits and perks
+
+We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.
+
+Health & wellness
+
+We offer a dynamic health and wellness focused benefits package, mental health services, financial; planning and more through our employee assistance program.
+
+Experience Voucher
+
+Every year, you’ll receive an allowance to enjoy an exp",
+361,new_urls,361,Riverside,no,https://riverside.fm/careers,https://riverside.fm/careers,https://riverside.fm/careers,riverside.fm,FOUND,https://riverside.fm/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:00.087032+00:00,https://riverside.fm/careers,https://careers.riverside.com/,200,Careers - Riverside,,0,9,https://careers.riverside.com/careers/web-developer | https://careers.riverside.com/careers/user-acquisition-manager | https://careers.riverside.com/careers/smb-customer-success-manager | https://careers.riverside.com/careers/senior-product-manager | https://careers.riverside.com/careers/senior-product-designer,confirmed_career_page_active,Employer-career language plus job records or job links,"Product
+Products
+Recording
+4K video and audio recorder.
+Editing
+AI, text-based video editor.
+Live Streaming
+For livestreams in full HD.
+Webinars
+Host, record, and repurpose.
+Hosting
+Podcast publishing and analytics.
+Features
+Transcribing
+Magic Clips
+Captions
+Magic Audio
+AI Show Notes
+Async Recording
+AI Co-Creator
+Apps
+Mac App
+Mobile Apps
+Explore AI Tools
+Solutions
+For
+Podcasters
+Producers
+Marketers
+Use cases
+Podcasts
+Video marketing
+Webinars
+Learning & development
+Internal communications
+Virtual conferences
+Video testimonials
+Tutorial videos
+Resources
+Learn
+Riverside University
+Blog
+Free tools
+Webinars
+Masterclass
+Community
+Case studies
+Creators Newsletter
+Community hub
+Recorded on Riverside
+Support
+Help Center
+Contact support
+Blog
+University
+For Business
+Pricing
+Contact Sales
+Login
+Start for Free
+CREATE
+THE
+FUTURE
+OF
+CONTENT
+CREATION.
+Explore open roles ->
+Open positions.
+All Locations
+Filter by teams
+All Teams
+Business Development
+Customer Success
+Data & Analytics
+Design and User Experience
+Engineering
+Finance
+Marketing
+People & Operations
+Product Management
+Sales
+Web Developer
+
+Marketing
+
+Israel
+
+User Acquisition Manager
+
+Marketing
+
+Israel
+
+SMB Customer Success Manager
+
+Customer Success
+
+Remote
+
+,
+
+Canada
+
+Senior Product Manager
+
+Product Management
+
+Israel
+
+Senior Product Designer
+
+Design and User Experience
+
+Israel
+
+Senior Influencer Marketing Manager
+
+Marketing
+
+Israel
+
+Senior Full Stack Engineer (Poland)
+
+Engineering
+
+Remote
+
+,
+
+Ukraine
+
+Senior Full Stack Engineer (Pola",
+362,new_urls,362,Roberthalf,no,https://www.roberthalf.com/ca/en/find-jobs,https://www.roberthalf.com/ca/en/find-jobs,https://www.roberthalf.com/ca/en/find-jobs,roberthalf.com,FOUND,https://www.roberthalf.com/ca/en/find-jobs,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:01.024775+00:00,https://www.roberthalf.com/ca/en/find-jobs,https://www.roberthalf.com/ca/en/find-jobs,200,Job Search | Find a Job in Your Area With Robert Half,,0,58,https://www.roberthalf.com/ca/en/job-details/accounts-payable-clerk | https://www.roberthalf.com/ca/en/job-details/bookkeeper | https://www.roberthalf.com/ca/en/job-details/corporate-controller | https://www.roberthalf.com/ca/en/job-details/senior-financial-analyst | https://www.roberthalf.com/ca/en/job-details/payroll-administrator,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to Main Content
+Find a job that works for you
+At Robert Half, we specialize in Finance and Accounting, Technology, Marketing and Creative, Legal, and Administrative and Customer Support.
+Get job matches
+Find your next job
+View all jobs
+
+Jobs for everyoneSearch hundreds of opportunities to find the ones that fit your strengths and goals.Search jobs
+Career growthExplore ways to keep your skills fresh, forge new paths or prepare for what's next.Grow your career
+Our processLearn how we work with you to make your job search easier.See how we work
+Technology and experience on your side
+Get job matches
+Search jobs
+How we help you find a job in Canada
+Upload your resumeAdd your latest resume to match with open positions.Upload resume
+Search available jobsChoose from hundreds of jobs (with new ones posted daily).Search jobs
+Ready for your next career move?
+Our vast jobs network offers opportunities for financial professionals from entry level to management and executive.
+Find your next job
+Browse Jobs
+Contract Talent
+Permanent Talent
+Consulting Solutions
+Finance & Accounting
+Technology
+Marketing & Creative
+Legal
+Administrative & Customer Support
+Discover Insights
+Job directory
+Salary Guide
+Time Reports
+Subscribe to Newsletter
+Contact us
+About Robert Half
+Leadership
+Careers With Us
+Locations
+Investor centre
+Press
+Fraud Alert
+Privacy Policy
+Terms of Use
+Modern Slavery Report
+Robert Half Canada Inc. All Rights Reserved.
+Numéro de permis du Québec AP-2000503
+
+By clicking “Accept All ",
+365,new_urls,365,Roomvu,no,https://roomvu.com/careers,https://roomvu.com/careers,https://roomvu.com/careers,roomvu.com,FOUND,https://roomvu.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:06.971109+00:00,https://roomvu.com/careers,https://www.roomvu.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+366,new_urls,366,Saatchi,no,https://saatchi.ca/careers,https://saatchi.ca/careers,https://saatchi.ca/careers,saatchi.ca,FOUND,https://saatchi.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:13.019795+00:00,https://saatchi.ca/careers,https://www.saatchi.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+363,new_urls,363,Rollstack,no,https://rollstack.com/careers,https://rollstack.com/careers,https://rollstack.com/careers,rollstack.com,FOUND,https://rollstack.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:13.458639+00:00,https://rollstack.com/careers,https://www.rollstack.com/careers,200,Careers at Rollstack,ashby,0,0,,external_ats_needs_review,"ashby detected, but no jobs were confidently identified","Product
+Solutions
+Customers
+Pricing
+Resources
+Company
+Log In
+Get a Demo
+CAREERS
+Join us in building the future of reporting & analytics
+See open roles
+What is Rollstack
+
+Today, Rollstack provides a unified platform that helps companies like SoFi, Zillow, and Tripadvisor automate their data-driven presentations and reports so teams can make faster, data-driven decisions.
+
+Our ambition is to build a generational company redefining how organizations communicate data. We’re backed by some of the best investors in the world, including Y Combinator and Insight Partners.
+
+A place to do your best work
+Collaborative
+
+We solve problems together, keep hierarchy flat so information flows freely. The best ideas win, feedback is quick, and everyone contributes to moving the company forward.
+
+Days, not months
+
+We ship fast, learn from real usage, and improve through iteration. Speed is a competitive advantage, and we act with urgency at every stage.
+
+Zero
+
+Zero silos. Zero politics. Zero unnecessary meetings. We default to open channels, written documentation, and direct feedback, so nothing slows us down.
+
+Work from anywhere
+
+Rollstack is fully remote by design. We hire exceptional people wherever they are and give them the autonomy to structure their days for deep, meaningful work. We communicate in the open, and move fast.
+
+Remote does not mean disconnected. We invest in relationships, meet in person when it matters, and build strong bonds across cities and continents.
+
+Work from anywher",
+368,new_urls,368,Salasgames,no,https://salasgames.com/careers,https://salasgames.com/careers,https://salasgames.com/careers,salasgames.com,FOUND,https://salasgames.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:14.071110+00:00,https://salasgames.com/careers,https://salasgames.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+367,new_urls,367,Safran-group,no,https://www.safran-group.com/jobs,https://www.safran-group.com/jobs,https://www.safran-group.com/jobs,safran-group.com,FOUND,https://www.safran-group.com/jobs,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:14.343982+00:00,https://www.safran-group.com/jobs,https://www.safran-group.com/jobs,200,Job openings | Safran,,0,12,https://www.safran-group.com/jobs/united-states/everett/sales-manager-149210 | https://www.safran-group.com/jobs/france/gonfreville-orcher/referent-e-domaine-sap-achats-logistique-fh-146683 | https://www.safran-group.com/jobs/france/velizy-villacoublay/ingenieur-produit-pompes-hydrauliques-fh-159587 | https://www.safran-group.com/jobs/united-states/grand-prairie/electronics-technician-159930 | https://www.safran-group.com/jobs/france/bordeaux/responsable-technico-fonctionnel-windchill-fh-155321,confirmed_career_page_active,Employer-career language plus job records or job links,"We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking ""Accept All"", you consent to our use of cookies.
+
+Customise
+Reject All
+Accept All
+Necessary
+Functional
+Analytics
+Advertisement
+Uncategorised
+Save My Preferences
+Skip to main content
+SAF 343€
++2.94%
+Countries
+Locations
+Companies
+Graphic guidelines
+EN
+Logins
+Open search
+GROUP
+SUSTAINABILITY
+PRODUCTS & SERVICES
+CAREERS
+FINANCE
+NEWS & MEDIA
+Home
+Careers
+Job openings
+
+Beware of fake recruiters and fraudulent job offers! Safran recruiters will never ask you for personal information such as your bank account details, social security number, or banking information. If you have any doubts, please contact us directly through your candidate area.
+
+Job openings
+Search a job opening
+Located in ...
+SEARCH
+Job field
+Experience
+Contract
+Company
+Status
+APPLY FILTERS
+3837
+ result(s)
+Sort by : 
+Sort by
+Relevance 
+Sort by
+Alphabetical
+Sales Manager
+07.29.2026
+Northwest Aerospace Technologies
+Everett, Washington, United States
+Employees - Staff
+Permanent
+Sales & Marketing
+Consultant-e SAP Achats - Logistique F-H
+07.29.2026
+Safran Nacelles
+Gonfreville L'orcher, Normandie, France
+Professional, Engineer & Manager
+Permanent
+IT
+Ingénieur-e senior Produit Pompes Hydrauliques F-H
+07.29.2026
+Safran Landing Systems
+Vélizy-villacoublay, Ile de France, France
+Professional, Engineer & Manager
+Permanent
+Fluid Mechanics
+Electro-Mechanical Avionics Technician Level 2",
+370,new_urls,370,Ciusss-ouestmtl,no,https://ciusss-ouestmtl.gouv.qc.ca/emplois-et-stages/,https://ciusss-ouestmtl.gouv.qc.ca/emplois-et-stages/,https://ciusss-ouestmtl.gouv.qc.ca/emplois-et-stages/,ciusss-ouestmtl.gouv.qc.ca,FOUND,https://ciusss-ouestmtl.gouv.qc.ca/emplois-et-stages/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:20.271555+00:00,https://ciusss-ouestmtl.gouv.qc.ca/emplois-et-stages/,https://www.ciusss-ouestmtl.gouv.qc.ca/carrieres,200,Santé Québec Ouest-de-l’Île-de-Montréal – Universitaire | Carrières,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Passer au contenu
+ 
+Taille d'affichage:
+100%
+Fermer les options d'accessibilité pour l'affichage
+Santé Québec Ouest-de-l’Île-de-Montréal
+Universitaire
+Search
+À propos
+Nous joindre
+URGENCE
+Portail du personnelRecherche, enseignement et innovationFaire un donSignalement à la DPJ
+View in English
+EN
+Menu:
+Soins et services
+Menu:
+Usagers et visiteurs
+Menu:
+Installations
+Menu:
+Carrières
+Options d'accessibilité pour l'affichage
+Information sur l’accessibilité du web
+Carrières
+Santé Québec Ouest-de-l’Île-de-Montréal – UniversitaireCarrières
+Carrières
+Offres d'emploi
+Alerte-Emploi
+Activités de recrutement
+Étudiants en soins infirmiers : CEPI et externes
+Médecins et chefs médicaux
+Formation préposé aux bénéficiaires
+Atlas
+Stages
+FAQ
+
+Faites carrière chez nous
+
+Le territoire de desserte de Santé Québec Ouest-de-l’Île-de-Montréal – Universitaire compte quelques-unes des communautés les plus vibrantes et les plus multiculturelles de la région. Notre clientèle est à la fois francophone, anglophone et allophone. Nos installations sont des milieux de travail dynamiques et enrichissants qui favorisent le contact aux autres cultures et l’apprentissage d’une seconde langue.
+
+Également, Santé Québec Ouest-de-l’Île-de-Montréal – Universitaire offre une panoplie d’avantage sociaux hautement compétitifs, tels que :
+
+4 semaines de vacances après une année de service;
+9.6 jours de maladie par année;
+13 congés fériés par année;
+Un régime d’assurances collectives (médicaments, soins dentaires, autres p",
+371,new_urls,371,Sardine,no,https://sardine.ai/careers,https://sardine.ai/careers,https://sardine.ai/careers,sardine.ai,FOUND,https://sardine.ai/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:21.994264+00:00,https://sardine.ai/careers,https://www.sardine.ai/careers,200,"Careers in Fraud Prevention, AML Compliance, and Risk AI",ashby,0,10,https://jobs.ashbyhq.com/sardine/84b8ff1e-81a2-44e7-9161-9ccd5e5b0cb3 | https://jobs.ashbyhq.com/sardine/92da1cab-a832-4a34-b8fc-18a5b0a675d9 | https://jobs.ashbyhq.com/sardine/9d6e2797-71e3-4244-9cf0-7ccbf0f707da | https://jobs.ashbyhq.com/sardine/301662be-e7ab-4827-936a-13fe02add4aa | https://jobs.ashbyhq.com/sardine/0602a07b-6f97-44c8-84e0-b2b1483852e9,confirmed_external_ats_active,ashby page with job records or job links,"SardineCon SF/2026
+
+Join us in San Francisco · August 19th
+
+Learn More →
+Products
+Agentic AI
+Customers
+Resources
+Log in
+Contact us
+ONBOARDING
+Global KYC
+Global KYB
+Identity Verification
+Document Verification
+Bank Verification
+Credit Underwriting
+FRAUD PREVENTION
+Agentic Fraud Ops
+Device & Behavior
+Payment Fraud
+Bank Transactions
+Card Issuing Fraud
+Merchant Monitoring
+Policy Abuse
+Refund Fraud
+CYBER SECURITY
+Account Takeovers
+Bot Detection
+Job Applicant Fraud
+AML COMPLIANCE
+Agentic AML Ops
+Transaction Monitoring
+Customer Risk Rating
+Sanctions Screening
+Case Management
+Sponsor Banking
+PLATFORM
+Agentic risk platform to fight financial crime
+Device & Behavior
+Workflow Automation
+Rules Engine
+Fraud Dashboard
+Machine Learning
+Connections Graph
+Consortium Data
+Case Management
+Agentic AML Ops
+Agentic Fraud Ops
+THE CURRENT
+Sardine blog
+
+Insights, analysis, and perspectives on fraud, payments, and risk.
+
+Explore
+LATEST ARTICLE
+Agentic AI in Payments Will Change What a Fraud Investigation Looks Like
+EVENTS
+Meet the team
+
+Join Sardine at upcoming events
+
+WHITEPAPERS
+Research worth sharing
+
+Industry insights and deep dives
+
+SARDINE MEDIA
+Fraud Forward Podcast
+
+Hosted by Hailey Windham
+
+The Saturday Fraud Strategist Podcast
+
+Hosted by Chen Zamir
+
+Fraudology
+
+Hosted by Karisse Hendrick
+
+THE AGENTIC FRONTIER
+
+Learn more
+DEVELOPERS
+Engineering
+Documentation
+API Status
+--- title: Careers in Fraud Prevention, AML Compliance, and Risk AI source_page: https://www.sardine.ai/careers canonical: htt",
+372,new_urls,372,Scalepad,no,https://scalepad.com/careers,https://scalepad.com/careers,https://scalepad.com/careers,scalepad.com,FOUND,https://scalepad.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:26.178671+00:00,https://scalepad.com/careers,https://www.scalepad.com/careers,200,Careers | ScalePad,bamboohr,0,6,https://scalepad.bamboohr.com/careers/384 | https://scalepad.bamboohr.com/careers/385 | https://scalepad.bamboohr.com/careers/367 | https://scalepad.bamboohr.com/careers/382 | https://scalepad.bamboohr.com/careers/388,confirmed_external_ats_active,bamboohr page with job records or job links,"Products
+Integrations
+Pricing
+Resources
+Company
+Switch to dark mode
+Log In
+Book a Demo
+
+CAREERS
+
+Build with purpose.
+
+Join the team building practical software for MSPs, client success teams, and the businesses they support.
+
+Open Roles
+9 open roles
+5 teams hiring
+01
+SECTION
+Careers
+02
+SECTION
+Culture
+03
+SECTION
+Perks
+04
+SECTION
+Teams
+Why ScalePad careers video
+
+CAREERS
+
+Why ScalePad?
+
+ScalePad is committed to fostering equal opportunities for growth and prioritizing the well-being of our employees and workplace. We actively invest in our team to cultivate an environment that promotes growth, fulfillment, inclusivity, and camaraderie.
+
+About Us
+ScalePad Glassdoor Ratings
+View More Glassdoor Stats
+4.2
+OVERALL RATING
+4.6
+BENEFITS RATING
+80%
+RECOMMEND TO FRIENDS
+
+DEI
+
+Diversity & Inclusion
+
+At ScalePad, we believe in the power of Diversity, Equity, Inclusion, and Belonging to drive innovation, collaboration, and success. We are committed to fostering a workplace where every individual’s unique experiences and perspectives are valued, and where employees from all backgrounds can thrive.
+
+Join us and be part of a team that celebrates differences, embraces fairness, and ensures that everyone has an equal opportunity to contribute and grow. Together, we’re creating an environment where diverse voices are heard, valued, and amplified.
+
+PERKS
+
+Benefits that support how you work and grow
+
+From flexible work rhythms to practical career support, ScalePad invests in the tools, benefits, a",
+373,new_urls,373,Scileads,no,https://scileads.com/careers,https://scileads.com/careers,https://scileads.com/careers,scileads.com,FOUND,https://scileads.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:26.622986+00:00,https://scileads.com/careers,https://scileads.com/careers/,200,Careers | SciLeads,,0,1,https://scileads.com/news/q-a-with-emily-hunter-customer-success-manager/,confirmed_career_page_active,Employer-career language plus job records or job links,"Solutions
+Our Data
+AI Partner Program
+Pricing
+Events
+Resources
+Company
+Login
+Free Trial
+CAREERS
+Join our team of problem solvers
+
+If you're a fast mover, smart thinker and creative problem solver, let's chat!
+
+See open positions
+
+LIFE AT SCILEADS
+
+Push boundaries and lead in your own way
+
+We know that a positive work environment and work-life balance fuel productivity and job satisfaction. Our culture is an exciting mix of growth, innovation, flexibility, and fun which drives our mission of accelerating the go-to-market strategy of every scientific company. With cutting-edge technology at our core, we're committed to ensuring high-quality data and an outstanding customer experience – all led by our talented and dynamic team.
+
+BENEFITS & PERKS
+
+What you can expect
+Fully Remote
+
+Work from anywhere in the world
+
+Flexible Hours & Holidays
+
+Make your schedule work for you
+
+Home Office Setup Allowance
+
+Create your ideal workspace
+
+Birthday Day Off
+
+Happy birthday from us!
+
+Great Benefits
+
+Including private health insurance
+
+Virtual Office
+
+Plus team lunches and gaming sessions
+
+REMOTE WORKING
+
+How we work
+
+TOM | SENIOR SOFTWARE ENGINEER
+
+Why have two monitors when you can have three!
+
+JAMES | CTO
+
+The spaghetti junction look was intended…
+
+LAURA | CRO
+
+Training in progress
+
+PADDY | SENIOR SOFTWARE ENGINEER
+
+Life is all about balance
+
+NUALA | HEAD OF SALES ENABLEMENT
+
+A Peroni on the balcony… what more could I want?
+
+EMILY | ACCOUNT MANAGER
+
+Hello Friday afternoon!
+
+ANNA | PRODUCT M",
+374,new_urls,374,Screamingpower,no,https://screamingpower.com/careers,https://screamingpower.com/careers,https://screamingpower.com/careers,screamingpower.com,FOUND,https://screamingpower.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:28.019724+00:00,https://screamingpower.com/careers,https://screamingpower.com/careers/,200,Careers | Screaming Power,,0,1,https://screamingpower.com/sales-and-marketing-management-trainee/,confirmed_career_page_active,Employer-career language plus job records or job links,"PRODUCTS AND SERVICES
+CASE STUDIES
+NEWS
+ABOUT US
+CAREERS
+CONTACT US
+Get in Touch
+CAREERS
+Build the future of energy data with us
+
+Screaming Power is a Canadian clean-technology and energy software company specializing in utility data, data access and sharing, energy intelligence and AI-enabled solutions. We're a small, hands-on team where you'll learn fast, take ownership and see your work make a real impact.
+
+Why join Screaming Power
+
+A place to grow across clean tech, software, data and AI.
+
+Real ownership
+
+Small team, big responsibility. You'll own meaningful work from day one, with training and mentorship along the way.
+
+Purpose-driven
+
+Help utilities and energy users understand, share and act on their data — driving conservation, savings and continuous improvement.
+
+Modern tools & AI
+
+Work hands-on with HubSpot, Jira, analytics and leading AI platforms like ChatGPT, Claude and Copilot.
+
+Open positions
+
+Current opportunities to join the team.
+
+Sales and Marketing Management Trainee
+Toronto, ON
+Remote
+Full-time
+Entry level
+View role & apply
+Don't see the right role?
+
+We're always glad to hear from talented people who want to help shape energy data. Introduce yourself and tell us how you'd like to contribute.
+
+Get in touch
+Stay Updated
+
+Get the latest energy management insights delivered to your inbox.
+
+Subscribe to Newsletter
+
+Revolutionizing strategic energy data management with mobile big data cloud platforms connecting energy users, utilities, markets and IoT for effect",
+376,new_urls,376,Secureops,no,https://secureops.com/careers,https://secureops.com/careers,https://secureops.com/careers,secureops.com,FOUND,https://secureops.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:31.351633+00:00,https://secureops.com/careers,https://www.secureops.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+375,new_urls,375,Searidgetech,no,https://searidgetech.com/careers,https://searidgetech.com/careers,https://searidgetech.com/careers,searidgetech.com,FOUND,https://searidgetech.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:31.797256+00:00,https://searidgetech.com/careers,https://searidgetech.com/careers,200,Careers in Aviation Innovation | Searidge,,0,1,https://searidgetech.com/intelligent-stand-manager/,confirmed_career_page_active,Employer-career language plus job records or job links,"DISCOVER
+PRODUCTS
+RESOURCES
+COMPANY
+CAREERS
+CONTACT
+OUR PEOPLE, OUR CULTURE
+Who are Ridgies?
+
+We are a diverse group of hardworking innovators, critical thinkers and problem-solvers.  We thrive in an environment that promotes teamwork and provides us opportunities to challenge ourselves, learn and grow. As a global organization, we have had the privilege of working with clients across the world and our diverse customer base has provided us with global insight and experiences.
+
+Collectively we speak over 20 languages and have travelled to 91 countries; which accounts for almost half of the countries in the world.
+
+Half of us are night-owls, like sweet treats and believe pineapple belongs on pizza.
+
+The other half are early risers, all salty and think pineapple has no business on pizza!
+
+Our differences are what make us great. We are a result-oriented team delivering projects that are helping the aviation industry modernize their operations.
+What we do
+
+Everyone is familiar with the traditional, iconic air traffic control tower found in airports around the world. As the industry moves to “Smart Airports”, technology offers new, enhanced ways of managing traffic in and around the airport.
+
+Using video-based technology and artificial intelligence, we are able to offer our customers operational enhancements, collaboration and automation, to proactively transform the way they offer and deliver services to meet changing demands. With technology at over 50 sites in 25 countries, we a",
+378,new_urls,378,Sezzle,no,https://sezzle.com/careers,https://sezzle.com/careers,https://sezzle.com/careers,sezzle.com,FOUND,https://sezzle.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:35.594328+00:00,https://sezzle.com/careers,https://sezzle.com/en-ca/careers/,200,Careers at Sezzle,greenhouse,0,0,,external_ats_needs_review,"greenhouse detected, but no jobs were confidently identified","Shop
+Get the App
+How to Sezzle
+For Business
+Sign Up
+Log In
+Careers
+Values
+Open Roles
+MEI
+Level Up Your Career at Sezzle
+
+Help shape the future of payment solutions with Innovation and Purpose.
+
+See Open Roles
+Picture of Sezzle employees playing a board game
+Our Promise to Our Employees
+
+Every choice we make has our employees' interest at heart.
+
+
+
+Comprehensive Benefit Plans
+
+Generous Parental & Family Leave
+
+Competitive 401k Match
+
+Paid Time Off & Volunteer Time Off
+
+Ownership Through Equity
+
+100% of Donations to Charity Matched
+
+Remote Friendly Company
+
+Highly Discounted Fitness Membership
+
+Our Mission and Values
+
+We believe accomplishing small steps leads to greater confidence. We believe in honesty and transparency above all else. We believe in doing well by doing good. Our success is measured by having a positive impact on our world.
+
+
+
+
+Exhibit Strong Character
+Demonstrate Excellent Communication
+Have Fun
+Act Like an Owner
+Driven to Succeed
+Merit, Excellence and Intelligence
+
+At Sezzle, we believe in building a workplace that celebrates Merit, Excellence, and Intelligence (MEI). Our commitment to fostering a culture grounded in these values means we’re looking for individuals who are driven to make an impact, grow personally and professionally, and bring their best selves to work every day. We also believe in talent over tenure, valuing skills, passion, and potential above years on the job. Sezzle’s MEI philosophy is about recognizing achievements, striving for excellen",
+377,new_urls,377,Jobs,no,https://jobs.sephora.com/,https://jobs.sephora.com/,https://jobs.sephora.com/,jobs.sephora.com,FOUND,https://jobs.sephora.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:35.659684+00:00,https://jobs.sephora.com/,https://www.inside-sephora.com/en/about-sephora,200,About Sephora,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"Press Alt+1 for screen-reader mode, Alt+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+Choose a market to view content specific to your location
+CANADA
+SELECT ANOTHER MARKET
+CONFIRM
+ABOUT
+LEARN ABOUT
+Sephora
+About
+us
+Heritage
+DNA
+Product
+Selection
+COMMITMENTS
+LEARN ABOUT
+Our
+Commitments
+Commitments
+For
+our planet
+For
+our people
+& communities
+PEOPLE & CULTURE
+LEARN ABOUT
+People &
+Culture
+People &
+Culture
+What we
+Offer
+Our
+stores
+Our
+offices
+STORIES OF SEPHORA
+LEARN ABOUT
+Stories
+of Sephora
+Stories
+of
+Sephora
+Beauty &
+
+Belonging
+SEPHORA IN CANADA
+LEARN ABOUT
+Sephora in Canada
+Sephora
+Canada
+Diversity, Equity & Inclusion
+Sephora
+ASPIRE
+Our
+Teams
+JOIN US
+SHOP SEPHORA
+EN
+
+AUTO TRANSLATE
+
+About
+
+Sephora
+We believe that beauty thrives in diversity and discovery.
+Our purpose is to champion a world of inspiration and inclusion where everyone can celebrate their beauty.
+HERITAGE
+From the very beginning, our founder believed that Sephora could not only disrupt beauty retail but be a positive force in the world. 
+LEARN MORE
+DNA
+Our joy comes from delivering a curated and personalized experience for our customers, giving them the freedom to explore their beauty.
+LEARN MORE
+Across our retail stores, offices, and DCs, it is our people who bring the Sephora magic to life every day. Our shared purpose and values make the biggest difference in our business.
+PRODUCT SELECTION
+At Sephora, our commitment is to offer the most unique and diverse selection ",
+379,new_urls,379,Jobsearch,no,https://jobsearch.sherwin.com/,https://jobsearch.sherwin.com/,https://jobsearch.sherwin.com/,jobsearch.sherwin.com,FOUND,https://jobsearch.sherwin.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:38.728437+00:00,https://jobsearch.sherwin.com/,https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/,200,Sherwin-Williams Careers,oracle,0,0,,external_ats_needs_review,"oracle detected, but no jobs were confidently identified","Skip to main content.
+TERMS OF USE
+PRIVACY POLICY
+EEO, E-VERIFY, RIGHT TO WORK, AND OTHER NOTICES
+ACCESSIBILITY AND REASONABLE ACCOMMODATION
+FORCED LABOR AND HUMAN TRAFFICKING
+
+This website uses cookies and similar technologies to provide you with the best user experience and help us understand how our site is used. We also share information about your use of our website with our social media, advertising, and analytics partners. For more information on our use of cookies and data, please review our Privacy Policy. To manage your cookie preferences or to opt out of targeted advertising, please click 'Manage Cookie Preferences' below. By continuing to use our website, regardless of your cookie preferences, you agree to our Privacy Policy and Terms of Use.
+
+ACCEPT ALL
+REJECT ALL NON-ESSENTIAL COOKIES
+Your Privacy Choices",
+381,new_urls,381,Silicontekinc,no,https://silicontekinc.com/careers,https://silicontekinc.com/careers,https://silicontekinc.com/careers,silicontekinc.com,FOUND,https://silicontekinc.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:43.923054+00:00,https://silicontekinc.com/careers,https://www.silicontekinc.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+380,new_urls,380,Sibitalent,no,https://sibitalent.com/careers,https://sibitalent.com/careers,https://sibitalent.com/careers,sibitalent.com,FOUND,https://sibitalent.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:45.458500+00:00,https://sibitalent.com/careers,http://www.sibitalent.com/careers,200,"Sibitalent Corp is a fast growing renowned IT, Software development, Staffing and Consultancy firm",,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"USA +1-9727766378  info@sibitalent.com
+   
+Home
+About Us 
+Services 
+Resources
+Portfolio
+Career
+Contact Us
+GET IN TOUCH
+
+Are you looking for
+
+Mobile App Development
+
+If you want to get a Mobile App Developed, You are at the right Place. Sibitalenth provides services in
+ ANDROID, iPHONE, iPAD
+ HYBRID APP (IONIC, REACT NATIVE)
+ WEB APP
+
+CONTACT US
+Previous
+Next
+About Us
+Welcome to Sibitalent
+
+Sibitalent Corp is a fast-growing, renowned IT and software development firm based in Plano, TX, with a delivery center in Noida, India. We specialize in delivering tailored and innovative IT solutions to clients worldwide. Our expertise lies in designing and developing customized and optimized mobile and web applications that empower businesses to leverage technology for increased ROI and reduced costs. We focus on creating seamless digital experiences with cutting-edge designs and scalable development solutions, helping organizations build a strong digital presence for the future.
+
+Advance Advisory Team
+24/7 Support Help Center
+Customer Service & Operations
+
+READ MORE
+Our Services
+Explore Our IT Services
+Website Designing
+
+Sibitalent Corp is a reputed website designing company in Delhi NCR that guarantees a solid user experience and the high-quality web designing services to our global clients which eventually converts into sales.
+
+READ MORE
+Website Development
+
+Sibitalent Corp, a leading web development company with the intent to offer our clients most efficient web development solutions",
+382,new_urls,382,Sitime,no,https://www.sitime.com/company/careers,https://www.sitime.com/company/careers,https://www.sitime.com/company/careers,sitime.com,FOUND,https://www.sitime.com/company/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:45.765881+00:00,https://www.sitime.com/company/careers,https://www.sitime.com/company/careers,200,Careers | SiTime,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","0
+Main Menu
+SOLUTIONS
+PRODUCTS
+TOOLS & RESOURCES
+COMPANY
+INVESTORS
+Search
+Shop now
+SITIME CAREERS
+Timing Favors the Bold
+
+People are the heart of SiTime. Our success is built on an inspiring culture where employees are encouraged to lead, take risks, and imagine the future of timing. From developing technology innovations to supporting our customers, the SiTime experience is fast-paced, creative, and bold.
+
+Explore Open Positions
+400
+
+people around the world & growing
+
+55%
+
+of our workforce are engineers
+
+50%
+
+hold advanced degrees
+
+Get to Know SiTime
+
+Interested in joining SiTime? Learn more about our culture, people, and what inspires us
+
+INNOVATORS ON TAP
+Philosophies of Innovation with Rajesh Vashist
+SiTime CEO Rajesh Vashist shares the values that shape our leadership and underpin our culture of creativity and problem-solving.
+Listen Podcast
+FABRICATED KNOWLEDGE
+An Interview with Rajesh Vashist
+An insightful interview with Rajesh Vashist, exploring his experiences and perspectives on leadership and business strategy.
+Listen Interview
+YOUTUBE
+SiTime Corporation YouTube Channel
+Explore SiTime official YouTube channel for videos on precision timing technology, product insights, and industry trends.
+Explore Now
+Meet Your Coworkers
+
+Get to know some of the SiTime family, learn why they joined and thrive at SiTime, and what drives their passion.
+
+Jim Holbrook joined SiTime after working in the semiconductor industry on timing products including quartz-based oscillators. He rec",
+383,new_urls,383,Careers,no,https://careers.skechers.com/,https://careers.skechers.com/,https://careers.skechers.com/,careers.skechers.com,FOUND,https://careers.skechers.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:47.723261+00:00,https://careers.skechers.com/,https://careers.skechers.com/us/en,200,Skechers Careers: Comfort-Driven Opportunities Await You,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+-
+COMFORT
+MEETS CAREER.
+Join a company where comfort drives everything—from our products to the way we support our Retail, Corporate, and Distribution teams around the world.
+YOUR FUTURE STARTS HERE
+This is where your journey begins. Whether you’re stepping into Retail, joining our Corporate team, or powering operations in one of our Distribution Centers, you’ll find support to grow, tools to thrive, and a global team that moves forward—together.
+RETAIL
+Be the face of our brand. In Retail, you’ll connect with customers, bring our products to life, and make people feel good with every step.
+Retail Jobs
+CORPORATE
+Work behind the scenes to move the business forward. From design to finance to marketing, our Corporate teams drive innovation, strategy, and global success.
+Corporate Jobs
+DISTRIBUTION CENTER
+Keep us moving. At our Distribution Centers, you’ll play a vital role in getting our products where they need to go—efficiently, accurately, and globally.
+Distribution Center Jobs
+Opportunities Are Everywhere—Start Exploring.
+No matter where you call home, your skills, ideas, and ambitions have a place here. Explore all roles across Retail, Corporate, and Distribution—and take your next step with a company that's always taking comfort to the next level.
+Explore All Jobs
+skip this widget
+ 
+Careers
+Home
+Search All Jobs
+Join Talent Community
+Support
+Contact Us
+Company
+About Us
+follow us
+Copyright © 2025.
+Skechers Career Bot
+Enabled Chatbot Sounds
+The information",
+384,new_urls,384,Careers,no,https://careers.skyworksinc.com/,https://careers.skyworksinc.com/,https://careers.skyworksinc.com/,careers.skyworksinc.com,FOUND,https://careers.skyworksinc.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:49.163690+00:00,https://careers.skyworksinc.com/,https://careers.skyworksinc.com/,200,Careers at Skyworks,,0,1,https://careers.skyworksinc.com/#cookieManagerModal,confirmed_career_page_active,Employer-career language plus job records or job links,"This website uses cookies and other tracking technologies to enhance user experience and to analyze performance and traffic on our website. Further information is available in our Cookies Policy and our Privacy Policy.
+
+Modify Cookie Preferences
+Accept All Cookies
+Careers at Skyworks
+CAREER HOME
+ABOUT US 
+FEATURED JOBS 
+LOCATIONS
+NOT FINDING A JOB? 
+Language  
+Sign in / Create Account
+SEARCH FOR OPEN POSITIONS AT SKYWORKS
+	
+	
+Search Jobs
+
+
+CAREER AREAS
+
+
+	
+	
+	
+	 
+SEARCH JOBS BY LOCATION
+ Search Jobs by Location
+JOIN OUR TALENT COMMUNITY
+
+Enter your email address and learn more about us. We’ll share information that matches your interests and gives you a taste of life at Skyworks.
+
+Email Address
+
+Sign in / Create Account
+
+
+LEARN MORE ABOUT OUR DYNAMIC WORK ENVIRONMENT
+
+
+	
+	
+	
+Skyworks is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristic protected by law.
+CAREERS HOME
+SKYWORKSINC.COM
+TOP JOB SEARCHES
+VIEW ALL JOBS
+PRIVACY POLICY
+COOKIE CONSENT MANAGER
+
+Copyright 2026 Skyworks Solutions, Inc.",
+385,new_urls,385,Slice,no,https://slice.com/careers,https://slice.com/careers,https://slice.com/careers,slice.com,FOUND,https://slice.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:53.319854+00:00,https://slice.com/careers,https://slice.careers/,200,Slice Careers — Open for Talent,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.
+
+ACCEPT
+DECLINE
+
+SLICE NAMED TO INC. MAGAZINE’S BEST WORKPLACES
+
+SKIP TO CONTENT
+Careers Home
+Culture
+Benefits
+Our Story
+VIEW OPPORTUNITIES
+THE WORLD’S BEST IDEAS THRIVE HERE
+
+Looking to bring world-class products to small business counters? Welcome to Slice.
+
+Best Places
+to Work
+Best
+Workplaces
+World’s Most Innovative Companies
+Technology Fast 
+500 Awards
+MAKE A
+DIFFERENCE.
+
+Many companies talk about being mission-driven. We live it. Ilir Sela started Slice in 2016 to bring the modern tools that have grown major chains to local pizzerias. Today, you’d be joining a global team empowering over 20,000 shops and the families behind them.
+
+There aren’t many jobs out there where the customers consider you family.
+
+“LIKE HAVING AN EXTRA TEAM OF EMPLOYEES THAT DOESN’T MAKE MISTAKES.”
+
+Jeff Bracalenti, Co-Owner, Manbroso’s To Go
+
+“PIZZA ISN’T JUST THEIR SPECIALTY — IT’S THEIR ENTIRE BUSINESS.”
+
+Anthony Beninati, Owner, Nino’s Pizza
+
+“SLICE GIVES ME FULL CONTROL, 24/7 SUPPORT, AND THE TOOLS TO THRIVE.”
+
+Matt Brick, Owner, Brick’s Pizza
+
+WIN
+TOGETHER.
+
+From our cosmopolitan offices to home workspaces, you’ll find coworkers who embrace collective goals, welcome diverse viewpoints, and rally around each other. We see each big, juicy challenge as an opportunity to innovate, learn, and grow. And every win as a cause to celebrate (with pizza,",
+387,new_urls,387,Socomec,no,https://socomec.com/careers,https://socomec.com/careers,https://socomec.com/careers,socomec.com,FOUND,https://socomec.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:56.301555+00:00,https://socomec.com/careers,https://www.socomec.com/,200,Select your country to access to your regional website,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"Select your country to access to your regional website
+Europe, Middle East & Africa
+
+Belgium
+
+French
+Dutch
+
+France
+
+French
+
+Germany
+
+German
+
+Italy
+
+Italian
+
+Netherlands
+
+Dutch
+
+Poland
+
+Polish
+
+Portugal
+
+Portuguese
+
+Romania
+
+Romanian
+
+Russia
+
+Russian
+
+Slovenia
+
+Slovenian
+
+Spain
+
+Spanish
+
+Sweden
+
+Swedish
+
+Switzerland
+
+German
+French
+Italian
+
+Turkey
+
+Turkish
+
+United Kingdom
+
+English (GB)
+
+Others countries in this area
+
+English
+French
+Asia & Pacific
+
+China
+
+Chinese
+
+India
+
+English (IN)
+
+Others countries in this area
+
+English
+America
+
+USA
+
+English (US)
+Privacy and cookies policy
+Home
+
+Copyright © 2023. All rights reserved",
+388,new_urls,388,Socreative,no,https://socreative.ca/careers,https://socreative.ca/careers,https://socreative.ca/careers,socreative.ca,FOUND,https://socreative.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:03:57.023747+00:00,https://socreative.ca/careers,https://socreative.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+390,new_urls,390,Solidifi,no,https://solidifi.com/careers,https://solidifi.com/careers,https://solidifi.com/careers,solidifi.com,FOUND,https://solidifi.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:01.412416+00:00,https://solidifi.com/careers,https://www.solidifi.com/careers/,200,Careers | Solidifi,adp,0,0,,external_ats_needs_review,"adp detected, but no jobs were confidently identified","Press Alt+1 for screen-reader mode, Alt+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+Why Solidifi?
+For Lenders
+For Appraisers & Notaries
+ Our Services
+Valuation Services
+Title & Settlement Services
+ Our Network
+Appraiser Network
+Notary Network
+Regional Insights
+Appraiser Growth & Development
+Supervisor/Trainee Spotlights
+Extraordinary Videos
+ About Us
+Who We Are
+Leadership Team
+Our Offices
+Careers
+ News & Events
+All News
+Solidifi Consumer Mortgage Experience Survey
+Solidifi Extraordinary Magazine
+Solidifi in the Community
+Sign In 
+
+CAREERS AT SOLIDIFI
+
+We’re a high-growth company that operates at a fast pace
+Make an incredibly smart decision and join our team
+
+Our success is driven by working with the very best in client services, technology, account management and finance. Whether you’re entry level or a seasoned professional we want to meet you.
+
+See our job openings
+
+Join one of the nation’s largest providers of residential real estate appraisals and a leading independent provider of title and settlement services.
+
+Medical, Dental and Vision Care
+
+Monthly Core Value Rewards
+
+Team Challenges
+
+Who we are
+
+Solidifi is one of the nation’s largest providers of residential real estate appraisals, and a leading independent provider of title and settlement services.
+
+Learn more about Solidifi
+Why Solidifi?
+For Lenders
+For Appraisers & Notaries
+Our Services
+Valuation Services
+Title & Settlement Services
+Our Network
+Appraiser Network
+Nota",
+391,new_urls,391,Solink,no,https://solink.com/careers,https://solink.com/careers,https://solink.com/careers,solink.com,FOUND,https://solink.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:02.772306+00:00,https://solink.com/careers,https://solink.com/careers/,200,Careers at Solink | Join the Leader in Agentic Vision Intelligence,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Products
+OPEN PRODUCTS
+Solutions
+OPEN SOLUTIONS
+Resources
+OPEN RESOURCES
+Success Stories
+Partners
+OPEN PARTNERS
+Contact
+Book a demo
+Login
+Working at Solink
+Our team is the foundation of Solink, and we seek out the best talent to make it strong. See what our growing company, situated in the heart of Ottawa’s tech community, has to offer.
+View open positions
+We’re not just building tech.
+We’re safeguarding what matters most.
+Solink’s Agentic Vision Intelligence Platform empowers teams to identify what matters, understand what’s happening, and take action faster. That’s why leading brands trust Solink to improve security, optimize operations, and protect their bottom line.
+
+Solinkians join our team for the mission, stay for the momentum, and grow because they’re inspired to. And with 360+ Solinkians across North America, we’re scaling fast — and we’re just getting started.
+Why build your career with Solink
+Protect what matters with AI‑Driven Video Intelligence.
+
+110-390 March Rd., Ottawa, Ontario, Canada. K2K 0G7
+
++1-844-635-7305
+Product
+Cloud VMS
+Solink AI
+Data
+Video Alarms
+Solutions
+Loss Prevention
+Asset Protection
+Physical Security
+IT
+Operations
+Industries
+Retail
+Restaurants
+Financial
+Property Management
+Automotive
+Cannabis
+Liquor
+C-Store/Gas Station
+Warehouse
+Hospitality
+View all industries
+Resources
+Blog
+Success Stories
+Industry Insights
+Webinars
+FAQs
+Podcasts
+Resource Hub
+Glossary
+Partners
+Playbooks
+Pricing
+Company
+About Us
+Customer Council
+News
+Careers
+Contact Us
+Support
+",
+393,new_urls,393,Soterahealth,no,https://soterahealth.com/careers,https://soterahealth.com/careers,https://soterahealth.com/careers,soterahealth.com,FOUND,https://soterahealth.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:07.024805+00:00,https://soterahealth.com/careers,https://soterahealth.com/careers/,200,Careers | Sotera Health,workday,0,0,,external_ats_needs_review,"workday detected, but no jobs were confidently identified","We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies. Read our Cookie Policy
+
+Customize
+Reject All
+Accept All
+Sotera Health
+Nelson Labs
+Nordion
+Sterigenics
+About Us
+Investors
+Media Center
+Academy
+Responsibility
+Careers
+Contact
+Come Make a Difference with Us
+
+Sotera Health is driven by its mission, Safeguarding Global Health®. Along with our three best-in-class businesses – Sterigenics®, Nordion® and Nelson Labs® – we are a leading global provider of mission-critical end-to-end sterilization solutions and lab testing and advisory services for the healthcare industry.
+
+SEARCH OPEN POSITIONS
+
+If you are motivated by our mission, explore career opportunities at our businesses:
+
+SEARCH OPEN POSITIONS
+Our Work Has Real Purpose
+Let's Make a Difference Together
+
+Our work is meaningful and critical. We focus and share one common goal: Safeguarding Global Health® to keep millions of people across the world safe. We take pride in high quality and customer care. We are proud of the work we do to help people every day.
+
+As experts in sterilization and lab testing services, we help ensure that our medical device and pharmaceutical customers meet stringent safety standards and fulfill the regulatory requirements for the global healthcare industry.
+
+We’re driven, we’re responsive and we’re dedicated. We work together to build a positive workplace cultu",
+395,new_urls,395,Nation,no,https://www.nation.on.ca/about/careers,https://www.nation.on.ca/about/careers,https://www.nation.on.ca/about/careers,nation.on.ca,FOUND,https://www.nation.on.ca/about/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:10.038688+00:00,https://www.nation.on.ca/about/careers,https://www.nation.on.ca/about/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+394,new_urls,394,Soundmarket,no,https://soundmarket.io/careers,https://soundmarket.io/careers,https://soundmarket.io/careers,soundmarket.io,FOUND,https://soundmarket.io/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:10.162360+00:00,https://soundmarket.io/careers,https://soundmarket.io/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+392,new_urls,392,Sophos,no,https://www.sophos.com/en-us/company/careers,https://www.sophos.com/en-us/company/careers,https://www.sophos.com/en-us/company/careers,sophos.com,FOUND,https://www.sophos.com/en-us/company/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:12.726459+00:00,https://www.sophos.com/en-us/company/careers,https://www.sophos.com/en-us/company/careers,200,Sophos Jobs: Join the Sophos Team | Sophos Careers,lever,0,1,https://www.sophos.com/en-us/support/technical-account-manager,confirmed_external_ats_active,lever page with job records or job links,"Skip to Content
+Experiencing a cyberattack? Get help now
+Sign in
+Open search
+Open language switcher
+Products
+Services
+Solutions
+Why Sophos
+Partners
+Resources
+Support
+Get started
+
+Company
+
+Overview
+Press
+Threat News
+Events
+Careers
+Contact
+News
+Join the Sophos team
+At Sophos, we’re on a mission to defend organizations from inevitable cyberattacks with innovative, adaptive defenses and unmatched expertise. Our vision is a world where organizations of any size and means have a clear path to superior cybersecurity outcomes.
+
+We’re looking for people who want to grow, make an impact, and do meaningful work in an environment built on trust, collaboration, and purpose. Sound like you? Let’s explore what it’s like to build your career at Sophos.
+Explore our job listings
+Social Impact
+#SophosLife
+New Grad and Student Programs
+Sophos Locations
+Our Mission
+We protect people from cybercrime by developing powerful and intuitive products and services that provide the world’s most effective cybersecurity for organizations of any size.
+Our core values: The heart of how we work
+
+Our values shape everything, from the way we build products to the way we support one another. They’re not just words; they guide our decisions, our teamwork, and our success.
+
+Simplicity: We aim to make cybersecurity intuitive and efficient through smart design, automation, and re-engineering.
+Empowerment: We trust our people to take ownership, act with integrity, and challenge the status quo.
+Passion: We care deeply ",
+396,new_urls,396,Parks,no,https://parks.canada.ca/agence-agency/emplois-jobs,https://parks.canada.ca/agence-agency/emplois-jobs,https://parks.canada.ca/agence-agency/emplois-jobs,parks.canada.ca,FOUND,https://parks.canada.ca/agence-agency/emplois-jobs,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:14.593072+00:00,https://parks.canada.ca/agence-agency/emplois-jobs,https://parks.canada.ca/agence-agency/emplois-jobs,200,Jobs at Parks Canada,,0,3,https://parkscanada.hiringplatform.ca/processes/abf2996a-ade0-42a4-87e2-8212d8ffdabc?locale=en | https://parkscanada.hiringplatform.ca/processes/123740-skills-trades-inventory?locale=en | https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs/applying-government-canada-jobs-what-expect.html,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to main content
+Skip to ""About government""
+Switch to basic HTML version
+Language selection
+Français
+Government of Canada / Gouvernement du Canada
+Search
+Search website
+Search
+You are here:
+Canada.ca  Parks Canada  Parks Canada Agency
+Jobs at Parks Canada
+
+Parks Canada careers: where passion meets purpose
+
+Join our team for a rewarding and flexible career, and experience Canada like never before.
+
+
+
+Protect
+
+our natural and cultural heritage
+
+
+
+Celebrate
+
+the strength of our diverse cultures
+
+
+
+Enjoy
+
+work-life balance, pension, and benefits
+
+
+
+Serve
+
+Canadians and visitors from around the world
+
+
+
+Explore
+
+limitless career and growth opportunities
+
+Search current job postings
+
+Search all jobs across Canada
+
+Search jobs by location
+
+Alberta
+British Columbia
+Manitoba
+National Capital Region (Ottawa-Gatineau)
+New Brunswick
+Newfoundland and Labrador
+Northwest Territories
+Nova Scotia
+Nunavut
+Ontario
+Prince Edward Island
+Quebec
+Saskatchewan
+Yukon
+Featured job postings
+
+These are just a few of our active job postings.
+
+ Summer jobs
+
+Summer, student, and youth jobs in a variety of fields across Canada.
+
+Apply today on the summer jobs portal
+Skilled trades positions
+
+Apprentice and trades jobs in plumbing, carpentry, electricity, mechanics, painting, driving, welding, and more.
+
+Apply now on the trades job portal
+Types of jobs
+
+Parks Canada team members work in jobs that protect, present, and support from coast, to coast, to coast. The lists below offer just a glimpse of the wide",
+398,new_urls,398,Spinmastercareers,no,https://www.spinmastercareers.com/,https://www.spinmastercareers.com/,https://www.spinmastercareers.com/,spinmastercareers.com,FOUND,https://www.spinmastercareers.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:17.538557+00:00,https://www.spinmastercareers.com/,https://www.spinmastercareers.com/global/be,200,Explore Your Future at Spin Master,,0,1,https://www.spinmastercareers.com/global/be/job/R4958/Credit-Collections-Analyst,possible_job_listing_needs_review,Job-like links detected without clear career-page language,"We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page. If you continue to use this site, you consent to our use of cookies.	Cookie Settings  Allow
+Skip to main content
+Who We Are Locations Interview ProcessStudents Search Jobs News
+ Saved Jobs (0)
+-
+Reimagining Everyday Play
+Search job title or location
+	Search
+Full Time Positions
+Student Positions
+Search by Position
+Search by Location
+ 
+See all Departments
+Explore Your Future
+Explore Jobs
+Explore Jobs
+Explore Jobs
+Explore Jobs
+Explore Jobs
+Explore Jobs
+Explore Jobs
+Explore Jobs
+ 
+Explore Jobs
+ 
+Explore Jobs
+ 
+Explore Jobs
+ 
+Explore Jobs
+New Job: Be the First to Apply
+Credit & Collections Analyst
+
+Location
+ Toronto, Ontario, Canada
+Job ID
+R4958
+
+Reporting to the Senior Manager, Credit Collections, the Credit Collections Analyst will be responsible for assessing customer credit risk, timely collecting outstanding debts owed to the Company, as...
+
+Hi! Are you looking for a job?
+Close chatbot notification
+Find a job
+Ask a question",
+397,new_urls,397,Spellbook,no,https://spellbook.legal/careers,https://spellbook.legal/careers,https://spellbook.legal/careers,spellbook.legal,FOUND,https://spellbook.legal/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:17.652083+00:00,https://spellbook.legal/careers,https://spellbook.com/careers,200,Spellbook Careers - We're Hiring,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Product
+Solutions
+Resources
+Customers
+Security
+Login
+Book a Demo
+Careers
+An olympic-level team building the infrastructure that powers agreements worldwide
+Explore Open Roles
+“There’s a great Canadian tech success story being written here in real time and I’m thrilled to be a part of it!”
+Walt Nathaniel
+Account Executive
+We have a beginner's mind
+
+We stay open-minded and rethink things from first principles. We question assumptions and approach problems with curiosity, not ego.
+
+We play to win
+
+Winning matters. We focus on outcomes, not optics. We do what works — and we move on.
+
+We create energy
+
+We work hard and lift each other up. We bring positivity, momentum, and generosity to the team.
+
+We find the magic
+
+We strive to be great, not good. We iterate until every part of our customer journey feels like magic.
+
+We move with urgency
+
+Speed is a feature. We prioritize ruthlessly and ask, “Can we do this today?”
+
+We're customer-obsessed
+
+We talk to customers, learn how they speak and think, and build for their reality — not our assumptions.
+
+Open Roles
+Join the Spellbook team
+Perks & Benefits
+Flexibility & Ownership
+
+Embrace autonomy and accountability in a flexible, distributed work environment. We focus on outcomes and trust you to determine how to get there.
+
+Health & Well-Being
+
+Company-paid group benefits for you and your family, plus $1,000 per year for mental health support (varies by location).
+
+Time to Recharge
+
+Disconnect during our holiday closure and take advantage",
+402,new_urls,402,Stantec,no,https://stantec.jobs/,https://stantec.jobs/,https://stantec.jobs/,stantec.jobs,FOUND,https://stantec.jobs/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:25.677048+00:00,https://stantec.jobs/,https://stantec.jobs/,200,Stantec Jobs | Stantec,,0,14,https://stantec.jobs/campaigns/flexible-working-locations/jobs/ | https://stantec.jobs/jobs/?q=africa | https://stantec.jobs/locations/aus/jobs/ | https://stantec.jobs/locations/can/jobs/ | https://stantec.jobs/jobs/?q=%22united+kingdom%22+OR+%22netherlands%22+OR+%22italy%22+OR+%22belgium%22+or+%22turkey%22+NOT+%22united+states%22,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip To Main Content
+Careers Home
+english
+Location
+Keyword
+SEARCH
+Flexible Working Locations
+Browse by Location
+People. Purpose. Possibilities.
+
+There’s room for you to join our community of designers, advisors, and creators. From healthier hospitals to smarter schools or from safer roadways to more resilient waterways, improving communities around the world is our passion. Is it yours too? From large-scale developments to challenging neighborhood projects, you can stretch across our global network to learn from others, offer support, and gain new experiences along the way.
+
+How our hiring works
+
+Click on the numbers to learn more.
+
+1
+Find your next opportunity
+2
+Meet with us
+3
+Offer
+4
+Pre-employment screenings
+5
+Onboarding
+
+Stantec provides equal employment opportunities to all qualified employees and applicants for future and current employment and prohibit discrimination on the grounds of race, color, religion, sex, national origin, age, marital status, genetic information, disability, protected veteran status, sexual orientation, gender identity or gender expression. We prohibit discrimination in decisions concerning recruitment, hiring, referral, promotion, compensation, fringe benefits, job training, terminations or any other condition of employment. Stantec is in compliance with local, state and federal laws and regulations and ensures equitable opportunities in all aspects of employment.
+
+Need Technical Support/Assistance or need an accommodation to complete the appli",
+403,new_urls,403,Staric,no,https://staric.ca/careers,https://staric.ca/careers,https://staric.ca/careers,staric.ca,FOUND,https://staric.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:26.515334+00:00,https://staric.ca/careers,https://www.staric.ca/careers,200,Careers | StarIC,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Home
+Products
+Company
+Careers
+News
+Contact
+JOIN US
+Careers for Intelligence.
+Join the team engineering electro-photonic silicon for AI, HPC, data centers, and Physical AI, from Toronto and Utrecht.
+Open positions
+Apply · hr@staric.ca
+Meet the team
+CULTURE
+Hard analog and photonics problems at the intersection of electronics and light.
+StarIC focuses on analog/mixed-signal and electro-photonic design: challenging projects, deep collaboration across domains, and two global design centers. Competitive packages, hybrid flexibility, and room to grow.
+SerDes & Photonics Design
+
+SerDes, photonic interfaces, and custom AMS from architecture through lab bring-up.
+
+Learning Culture
+
+Small senior team: you own blocks end to end and learn from engineers who have shipped silicon.
+
+Global Impact
+
+Our silicon solutions reach clients worldwide across demanding AI, HPC, and photonics applications.
+
+Deep Collaboration
+
+Work alongside analog, digital, photonics, layout and system design teams in a tightly integrated environment.
+
+Industry Engagement
+
+Regular technical exchange with customers and partners on active programs.
+
+OPEN POSITIONS
+Build the silicon that powers what's next.
+SerDes / Analog Mixed-Signal IC Design Engineer
+Toronto and Utrecht (Hybrid)
+Senior Digital Design Engineer
+Toronto and Utrecht (Hybrid)
+Principal Silicon Photonics Design Engineer
+Toronto and Utrecht (Hybrid)
+Senior Physical Design / Layout Engineer
+Toronto and Utrecht (Hybrid)
+Interested in joining StarIC?
+
+Send yo",
+405,new_urls,405,Stridesocial,no,https://stridesocial.com/careers,https://stridesocial.com/careers,https://stridesocial.com/careers,stridesocial.com,FOUND,https://stridesocial.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:28.379840+00:00,https://stridesocial.com/careers,https://stridesocial.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+404,new_urls,404,Stormideas,no,https://stormideas.com/careers,https://stormideas.com/careers,https://stormideas.com/careers,stormideas.com,FOUND,https://stormideas.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:28.531583+00:00,https://stormideas.com/careers,https://stormideas.com/careers,200,Careers | Storm Ideas,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Open navigation
+Home
+Services
+Products
+Careers
+Contact
+CAREERS
+
+We are a team of passionate creatives, developers and designers who create groundbreaking work for companies all around the world 🚀
+
+Commercial
+AI Operations
+Account Management
+Creative Operations
+Social Media
+Business Development
+Content Production
+
+Storm Ideas Limited, Anderson House, 2nd Floor Breadalbane Street
+
+Edinburgh United Kingdom EH6 5JR
+
++44 (0) 131 460 8282 • hello@StormIdeas.com
+
+Privacy • Terms • © Storm Ideas Ltd 2008-2026",
+407,new_urls,407,Stumpmarketing,no,https://stumpmarketing.com/careers,https://stumpmarketing.com/careers,https://stumpmarketing.com/careers,stumpmarketing.com,FOUND,https://stumpmarketing.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:33.129178+00:00,https://stumpmarketing.com/careers,https://www.stumpmarketing.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+406,new_urls,406,Stripe,no,https://stripe.com/jobs,https://stripe.com/jobs,https://stripe.com/jobs,stripe.com,FOUND,https://stripe.com/jobs,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:33.682956+00:00,https://stripe.com/jobs,https://stripe.com/en-ca/jobs,200,Stripe: Jobs,,0,15,https://stripe.com/en-ca/jobs/life-at-stripe | https://stripe.com/en-ca/jobs/benefits | https://stripe.com/en-ca/jobs/university | https://stripe.com/jobs/search | https://stripe.com/en-ca/jobs/life-at-stripe,confirmed_career_page_active,Employer-career language plus job records or job links,"JOBS
+Our opportunity
+Life at Stripe
+Benefits
+University
+See open roles 
+Our customers are building the future
+
+Stripe builds financial infrastructure that ambitious companies use to launch their boldest products. Our customers range from hours-old startups to complex global businesses. Collectively, they are growing the GDP of the internet. You can help.
+
+See open roles 
+Hear from our leadership
+Watch video 
+Impact
+Who do you want to serve in your career?
+
+Our customers operate in almost every industry and country. They feed communities, provide healthcare, and help people get around. They run shops, gyms, churches, and they build tools for helping others run them too. They’re selling from their front rooms, and managing global enterprises. And they rely on the infrastructure we build.
+
+Businesses on Stripe generated $1.4 trillion in total payment volume in 2024, up 38% from the previous year, and reaching a scale equivalent to around 1.3% of global GDP.
+
+What matters to us is what we enable for others
+
+We focus on the details of everything we do, so businesses around the world can focus on what’s most important to them. So Ford can focus on building a global digital dealership, rather than processing payments. So Le Monde can expand its digital offering globally, not reinvent subscription billing. So truckers can focus on getting supply chains moving, not invoicing paper trails. We take pride in freeing up others to work in the spotlight.
+
+See open roles 
+14 min read
+The Col",
+408,new_urls,408,Stymiest,no,https://stymiest.ca/careers,https://stymiest.ca/careers,https://stymiest.ca/careers,stymiest.ca,FOUND,https://stymiest.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:38.779574+00:00,https://stymiest.ca/careers,https://www.stymiest.ca/careers,200,Careers | Stymiest,bamboohr,0,5,https://stymiest.bamboohr.com/careers/29?source=linkedin_premium | https://stymiest.bamboohr.com/careers/27?source=linkedin_premium | https://stymiest.bamboohr.com/careers/28?source=linkedin_premium | https://stymiest.bamboohr.com/careers/25?source=linkedin_premium | https://stymiest.bamboohr.com/careers/26?source=linkedin_premium,confirmed_external_ats_active,bamboohr page with job records or job links,"Skip to Main Content
+
+Home
+
+Services
+
+Our Team
+
+Contact Us
+EN
+Current Job Openings
+Senior Process Transformation Consultant
+
+Hybrid
+
+Montréal, Quebec
+
+Process Transformation Team
+
+Full time
+
+Associate Business Analyst (Part-Time)
+
+Hybrid
+
+Montréal, Quebec
+
+Process Transformation Team
+
+Full time
+
+Process Transformation Consultant
+
+Hybrid
+
+Montréal, Quebec
+
+Process Transformation Team
+
+Full time
+
+Associate Software Developer
+
+Hybrid
+
+Montréal, Quebec
+
+Solution Design Team
+
+Full-Time
+
+Software Developer
+
+Hybrid
+
+Montréal, Quebec
+
+Solution Design Team
+
+Full time
+
+Ready to optimize
+your processes?
+Start Today
+Building better processes.
+Stymiest & Associates
+755 Saint-Jean Boulevard (302)
+Pointe-Claire, Québec, H9R 5M9
+Contact Us
+English
+Home
+Our Team
+Contact Us
+Legal
+Privacy Policy
+Cookie Policy
+Services
+Process Improvement
+Process Documentation
+Process Training
+Process Analytics
+Process Transformation
+We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies.Privacy Policy
+Settings
+Accept",
+410,new_urls,410,Careers,no,https://careers.superside.com/,https://careers.superside.com/,https://careers.superside.com/,careers.superside.com,FOUND,https://careers.superside.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:42.141203+00:00,https://careers.superside.com/,https://careers.superside.com/,200,Superside Careers,,0,3,https://careers.superside.com/jobs/creative-strategist-performance-marketing | https://careers.superside.com/jobs/freelance-performance-marketing-creative-strategist | https://careers.superside.com/jobs/video-content-creator,confirmed_career_page_active,Employer-career language plus job records or job links,"Accelerate your Career
+Life at Superside
+AI for Creativity
+Building your portfolio
+See job openings
+See job openings
+DESIGNED FOR GROWTH
+Your best work is yet to come
+
+Do career-defining work for the world’s most ambitious brands in an environment built on ownership, speed, and high standards.
+
+
+
+
+
+
+
+
+
+
+
+
+JOIN SUPERSIDE
+Ready to do your best work yet? Explore open roles and find where you can make your mark.
+Explore all jobs
+Explore all jobs
+2024 REMOTE EXCELLENCE AWARDS
+Excellence in DEI Award
+
+This Award celebrates companies with a proven record in breaking down barriers to build a more cohesive and diverse workforce, welcoming and valuing team members with different nationalities, genders, races, ages, religions, sexual orientations, and abilities.
+
+2024 REMOTE EXCELLENCE AWARDS
+Trailblazer Award
+
+The Trailblazer Award highlights the company that leads by example in managing a large-scale remote workforce (250+) with exceptional levels of strategy, innovation, and commitment.
+
+GROWTH THROUGH HIGH STANDARDS
+Accelerate your career
+We don’t believe growth should wait for tenure. At Superside, advancement follows impact, not time served.
+
+You’ll get feedback, visibility, and opportunities to stretch. But progress comes from what you do with them: delivering great work, building trust, improving fast, and looking for ways to step up.
+
+Career at Superside
+Career at Superside
+BUILT FOR WHAT’S NEXT
+AI is part of the craft
+At Superside, AI is part of how we work. We use it to move ",
+409,new_urls,409,Super,no,https://www.super.com/careers,https://www.super.com/careers,https://www.super.com/careers,super.com,FOUND,https://www.super.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:42.245935+00:00,https://www.super.com/careers,https://www.super.com/careers,200,Careers - We're hiring! | Super.com,ashby,0,0,,external_ats_needs_review,"ashby detected, but no jobs were confidently identified","Skip to content
+Try Super Plus
+Super Plus
+Travel
+Credit Building
+Super+ RX
+Customer Stories
+Promotions
+Newsroom
+About Us
+Careers
+Guides Home » Careers
+Ready to start
+your Super career?
+
+Join our fast-growing fintech with smart colleagues, best-in-class benefits, and a flexible working environment.
+
+Explore open roles
+
+Beware of fraudulent job offers! Find out more.
+
+FULLY REMOTE, FOREVER
+Flexibility fuels our best work
+
+We believe people do their best when they can work where and how they want.
+
+Anywhere in the world
+
+Most of our employees are in North America, but we're global.
+
+Wherever you want
+
+WFH or a local coffee shop. Enjoy IRL? We have pods in SF, NYC, and Toronto
+
+Life/work harmony
+
+From school pick-ups to morning yoga classes, you own your schedule.
+
+OUR MISSION
+We create opportunities for everyone to put more money in their pocket
+
+Our all-in-one app helps people save big on hotels, get cash, boost their credit and lots more.
+
+Our people
+
+We are high-energy, hard working, and driven by data and experimentation to build impactful products for our customers. We care deeply about learning from and inspiring each other daily.
+
+Our work
+
+We are united in our passion for growth and impact. We have a high-performing culture that invites everyone to innovate on interesting projects that make a difference.
+
+Our programs
+
+We celebrate and support learning which is why we dedicate funding for professional development, gratitude, recognition, and coaching.
+
+Our impact has jus",
+412,new_urls,412,Sycle,no,https://sycle.com/careers,https://sycle.com/careers,https://sycle.com/careers,sycle.com,FOUND,https://sycle.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:45.818484+00:00,https://sycle.com/careers,https://sycle.com/careers,200,Page Not Found - Sycle,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","SKIP TO MAIN CONTENT
+ENABLE ACCESSIBILITY FOR LOW VISION
+OPEN THE ACCESSIBILITY MENU
+
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies.
+
+REJECT ALL
+ACCEPT ALL
+Skip to content
+Practice Management
+Patient Experience
+Patient Care
+Office Management
+Insurance and Payments
+Finance and Reporting
+Marketing and Retention
+AI
+Digital Clinic
+Features
+Industry & Resources
+Partners
+Who We Are
+What We Do
+Why Sycle
+Our Culture
+Our Leadership
+Our Values
+Careers
+Support
+Support and Training
+Noah
+Login
+CONTACT US
+REQUEST A DEMO
+Blogs, Webinars, & News
+I WOULD LIKE TO EXPLORE
+SEARCH RESOURCES
+Search
+See how Sycle can transform your practice
+REQUEST A DEMO
+EXPLORE PRICING & FEATURES
+REQUEST A DEMO
+Facebook-f
+ 
+Instagram
+ 
+Linkedin-in
+ 
+ 
+Youtube
+
+INDUSTRY & RESOURCES
+
+News & Blogs
+
+WHO WE ARE
+
+Contact Us
+Login
+
+ISO-certified
+barrcertifications.com/iso
+
+© 2026 All Rights Reserved
+
+Terms of Use | Privacy Policy | Cookie Policy (EU)",
+413,new_urls,413,Symbiotic,no,https://symbiotic.tv/careers,https://symbiotic.tv/careers,https://symbiotic.tv/careers,symbiotic.tv,FOUND,https://symbiotic.tv/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:47.031023+00:00,https://symbiotic.tv/careers,https://symbiotic.tv/careers,200,Symbiotic® — Design in Motion,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"Projects
+
+About
+
+Contact
+
+Creative - Design Experts!
+
+agencies to deliver design in motion.
+
+More about us
+
+Hey you!
+
+Although we are not currently hiring for specific positions, we are always on the lookout for exceptional creative talent. Whether you’re more technically minded or come from a graphic, conceptual background, we want to hear from you.
+
+
+
+Backstage
+
+All Articles
+
+Awards
+
+6 min read
+
+Sustainable Fashion
+
+D_How creator nike connects with their fans
+
+7 min read
+
+Print & Publishing
+
+D_A journey through time
+
+6 min read
+
+Sitemap
+
+Projects
+
+About
+
+Follow
+
+Instagram
+
+LinkedIn
+
+Behance
+
+© SYMBIOTIC 2024
+
+Back to top",
+414,new_urls,414,Synergie,no,https://synergie.ca/careers,https://synergie.ca/careers,https://synergie.ca/careers,synergie.ca,FOUND,https://synergie.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:48.892200+00:00,https://synergie.ca/careers,https://www.synergie.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+411,new_urls,411,Swoonstaffing,no,https://swoonstaffing.com/careers,https://swoonstaffing.com/careers,https://swoonstaffing.com/careers,swoonstaffing.com,FOUND,https://swoonstaffing.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:51.012717+00:00,https://swoonstaffing.com/careers,https://www.swoonstaffing.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+415,new_urls,415,Careers,no,https://careers.synopsys.com/,https://careers.synopsys.com/,https://careers.synopsys.com/,careers.synopsys.com,FOUND,https://careers.synopsys.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:51.788032+00:00,https://careers.synopsys.com/,https://careers.synopsys.com/,200,Working at Synopsys,,0,4,https://careers.synopsys.com/job/markham/project-program-management-staff-18232/44408/98438753584 | https://careers.synopsys.com/job/canonsburg/senior-technical-support-engineer/44408/96362337024 | https://careers.synopsys.com/job/north-carolina/data-science-sr-staff/44408/98423136640 | https://careers.synopsys.com/job/austin/sr-staff-application-engineer-fpga-prototyping-17205/44408/94869654016,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to main content
+
+Join our Talent Community! Click here.
+
+Stay safe and know the signs of recruitment fraud.
+
+Career Areas
+Locations
+(Opens in new window)
+Early Careers
+Life at Synopsys
+(Opens in new window)
+Benefits
+(Opens in new window)
+Search Jobs
+0
+Saved Jobs
+Engineer the Future
+with Us
+
+We currently have 407 open roles
+
+Find Jobs For
+
+Where?
+
+Search Jobs
+
+Join us at the center of
+what’s next
+Be part of an inclusive team that's igniting the ingenuity of tomorrow
+100+
+
+Workplace Awards Won
+
+30
+
+Countries Represented
+
+7
+
+Employee-Led Communities
+
+20K+
+
+Out-of-the-box Thinkers
+
+Play Video
+Find Your Career
+CULTURE
+A community you can
+be a part of
+
+Learn about life at Synopsys from those who live it.
+
+Life at Synopsys
+Find out more 
+Interns and Early Careers
+Find out more 
+Be Excellent Here
+Find out more 
+Benefits
+Find out more 
+OUR PEOPLE
+Why Synopsys works for our team
+around the globe
+Previous
+Next
+Go to slide 1
+Go to slide 2
+CAREER AREAS
+Your best work starts here
+Information Technology
+9 open roles
+Engineering
+335 open roles
+Marketing
+3 open roles
+Finance
+7 open roles
+Operations
+4 open roles
+Product Management
+14 open roles
+Internships
+3 open roles
+More +
+LOCATIONS
+Innovate wherever you are
+Explore job opportunities around the world
+Previous
+Canada
+31 open roles
+Portugal
+6 open roles
+USA
+119 open roles
+Armenia
+7 open roles
+India
+120 open roles
+Taiwan
+25 open roles
+Vietnam
+22 open roles
+Canada
+31 open roles
+Portugal
+6 open roles
+USA
+119 open roles
+Armenia
+7 open roles
+",
+416,new_urls,416,Systemsaccountants,no,https://systemsaccountants.com/careers,https://systemsaccountants.com/careers,https://systemsaccountants.com/careers,systemsaccountants.com,FOUND,https://systemsaccountants.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:53.530350+00:00,https://systemsaccountants.com/careers,https://www.systemsaccountants.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+419,new_urls,419,Tailscale,no,https://tailscale.com/careers,https://tailscale.com/careers,https://tailscale.com/careers,tailscale.com,FOUND,https://tailscale.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:04:59.680019+00:00,https://tailscale.com/careers,https://tailscale.com/careers,200,Careers at Tailscale · Tailscale,greenhouse,0,45,https://job-boards.greenhouse.io/tailscale/jobs/4707649005 | https://job-boards.greenhouse.io/tailscale/jobs/4707636005 | https://job-boards.greenhouse.io/tailscale/jobs/4710822005 | https://job-boards.greenhouse.io/tailscale/jobs/4710794005 | https://job-boards.greenhouse.io/tailscale/jobs/4707448005,confirmed_external_ats_active,greenhouse page with job records or job links,"Your Privacy Choices
+
+Welcome! We’re glad you’re here and want you to know that we respect your privacy and your right to control how we collect, use, and share your personal data. Please read our Privacy Policy to learn about our privacy practices.
+
+Reject All
+Customize Settings
+Confirm
+JOIN US IN SAN FRANCISCO FOR TAILSCALEUP!
+GRAB YOUR TICKET ->
+BLOG
+DOCS
+DOWNLOAD
+CONTACT SALES
+Platform
+
+MEET TAILSCALE
+
+How Tailscale Works
+WireGuard® for Enterprises
+Features
+Integrations
+Docs
+Download
+Compare Tailscale
+
+PRODUCTS
+
+Business VPN
+PAM
+CI/CD Connectivity
+Secure Access to AI
+Workload Connectivity
+Edge & IoT
+Homelab
+
+APERTURE BY TAILSCALE
+
+Unified AI governance for AI agents and users.
+
+JOIN US AT TAILSCALEUP
+
+Tailscale’s conference for engineering, security, and IT leaders.
+
+Learn more
+Solutions
+
+SOLUTIONS
+
+Cloud Connectivity
+Infrastructure Access
+Zero Trust Networking
+Remote Access
+Kubernetes Networking
+Secure SaaS
+Secure AI Agent Connectivity
+Customers
+
+CUSTOMER STORIES
+
+Instacart
+Cribl
+Mercury
+All Customer Stories
+Community
+
+JOIN THE COMMUNITY
+
+About Community
+Tailscale Insiders
+Community Projects
+Bring Tailscale to Work
+
+EVENTS
+
+Events
+Webinars
+TailscaleUp
+
+LEARN MORE
+
+Docs
+Blog
+Changelog
+Press
+
+JOIN US AT TAILSCALEUP
+
+Tailscale’s conference for engineering, security, and IT leaders.
+
+Learn more
+Partnerships
+
+PARTNER OPPORTUNITIES
+
+Become a Partner
+Our Partners
+Integrations
+Contact Partnerships Team
+Pricing
+Login
+Get started - it’s free!
+Careers at Tailscale
+
+Join the team ch",
+421,new_urls,421,Jobs,no,https://jobs.ebayinc.com/,https://jobs.ebayinc.com/,https://jobs.ebayinc.com/,jobs.ebayinc.com,FOUND,https://jobs.ebayinc.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:07.415674+00:00,https://jobs.ebayinc.com/,https://jobs.ebayinc.com/us/en,200,eBay Jobs: Careers at eBay,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+-
+We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page. If you continue to use this site, you consent to our use of cookies.	 Deny  Allow
+Careers
+Search job title or location
+	
+WE’RE FLEXIBLE
+How We Work
+Flexibility is deeply rooted in our values and culture. We offer hybrid, remote, and onsite workstyles to our employees.
+Learn about workstyle options   
+WHERE WE ARE
+Jobs by Location
+You’ll find eBay offices in major cities worldwide. Our diverse workforce fuels our passion for innovation and collaboration.
+Discover jobs around the world   ​​​​​​​
+OUR TEAMS
+Jobs by Category
+From Engineering to Customer Service, we have opportunities in more than a dozen categories to match your experience, interests, and ambitions.
+Find the right fit for you   ​​​​​​​
+IT’S IN OUR DNA
+Our Culture
+We exist to connect people and build communities to create economic opportunity for all. Our culture is how we bring that purpose to life.
+Discover our beliefs   ​​​​​​​
+KICKSTART YOUR CAREER
+Emerging Talent
+Check out our exciting global career opportunities for students and recent graduates.
+Get started now   ​​​​​​​
+TAKING CARE OF YOU
+Our Benefits
+eBay is committed to your physical, mental, and financial well-being. Learn about all the benefits available in your country.
+Get the details   ​​​​​​​
+Workplace Awards & Recognition
+eBay ",
+424,new_urls,424,Techdoquest,no,https://techdoquest.com/careers,https://techdoquest.com/careers,https://techdoquest.com/careers,techdoquest.com,FOUND,https://techdoquest.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:09.188875+00:00,https://techdoquest.com/careers,https://www.techdoquest.com/careers,200,Careers | TechDoQuest,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to Main Content
+
+Home
+
+About Us
+
+Services
+
+GCC Solution
+
+Industries
+
+Careers
+
+More
+
+Work with purpose. Grow with clarity.
+We’re not building a flashy workplace. We’re building a place where good people solve real problems, build systems that scale, and take ownership without the noise of layers and theatrics.
+​What We Look For 
+
+We don’t hire for brand names. We hire for clarity, follow-through, and care.
+
+​
+
+People who thrive here know how to navigate ambiguity, make smart decisions without waiting for approval, and care about how their work lands. We don’t micromanage. But we do expect you to own the outcome.
+
+Life at TechDoQuest
+
+We operate without the noise. No unnecessary layers, no theatrics, no filler work.
+
+​
+
+People here focus on building, not posturing. Communication is clear. Meetings are purposeful. What matters is whether the work moves forward, not how loudly it’s presented.
+
+​
+
+You’ll have the space to think, the clarity to act, and the trust to follow through. That’s what makes the work satisfying.
+
+​​Growth Without the Barriers
+
+Progress here isn’t about visibility, networking, or saying the right things. It’s about doing the work well and helping others do the same.
+
+​
+
+We give people the room to grow by owning hard problems, shipping real solutions, and learning through peer feedback and hands-on delivery. There are no forced ladders or checkbox promotions. Growth comes from doing what matters and doing it well.
+
+​
+
+If that sounds like your kind of env",
+425,new_urls,425,Techtree,no,https://techtree.ca/careers,https://techtree.ca/careers,https://techtree.ca/careers,techtree.ca,FOUND,https://techtree.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:13.140580+00:00,https://techtree.ca/careers,https://techtree.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+426,new_urls,426,Tekleaders,no,https://tekleaders.com/careers,https://tekleaders.com/careers,https://tekleaders.com/careers,tekleaders.com,FOUND,https://tekleaders.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:15.322662+00:00,https://tekleaders.com/careers,https://tekleaders.com/careers/,200,Careers at Tek Leaders | Explore IT Services Opportunities,,0,12,https://tekleaders.com/?post_type=awsm_job_openings&p=993975 | https://tekleaders.com/jobs/murex-post-trade-pre-trade-specialist/ | https://tekleaders.com/jobs/murex-post-trade-pre-trade-specialist/ | https://tekleaders.com/jobs/murex-c2-specialist-collateral-management-credit-risk/ | https://tekleaders.com/jobs/murex-c2-specialist-collateral-management-credit-risk/,confirmed_career_page_active,Employer-career language plus job records or job links,"We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies.
+
+Customize
+Reject All
+Accept All
+Who We Are
+What We Do
+AI 360°
+QA 360°
+Tekosystem
+Contact Us
+CAREERS
+Careers
+Schedule a Free Consultation
+Start your journey
+
+Grow your career as we grow. Join the team that's changing IT services
+
+All Job Category
+All Job Category
+Software Development
+Recruitment
+All Job Category
+▾
+All Job Type
+All Job Type
+Full Time
+Part Time
+Contract
+All Job Type
+▾
+All Job Location
+All Job Location
+Hyderabad
+Plano
+All Job Location
+▾
+Senior SQL Developer (SSRS, SSIS, ETL)
+Software DevelopmentHyderabadMore Details 
+Murex Post-Trade & Pre-Trade Specialist
+Software DevelopmentHyderabadMore Details 
+Lead AI Engineer / Practice Lead – Generative & Agentic AI Product Development
+Software DevelopmentHyderabadMore Details 
+Murex C2 Specialist (Collateral Management & Credit Risk)
+Software DevelopmentHyderabadMore Details 
+Murex BA
+Software DevelopmentHyderabadMore Details 
+AI Engineer / AI Executive (Entry-Level)
+Software DevelopmentHyderabadMore Details 
+Senior Java Full-Stack Developer
+Software DevelopmentHyderabadMore Details 
+Cybersecurity Practice Lead
+Software DevelopmentHyderabadMore Details 
+Senior Agentic AI Developer / Practice Lead
+Software DevelopmentHyderabadMore Details 
+Sr. ServiceNow Architect 
+Software DevelopmentHyderabadMore Details 
+Load more
+PEOPLE FIRST",
+428,new_urls,428,Tekrek,no,https://tekrek.io/careers,https://tekrek.io/careers,https://tekrek.io/careers,tekrek.io,FOUND,https://tekrek.io/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:15.367245+00:00,https://tekrek.io/careers,https://tekrek.io/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+429,new_urls,429,Teladochealth,no,https://teladochealth.ca/careers,https://teladochealth.ca/careers,https://teladochealth.ca/careers,teladochealth.ca,FOUND,https://teladochealth.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:19.439075+00:00,https://teladochealth.ca/careers,https://www.teladochealth.ca/careers,200,Careers | Teladoc Health Canada,,0,15,https://www.teladochealth.ca/careers/cc | https://www.teladochealth.ca/careers/fa | https://www.teladochealth.ca/careers/iss | https://www.teladochealth.ca/careers/product-ux-designer2 | https://www.teladochealth.ca/careers/sr-fe-dev,confirmed_career_page_active,Employer-career language plus job records or job links,"Individuals
+Organizations
+Clinicians
+
+CA - English
+
+CA - English
+CA - French
+Login
+(opens in a new window)
+Sign Up
+(opens in a new window)
+Build the future of healthcare with us
+
+Explore exciting career opportunities at Teladoc Health Canada. Whether you're a healthcare professional looking to make a difference or seeking a role in our corporate division, we offer a diverse range of rewarding positions to suit your skills and passions!
+
+Jobs
+
+Join a team working together to create some of the most innovative healthcare experiences in the world.
+
+All types
+Contract
+Hybrid
+Part-time
+Remote
+All role types
+Clinician – Nurse Practitioner
+Clinician – Occupational Therapist
+Clinician – Physician
+Clinician – Registered Psychotherapist
+Clinician – Social Worker
+All locations
+Alberta
+British Columbia
+Manitoba
+Saskatchewan
+Ontario
+Quebec
+Nova Scotia
+Canada
+Reset filters
+16
+All-Canada Roles
+8
+3
+1
+1
+1
+1
+Case Coordinator
+Posted 22 days ago
+Canada,
+Ontario,
+View Jobs
+Data Engineer
+Posted yesterday
+Ontario,
+Canada,
+View Jobs
+Financial Analyst
+Posted 22 days ago
+Ontario
+View Jobs
+Information Security Specialist
+Posted 22 days ago
+Canada,
+Ontario,
+View Jobs
+Legal Counsel
+Posted 22 days ago
+Canada,
+British Columbia,
+Ontario,
+New Brunswick,
+Newfoundland and Labrador,
+Nova Scotia,
+Prince Edward Island,
+View Jobs
+Product (UX) Designer - 4 Months Contract
+Posted 22 days ago
+Ontario,
+Canada,
+View Jobs
+Psychiatre bilingue virtuel (Québec) – Programme de Navigation en santé mentale
+Posted 4 days ago
+C",
+427,new_urls,427,Tekfortune,no,https://tekfortune.com/careers,https://tekfortune.com/careers,https://tekfortune.com/careers,tekfortune.com,FOUND,https://tekfortune.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:19.902207+00:00,https://tekfortune.com/careers,https://www.tekfortune.com/careers/,200,Careers | Tekfortune,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","732 508 4470
+info@tekfortune.com
+Home
+Meet Tekfortune
+Our Services
+Our Solutions
+Industries
+Careers
+Contact Us
+Careers
+
+Disclaimer – Please note that Tekfortune does not practice charging a placement fees from the job seekers. Word of caution to the fraudulent news and information, if anyone asks any charges from you in the name of consulting fees. Please do not respond, and contact us immediately at disclosures@tekfortune.com
+
+JOBS IN NORTH AMERICA
+
+We work to introduce you to the top companies and secure interviews for you. We have many opportunities across the North America for our several clients. Keep checking for more opportunities as the listings are updated daily.
+
+JOBS IN ASIA PACIFIC
+
+Great work begins with a great place to work. We are always looking for energetic and talented professionals who can execute the roles of Account Manager, Technical Recruiter, Medical Billing Associates, Document Specialist, Analyst, Engineers and many more.
+
+JOBS IN NORTH AMERICA
+JOBS IN ASIA PACIFIC
+
+If the role you are looking for is not listed here, please write to us on careers@tekfortune.com
+
+Company
+Meet Tekfortune
+Contact Us
+Careers
+Tekfortune India
+Talent & Staffing Services
+Temporary Staffing Solution Provider USA
+Temporary to Hire
+Direct Hire
+HR & Payroll Services
+Managed Services
+Digital Transformation
+Cyber Security & GRC
+Program & Project Management
+Enterprise Support Services
+Infrastructure
+Oracle ERP • SAP • Cloud Solutions
+Devops
+Industries
+Banking & Financial Services",
+430,new_urls,430,Telesat,no,https://telesat.com/careers,https://telesat.com/careers,https://telesat.com/careers,telesat.com,FOUND,https://telesat.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:22.683826+00:00,https://telesat.com/careers,https://www.telesat.com/careers/,200,Careers | Telesat,,0,5,https://www.telesat.com/careers/jobs/ | https://www.telesat.com/careers/jobs/ | https://www.telesat.com/careers/jobs/ | https://www.telesat.com/careers/jobs/ | https://www.telesat.com/careers/jobs/,confirmed_career_page_active,Employer-career language plus job records or job links,"We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies. Privacy Policy
+
+Customize
+Reject All
+Accept All
+Skip to content
+Careers
+Contact
+Investors
+Press
+English
+Search
+Company
+Connectivity Solutions
+Our Network
+Tools & Resources
+Careers
+Investor News
+Financial Filings
+Events
+Contact IR
+WARNING: Beware of unsolicited and fraudulent job offers
+Telesat was selected as a National Capital Region’s Top Employer for 2026!
+
+We’re hiring brilliant, inspired people to help us bring transformational connectivity to every point on Earth.
+
+Find Jobs
+Our Purpose
+
+At Telesat, we deliver critical satellite connectivity solutions that tackle today’s most complex communications challenges.
+
+Why Telesat?
+
+We bring innovative solutions to market that expand the reach of transformational technologies and connect the unconnected.
+
+How we do it
+What we do
+Our Core Values
+
+We’re… CUSTOMER CENTRIC.
+
+We work openly, responsively and collaboratively with our customers to shape their offerings, expand addressable markets and facilitate growth.
+
+We’re… ESTABLISHED.
+
+We didn’t just arrive on the scene. We’re a “54-year-old start-up” that’s been leading and disrupting communications for decades, from our world-class GEO satellite fleet to our revolutionary, soon-to-be-launched Telesat Lightspeed™ network.
+
+We’re… ENGINEERING DRIVEN.
+
+Our legacy of industry-leading engin",
+389,new_urls,389,Career,no,https://career.softserveinc.com/,https://career.softserveinc.com/,https://career.softserveinc.com/,career.softserveinc.com,FOUND,https://career.softserveinc.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:28.507389+00:00,https://career.softserveinc.com/,https://career.softserveinc.com/,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 403
+418,new_urls,418,Tagsoftwaregroup,no,https://tagsoftwaregroup.com/careers,https://tagsoftwaregroup.com/careers,https://tagsoftwaregroup.com/careers,tagsoftwaregroup.com,FOUND,https://tagsoftwaregroup.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:38.538908+00:00,https://tagsoftwaregroup.com/careers,https://tagsoftwaregroup.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 403
+420,new_urls,420,Talentinnovation,no,https://talentinnovation.ca/careers,https://talentinnovation.ca/careers,https://talentinnovation.ca/careers,talentinnovation.ca,FOUND,https://talentinnovation.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:40.975464+00:00,https://talentinnovation.ca/careers,https://www.talentinnovation.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,SessionError: Assuming the session is blocked based on HTTP status code 401
+359,new_urls,359,Rideautransitmaintenance,no,https://rideautransitmaintenance.ca/careers,https://rideautransitmaintenance.ca/careers,https://rideautransitmaintenance.ca/careers,rideautransitmaintenance.ca,FOUND,https://rideautransitmaintenance.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:46.281492+00:00,https://rideautransitmaintenance.ca/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rideautransitmaintenance.ca/careers
+Call log:
+  - navigating to ""https://rideautransitmaintenance.ca/careers"", waiting until ""load""
+"
+364,new_urls,364,Careers,no,https://careers.rona.ca/,https://careers.rona.ca/,https://careers.rona.ca/,careers.rona.ca,FOUND,https://careers.rona.ca/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:48.286256+00:00,https://careers.rona.ca/,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.rona.ca/
+Call log:
+  - navigating to ""https://careers.rona.ca/"", waiting until ""load""
+"
+369,new_urls,369,Salsa,no,https://salsa.app/careers,https://salsa.app/careers,https://salsa.app/careers,salsa.app,FOUND,https://salsa.app/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:50.583118+00:00,https://salsa.app/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://salsa.app/careers
+Call log:
+  - navigating to ""https://salsa.app/careers"", waiting until ""load""
+"
+386,new_urls,386,Smecareers,no,https://smecareers.com/careers,https://smecareers.com/careers,https://smecareers.com/careers,smecareers.com,FOUND,https://smecareers.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:52.887273+00:00,https://smecareers.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://smecareers.com/careers
+Call log:
+  - navigating to ""https://smecareers.com/careers"", waiting until ""load""
+"
+399,new_urls,399,Spindlestairs,no,https://spindlestairs.com/careers,https://spindlestairs.com/careers,https://spindlestairs.com/careers,spindlestairs.com,FOUND,https://spindlestairs.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:54.273616+00:00,https://spindlestairs.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://spindlestairs.com/careers
+Call log:
+  - navigating to ""https://spindlestairs.com/careers"", waiting until ""load""
+"
+400,new_urls,400,Sqwad,no,https://sqwad.com/careers,https://sqwad.com/careers,https://sqwad.com/careers,sqwad.com,FOUND,https://sqwad.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:56.601811+00:00,https://sqwad.com/careers,https://sqwad.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+401,new_urls,401,Stackadapt,no,https://www.stackadapt.com/careers,https://www.stackadapt.com/careers,https://www.stackadapt.com/careers,stackadapt.com,FOUND,https://www.stackadapt.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:05:58.292271+00:00,https://www.stackadapt.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.stackadapt.com/careers
+Call log:
+  - navigating to ""https://www.stackadapt.com/careers"", waiting until ""load""
+"
+417,new_urls,417,Twrightcorp,no,https://twrightcorp.com/careers,https://twrightcorp.com/careers,https://twrightcorp.com/careers,twrightcorp.com,FOUND,https://twrightcorp.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:00.292658+00:00,https://twrightcorp.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://twrightcorp.com/careers
+Call log:
+  - navigating to ""https://twrightcorp.com/careers"", waiting until ""load""
+"
+422,new_urls,422,Teacuptech,no,https://teacuptech.com/careers,https://teacuptech.com/careers,https://teacuptech.com/careers,teacuptech.com,FOUND,https://teacuptech.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:02.308641+00:00,https://teacuptech.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://teacuptech.com/careers
+Call log:
+  - navigating to ""https://teacuptech.com/careers"", waiting until ""load""
+"
+423,new_urls,423,Techtalentinternational,no,https://techtalentinternational.com/careers,https://techtalentinternational.com/careers,https://techtalentinternational.com/careers,techtalentinternational.com,FOUND,https://techtalentinternational.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:04.289745+00:00,https://techtalentinternational.com/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://techtalentinternational.com/careers
+Call log:
+  - navigating to ""https://techtalentinternational.com/careers"", waiting until ""load""
+"

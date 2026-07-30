@@ -1,0 +1,2115 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+432,new_urls,432,Tenstorrent,no,https://tenstorrent.com/careers/,https://tenstorrent.com/careers/,https://tenstorrent.com/careers/,tenstorrent.com,FOUND,https://tenstorrent.com/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:15.599647+00:00,https://tenstorrent.com/careers/,https://tenstorrent.com/careers,200,Careers | Tenstorrent,greenhouse,0,5,https://job-boards.greenhouse.io/tenstorrent/jobs/5160368007 | https://job-boards.greenhouse.io/tenstorrent/jobs/5062499007 | https://job-boards.greenhouse.io/tenstorrent/jobs/5175862007 | https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007 | https://job-boards.greenhouse.io/tenstorrent/jobs/4722600007,confirmed_external_ats_active,greenhouse page with job records or job links,"Skip to main content
+Products
+Software
+Solutions
+Support
+Company
+Careers
+Developers
+EN
+JA
+KO
+ZH
+Some tracking technologies are important for the correct functioning of our websites and are always on. By clicking ""Allow All"" you are also directing us to use optional tracking technologies. Privacy Notice.
+Customize
+Allow All
+Only Necessary
+Build With Us
+
+We’re looking for first principle thinkers who believe in an open future. We build RISC-V CPUs, Tensor AI processors, and open-source software to unlock the next innovations in AI. Build now, for tomorrow.
+
+Interested in joining one of our teams?
+
+Hardware
+
+Architecture, SoC, RISC-V, Physical Engineering, Silicon, AI Hardware
+
+Software
+
+Scale Out, Metal, Low Level Kernel, AI Compiler, Product Software Engineering, Infrastructure, RISC-V, Cloud
+
+Systems
+
+FW, SoC Validation, Hardware, Hi-Speed IO, Infra/Tools, Mechanical, PCB/Power, Platform, Silicon + Systems, Si Val/Qual, Systems Software
+
+Experience
+
+Go-to-market, Comms, Growth, Product, Customer Experience, Customer Success, Developer Relations, Sites, Creative
+
+Operations
+
+Business Ops, Finance, HR, IT, Legal, Quality and Functional Safety, Supply Chain, Program Management, Administrative Support
+
+University
+
+Internships, New Grad Roles
+
+All Departments
+All Offices
+Physical Engineering
+Mixed Signal Design
+
+Analog Design Engineer
+
+North America
+
+Apply
+Physical Engineering
+Mixed Signal Design
+
+Physical Design Engineer: Die-to-Die Interface (RTL to GDSII)
+
+United States
+
+Apply
+",
+433,new_urls,433,Tesla,no,https://www.tesla.com/careers,https://www.tesla.com/careers,https://www.tesla.com/careers,tesla.com,FOUND,https://www.tesla.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:16.396104+00:00,https://www.tesla.com/careers,https://www.tesla.com/careers,200,,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,,
+434,new_urls,434,Testgorilla,no,https://www.testgorilla.com/careers/,https://www.testgorilla.com/careers/,https://www.testgorilla.com/careers/,testgorilla.com,FOUND,https://www.testgorilla.com/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:21.297594+00:00,https://www.testgorilla.com/careers/,https://www.testgorilla.com/careers/,200,Careers - TestGorilla,ashby,0,2,https://jobs.ashbyhq.com/testgorilla/8e76c770-bade-4526-9e0d-25f5b3c4d866 | https://jobs.ashbyhq.com/testgorilla/007f6b53-027e-477d-beb5-630715ed7470,confirmed_external_ats_active,ashby page with job records or job links,"This website uses cookies
+We use cookies to offer you a great experience, remember your preferences, analyze site traffic, and serve targeted advertisements. By continuing to use this website, you consent to the use of cookies in accordance with our Cookie Policy
+Show details
+Accept
+Help
+Log in
+Products
+Pricing
+Resources
+Job seekers
+Try for free
+Get a free demo
+JOIN US, FROM ANYWHERE
+
+At TestGorilla, we’re building a global team of amazing people who want to change the way companies hire. If you’re curious, ambitious, and ready to grow your career with us, we’d love to meet you!
+
+See jobs
+120 TEAM MEMBERS ACROSS 46 COUNTRIES
+
+We are proud of our “work from almost anywhere” policy that enables us to find the best talent no matter where they live. Click on a country below to explore our staff directory.
+
+OUR TEAM MEMBERS
+
+BECOME A PART OF SOMETHING BIG
+Make work that matters
+
+At TestGorilla, your skills and talent will help thousands of people find their dream jobs every day. You'll also help change the way companies hire in a new (and more equal) era for top talent worldwide.
+
+Find freedom (and an awesome team!)
+Be there at the beginning
+OUR TESTGORILLA BEHAVIORS
+
+At TestGorilla, we stand for diversity, act with integrity, and put talent first. We celebrate individuality and creativity. We have a vision of 1 billion people in dream jobs, and a mission to democratize opportunities for everyone.
+
+We come as we are, connected by our mission and vision, and united by shared behavi",
+435,new_urls,435,Careers,no,https://careers.textron.com/,https://careers.textron.com/,https://careers.textron.com/,careers.textron.com,FOUND,https://careers.textron.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:21.689850+00:00,https://careers.textron.com/,https://careers.textron.com/,200,Careers Home - Textron,taleo,0,9,https://careers.textron.com/jobs/ | https://careers.textron.com/jobs/ | https://careers.textron.com/business-unit/bell-textron-inc/jobs/ | https://careers.textron.com/business-unit/bell-textron-inc/jobs/ | https://careers.textron.com/business-unit/kautex/jobs/,confirmed_external_ats_active,taleo page with job records or job links,"Skip To Main Content
+CAREERS
+LIFE AT TEXTRON
+INTERNS & ENTRY LEVEL
+MILITARY VETERANS
+ELEVATE YOUR CAREER
+BLOG
+EVENTS
+Pause Video
+IT STARTS
+WITH YOU
+
+At Textron, we push the boundaries of innovation, from cutting-edge golf cars to next-gen helicopters. Powered by a culture that embraces wild ideas, we turn creativity into reality.
+
+Keyword
+Location
+SEARCH
+JOBS MAP
+ALREADY HAVE AN ACCOUNT?
+WHY TEXTRON?
+
+As a global Fortune 500 company, Textron offers unparalleled opportunities to explore several dynamic industries. Fuel your career by exploring your passions. You'll learn from leaders in your field and hone your leadership skills, all while taking advantage of comprehensive benefits and flexible work schedules that cater to your lifestyle.
+
+So why join Textron? It’s more than just a workplace. It’s an experience like no other, with people, places, and possibilities. Together, we’ve forged a culture of innovation that has shaped a century of success. It's time for you to make your mark.
+
+BEGIN YOUR SEARCH
+
+OUR BUSINESSES
+
+Textron is one of the world’s best known multi-industry companies, recognized for our powerful brands. Get to know our industry-leading global network of businesses.
+
+Bell
+Kautex
+Textron Aviation
+Textron Corporate
+Textron Specialized Vehicles
+Textron Systems
+BELL
+
+We are more than aviation experts, we’re pioneers. We challenge what’s possible. From breaking the sound barrier to developing the tiltrotor, we’ve reimagined the experience of flight for more than 85",
+436,new_urls,436,Theaceacademy,no,https://theaceacademy.ca/careers,https://theaceacademy.ca/careers,https://theaceacademy.ca/careers,theaceacademy.ca,FOUND,https://theaceacademy.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:22.156735+00:00,https://theaceacademy.ca/careers,https://www.theaceacademy.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+438,new_urls,438,Thesalesfactory,no,https://thesalesfactory.com/careers,https://thesalesfactory.com/careers,https://thesalesfactory.com/careers,thesalesfactory.com,FOUND,https://thesalesfactory.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:24.104137+00:00,https://thesalesfactory.com/careers,https://thesalesfactory.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+439,new_urls,439,Salvationarmy,no,https://salvationarmy.ca/careers/,https://salvationarmy.ca/careers/,https://salvationarmy.ca/careers/,salvationarmy.ca,FOUND,https://salvationarmy.ca/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:26.807061+00:00,https://salvationarmy.ca/careers/,https://salvationarmy.ca/careers/,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+437,new_urls,437,Themobileshop,no,https://www.themobileshop.ca/careers/,https://www.themobileshop.ca/careers/,https://www.themobileshop.ca/careers/,themobileshop.ca,FOUND,https://www.themobileshop.ca/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:30.210540+00:00,https://www.themobileshop.ca/careers/,https://www.themobileshop.ca/en/careers/,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+441,new_urls,441,Thirdfactor,no,https://thirdfactor.com/careers,https://thirdfactor.com/careers,https://thirdfactor.com/careers,thirdfactor.com,FOUND,https://thirdfactor.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:31.300395+00:00,https://thirdfactor.com/careers,https://www.thirdfactor.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+440,new_urls,440,Themesoft,no,https://themesoft.com/careers,https://themesoft.com/careers,https://themesoft.com/careers,themesoft.com,FOUND,https://themesoft.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:31.749951+00:00,https://themesoft.com/careers,https://www.themesoft.com/careers/,200,"Careers – Themesoft- Digital Business Transformation & Consulting – Themesoft | AI, Cloud & Digital Transformation — Dallas, TX",,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Expertise
+Workforce Solutions
+Industries
+Company
+Careers
+Careers at Themesoft
+Build the Future. Grow Without Limits.
+Join 1,000+ consultants shaping digital transformation across AI, cloud, and cybersecurity — from Dallas to 5 countries worldwide.
+View Open Positions
+Explore our culture
+21+
+
+Years in business
+
+1000+
+
+Global consultants
+
+98%
+
+Client satisfaction
+
+5
+
+Countries worldwide
+
+9+
+
+Industry verticals
+
+WHY THEMESOFT
+More than a job. A career with purpose.
+
+We're a women and minority-owned company that believes great work comes from great people — supported, valued, and empowered to grow every day.
+
+🚀
+Work on what matters
+
+Deliver real digital transformation for enterprises across banking, healthcare, manufacturing and more — work that creates measurable impact at scale.
+
+🌍
+Global reach, local roots
+
+Headquartered in Coppell, TX with offices across the US, Canada, India, Sri Lanka, and Brazil — collaborate globally while staying grounded locally.
+
+📈
+Grow with the company
+
+We invest in your success through training, certifications, and a performance-driven culture where your growth is taken seriously at every level.
+
+🤝
+Inclusive by design
+
+As a certified women and minority-owned enterprise, diversity isn't a checkbox — it's who we are and how we build smarter, stronger teams every day.
+
+💡
+Work on cutting-edge tech
+
+AI, cloud platforms, cybersecurity, and quality engineering — at Themesoft, you're always working on the technologies that are shaping tomorrow.
+
+🛡️
+Trusted b",
+443,new_urls,443,Thoughtexchange,no,https://thoughtexchange.com/careers/,https://thoughtexchange.com/careers/,https://thoughtexchange.com/careers/,thoughtexchange.com,FOUND,https://thoughtexchange.com/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:37.309638+00:00,https://thoughtexchange.com/careers/,https://thoughtexchange.com/careers/,200,Careers & Culture | ThoughtExchange,lever,0,0,,external_ats_needs_review,"lever detected, but no jobs were confidently identified","Join a Survey
+Login
+How it Works
+Case Studies
+Great For
+Resources
+Plans
+Start Proof of Concept
+Where Innovation Meets Purpose
+Join an innovative, forward-thinking team at ThoughtExchange, where the impactful work we do for our customers leaves a lasting legacy in communities across North America.
+Come work with us!
+Who we aspire to be
+
+At ThoughtExchange, our commitment is clear: you can come as you are, your voice genuinely matters, and we focus on building trust with you from day one. We're passionate about creating a workforce that truly represents the communities our product serves. We’re a workplace where people from all walks of life can bring their whole selves and feel supported to thrive.
+
+“As a member of the Engineering team, I’ve been able to empower our customers to hear the voice of their community members using AI-enabled solutions. My team is highly agile and collaborative, we take risks, and we’re not afraid of new ideas. Extraordinary respect has been an invaluable part of our culture for me, and it shines through every interaction with our employees and customers.”
+
+Farhad Imani
+Senior Applied Machine Learning Scientist
+Why Choose Us?
+We believe that when people are supported, businesses excel. Success thrives in an environment where people feel valued, connected, and empowered. A strong workplace culture isn’t just about policies—it’s about creating a space where great ideas take shape, collaboration drives results, and every employee has the opportunity to",
+442,new_urls,442,Thomascavanagh,no,https://thomascavanagh.ca/careers/,https://thomascavanagh.ca/careers/,https://thomascavanagh.ca/careers/,thomascavanagh.ca,FOUND,https://thomascavanagh.ca/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:38.149688+00:00,https://thomascavanagh.ca/careers/,https://thomascavanagh.ca/job-postings/,200,Construction Careers Ontario | Thomas Cavanagh Construction,,0,27,https://thomascavanagh.ca/job-postings/ | https://thomascavanagh.ca/job/thomas-cavanagh-construction-ottawa-west-area-73-labourer-asphalt-0017/ | https://thomascavanagh.ca/job/cavanagh-concrete-ltd-ottawa-73-labourer-cavanagh-concrete-ltd/ | https://thomascavanagh.ca/job/thomas-cavanagh-construction-ashton-ontario-73-labour-operator-aggregates-0058/ | https://thomascavanagh.ca/job/cavanagh-construction-ltd-ashton-ontario-72-estimating-administrator-0053/,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to content
+APPLY NOW
+CAREERS
+GROWTH ISN’T JUST A POSSIBILITY—IT’S THE PLAN
+Clear Career Paths: Move from labourer to operator, driver to foreman, or foreman to project manager. Your next role is within reach.
+Hands-On Training: Learn on the job and build real skills that move your career forward.
+Real Opportunities to Advance: We recognize hard work and promote from within whenever possible.
+Support at Every Stage: HR, Health & Safety, and leadership teams help you map out your goals and get where you want to go.
+
+Wherever you want your career to go, we’re here to help you grow with us.
+
+ Corporate Services
+ Field Operations
+ Student
+ 
+RSS
+Labourer – Asphalt | #0017
+Thomas Cavanagh Construction
+Ottawa & West Area
+Field Operations
+Posted 5 hours ago
+Labourer (Cavanagh Concrete Ltd)
+Cavanagh Concrete Ltd
+Ottawa
+Field Operations
+Posted 4 days ago
+Labour/Operator (Aggregates) | #0058
+Thomas Cavanagh Construction
+Ashton, Ontario
+Field Operations
+Posted 1 week ago
+Estimating Administrator | #0053
+Thomas Cavanagh Construction
+Ashton, Ontario
+Corporate Services
+Posted 1 week ago
+Yard Loader | #0057
+Thomas Cavanagh Construction
+Ashton, Ontario
+Field Operations
+Posted 2 weeks ago
+Project Coordinator (General Contracting) | #0056
+Thomas Cavanagh Construction
+Ottawa & West Area
+Corporate Services
+Posted 2 weeks ago
+Intermediate Software Developer | #0015
+Thomas Cavanagh Construction
+Kanata, ON
+Corporate Services
+Posted 2 months ago
+Senior Software Developer | #0042
+Thomas Cavanagh C",
+444,new_urls,444,Thrive,no,https://thrive.health/careers,https://thrive.health/careers,https://thrive.health/careers,thrive.health,FOUND,https://thrive.health/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:39.729397+00:00,https://thrive.health/careers,https://thrive.health/careers,200,Careers — Thrive Health,,0,5,https://silktide.com/consent-manager | https://silktide.com/consent-manager | https://thrive.health/careers/senior-software-developer | https://thrive.health/careers/intermediate-software-developer | https://thrive.health/careers/junior-software-developer,confirmed_career_page_active,Employer-career language plus job records or job links,"We use analytics cookies to understand how visitors use our site so we can improve it. We don’t use advertising or cross-site trackers. See our Privacy Notice.
+
+Accept
+Decline
+Preferences
+Sign in
+▾
+Book a demo
+JOIN OUR TEAM
+We're on an important mission: Make healthcare work better for Canada.
+
+When you become a Thriver, you become a part of this mission and the important steps we are taking each day to get there.
+
+BENEFITS & PERKS
+How we support our team
+Flexible working hours
+Outside of core hours, you have the freedom to set your schedule.
+Paid vacation days
+Take the time you need to rest and recharge.
+Stat Holidays
+Employees are entitled to statutory holidays and those outside of BC have the option to take an alternative day within the same calendar year that aligns with their province's holidays.
+Community involvement
+Participate in paid volunteer days and charitable donation matching.
+Extended health and wellness benefits
+Receive comprehensive health and dental coverage and $1,000 per year towards your well-being.
+Learn, grow, and invest in your future
+Participate in our RRSP matching and stock options programs, and receive $1,000 per year towards your continuing education.
+Creating your dream workspace
+Receive $500 per year to equip your home office with everything you need to work comfortably.
+OUR CULTURE
+How we stay connected
+
+Building Community in a Digital World
+
+Thrive Health embraces a remote-first, hybrid culture that spans across Canada, from bustling cities to",
+446,new_urls,446,Topaces,no,https://topaces.com/careers/,https://topaces.com/careers/,https://topaces.com/careers/,topaces.com,FOUND,https://topaces.com/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:40.835091+00:00,https://topaces.com/careers/,https://topaces.com/careers/,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+445,new_urls,445,Jobs,no,https://jobs.tjx.com/,https://jobs.tjx.com/,https://jobs.tjx.com/,jobs.tjx.com,FOUND,https://jobs.tjx.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:44.698440+00:00,https://jobs.tjx.com/,https://jobs.tjx.com/global/en,200,Careers at TJX Companies | Home,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","SKIP TO MAIN CONTENT
+WHO IS TJX
+WHY TJX
+CAREER AREAS
+EARLY CAREER
+LOCATIONS
+JOB SEARCH
+SIGN IN
+English
+SAVED JOBS
+(0)
+-
+We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page. If you continue to use this site, you consent to our use of cookies.	
+Deny
+ 
+Allow
+Discover Different​​​​​
+CAREERS AT TJX
+DISCOVER A CAREER YOU WILL LOVE
+* To improve your job search experience, please select your language
+preference in the upper right hand corner.
+
+
+Enter Location
+Search
+GET TAILORED JOB RECOMMENDATIONS BASED ON YOUR INTERESTS.
+ 
+Get Started
+OUR CULTURE MAKES US DIFFERENT
+See what Discover Different could mean for you
+SKIP THIS WIDGET
+ 
+WHO IS TJX
+TJX is the leading off-price apparel and home fashions retailor in the U.S. and worldwide, with four global home offices, seven brands, over 5,000 stores in nine countries, and six distinctive branded e-commerce sites. As Associates, we make a difference with our contributions—collaborating in delighting shoppers with hidden treasures. 
+
+OUR WORKPLACE RESPONSIBILITY
+OUR STORY
+
+At TJX, honesty, integrity, and treating each other with dignity and respect matter. We offer great opportunities, an incredible culture, and a sense of excitement for the future. Every day is a new adventure, a fresh chance to experience retail. 
+OUR BRANDS
+
+Our merchandise is ever-changing and the sense of wonder never-endin",
+447,new_urls,447,Tophat,no,https://tophat.com/company/careers/,https://tophat.com/company/careers/,https://tophat.com/company/careers/,tophat.com,FOUND,https://tophat.com/company/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:46.911054+00:00,https://tophat.com/company/careers/,https://tophat.com/company/work-with-us/,200,Careers | Top Hat,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Have a cookie, not a croissant
+
+Top Hat uses cookies, pixels and similar technologies to personalize content and ads, to provide social media features and to analyze our Products’ traffic. As described in our Privacy Policy, we also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.  You may adjust your preferences for our website at any time by selecting the “Cookie Settings” button in our site footer.  If you do not agree to our Terms & Conditions or our use of these technologies, please discontinue using this website.
+
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Allow all
+Allow selection
+Deny
+Access Joyful Teaching in Every Class with Flower Darby. On-demand, 90-minute course. Certificate included.
+Educators
+Institutions
+Textbooks
+Students
+Pricing
+Support
+Create Your Account
+Log in
+TOP HAT CAREERS
+Are you ready to change the future of higher ed?
+
+Top Hat is quickly becoming the leading teaching platform in higher education. And we're building the team to fuel our growth.
+
+Find Your Role
+Why team members love working at Top Hat
+A noble mission that creates meaningful, fulfilling work
+A team that cares deeply for customers and for each other
+Professional learning and development for all role levels
+An open and welcoming Toronto HQ
+Competitive health benefits that sta",
+448,new_urls,448,Toptal,no,https://www.toptal.com/careers,https://www.toptal.com/careers,https://www.toptal.com/careers,toptal.com,FOUND,https://www.toptal.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:47.116291+00:00,https://www.toptal.com/careers,https://www.toptal.com/careers,200,Careers at Toptal,,0,33,https://www.toptal.com/marketing/google-tag-manager | https://www.toptal.com/project-managers/project-management-consultant | https://www.toptal.com/project-managers/itil-certified-service-delivery-manager | https://www.toptal.com/project-managers/process-design-consultant | https://www.toptal.com/project-managers/program-delivery-manager,confirmed_career_page_active,Employer-career language plus job records or job links,"By continuing to use this site you agree to our Cookie Policy.
+
+Got it
+ Newsweek Ranks Toptal #1 Most Reliable Professional Services Company in America.
+®
+Hire Talent
+Developers
+Full-stack Developers
+Front-end Developers
+Software Developers
+Web Developers
+Mobile App Developers
+AI Engineers
+Android Developers
+AngularJS Developers
+Django Developers
+Drupal Developers
+Game Developers
+Hadoop Developers
+iOS Developers
+Java Developers
+JavaScript Developers
+Kubernetes Developers
+Magento Developers
+Node.js Developers
+PHP Developers
+PostgreSQL Developers
+Python Developers
+React.js Developers
+Ruby on Rails Developers
+Salesforce Developers
+Scala Developers
+Unity Developers
+WordPress Developers
+See more skills
+Designers
+UX Designers
+UI Designers
+Web Designers
+Mobile App Designers
+Graphic Designers
+Brand Designers
+UX Strategists
+3D Animators
+Adobe After Effects Designers
+Adobe Illustrator Experts
+Creative Directors
+Data Visualization Designers
+E-commerce Designers
+Illustrators
+Landing Page Designers
+Logo Designers
+Mobile UX Designers
+Photoshop Experts
+Presentation Designers
+Product Designers
+SaaS Designers
+Shopify Designers
+UX Researchers
+Webflow Designers
+See more skills
+Marketing Experts
+Fractional Chief Marketing Officers (CMOs)
+SEO Experts
+Campaign Managers
+Social Media Marketers
+Event Marketers
+Affiliate Marketers
+B2B Marketing Strategists
+Brand Managers
+Community Managers
+Content Managers
+Copy Editors
+Copywriters
+Digital Marketers
+Email Marketers
+Facebook Ads Experts
+Google Ads Exper",
+449,new_urls,449,Totaleintegrated,no,https://totaleintegrated.com/careers,https://totaleintegrated.com/careers,https://totaleintegrated.com/careers,totaleintegrated.com,FOUND,https://totaleintegrated.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:47.847411+00:00,https://totaleintegrated.com/careers,https://totaleintegrated.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+450,new_urls,450,Townpost,no,https://townpost.ca/careers,https://townpost.ca/careers,https://townpost.ca/careers,townpost.ca,FOUND,https://townpost.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:48.852382+00:00,https://townpost.ca/careers,https://townpost.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+452,new_urls,452,Travelindustrypersonnel,no,https://travelindustrypersonnel.com/careers,https://travelindustrypersonnel.com/careers,https://travelindustrypersonnel.com/careers,travelindustrypersonnel.com,FOUND,https://travelindustrypersonnel.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:53.263024+00:00,https://travelindustrypersonnel.com/careers,https://travelindustrypersonnel.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+451,new_urls,451,Canada,no,https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs.html,https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs.html,https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs.html,canada.ca,FOUND,https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs.html,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:55.684170+00:00,https://www.canada.ca/en/public-service-commission/jobs/services/gc-jobs.html,https://www.canada.ca/en/services/jobs/opportunities/government.html,200,Government of Canada jobs - Canada.ca,,0,60,https://www.canada.ca/en/services/jobs/opportunities/government.html#wb-cont | https://www.canada.ca/en/services/jobs/opportunities/government.html#wb-info | https://www.canada.ca/en/services/jobs/opportunities/government.html?wbdisable=true | https://www.canada.ca/en/services/jobs/opportunities/government.html# | https://www.canada.ca/en/services/jobs/opportunities/government.html,possible_job_listing_needs_review,Job-like links detected without clear career-page language,"Skip to main content
+Skip to ""About government""
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search Canada.ca
+Search
+Menu
+MAIN
+MENU 
+You are here:
+Canada.ca Jobs and the workplace
+Government of Canada jobs
+
+Opportunities to work for the federal government.
+
+On social media
+X:
+@Jobs_GC
+ 
+Instagram
+Facebook
+Most requested
+Sign in or create a GC Jobs account
+Federal Student Work Experience Program
+Rates of pay for Government of Canada employees
+
+ 
+
+Services and information
+Government jobs
+Find government jobs
+How to apply
+Recruitment programs
+Become a policy leader
+Employment equity
+Self-declare when you apply
+Self-declare as a person with a disability
+Jobs for Indigenous people
+Students
+Student jobs
+Military and veterans
+Jobs in national security and defence
+Jobs for military and veterans
+Public servants
+Hiring and assessing candidates
+Public service pay, pension and benefits
+Work assignments outside the public service
+Mobility Provisions
+Former Minister’s Staff
+ 
+Persons formerly employed in an excluded position at the Office of the Governor General's Secretary
+
+Features
+Self-assessment tests
+
+Are you likely to pass the second language tests? Find out.
+
+GC Workplace Accessibility Passport
+
+The Passport facilitates conversations between employees and managers about workplace adjustments.
+
+Make your mid-career move
+
+Read on to discover testimonies from Indigenous public servants who joined the federal public service.
+
+Contributors
+From",
+453,new_urls,453,Tredence,no,https://tredence.com/careers,https://tredence.com/careers,https://tredence.com/careers,tredence.com,FOUND,https://tredence.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:56.000993+00:00,https://tredence.com/careers,https://www.tredence.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+454,new_urls,454,Trendai,no,https://trendai.ca/careers,https://trendai.ca/careers,https://trendai.ca/careers,trendai.ca,FOUND,https://trendai.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:06:56.776681+00:00,https://trendai.ca/careers,https://trendai.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+455,new_urls,455,Twu,no,https://www.twu.ca/human-resources/careers,https://www.twu.ca/human-resources/careers,https://www.twu.ca/human-resources/careers,twu.ca,FOUND,https://www.twu.ca/human-resources/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:02.965818+00:00,https://www.twu.ca/human-resources/careers,https://www.twu.ca/human-resources/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+456,new_urls,456,Triviumgroup,no,https://triviumgroup.com/careers,https://triviumgroup.com/careers,https://triviumgroup.com/careers,triviumgroup.com,FOUND,https://triviumgroup.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:03.463375+00:00,https://triviumgroup.com/careers,https://www.hugedomains.com/domain_profile.cfm?d=triviumgroup.com,200,TriviumGroup.com is for sale | HugeDomains,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies.
+
+Customize
+Reject All
+Accept All
+Skip to main content
+ Search
++1-303-893-0552
+Home
+FAQs
+About us
+Contact us
+My account
+TriviumGroup.com
+Buy now:
+$7,295
+▸ Buy now
+or
+▸ Start payment plan
+Only $303.96/mo. for 24 months
+See details
+30-day money back guarantee
+Take immediate ownership
+Safe and secure shopping
+TriviumGroup.com
+
+This domain is for sale: $7,295
+
+Favorite
+Questions? Talk to a domain expert: 1‑303‑893‑0552
+Since 2005, we've helped thousands of people get the perfect domain name
+K
+
+Great service!
+
+- Kofi Yeboah, April 22, 2026
+Y
+
+Purchase went smooth.
+
+- Yvonne Perkins, April 21, 2026
+T
+
+Huge domains is always a pleasure to deal with and the payment plan to pay off domains is absolutely exquisite.
+
+- Tony Ciccocelli, April 21, 2026
+A
+
+It worked smoothly so far, as I bought domain with a payment plan.
+
+- Aivar Podra, April 20, 2026
+C
+
+Perfect transaction. Highly recommend.
+
+- Caesare Belvano, April 20, 2026
+See more testimonials
+Our promise to you
+30-day money back guarantee
+
+HugeDomains provides a 100% satisfaction guarantee on every domain name that we sell through our website. If you buy a domain and are unhappy with it, we will accept the return within 30 days and issue a full refund – no questions asked.
+
+Quick delivery of the domain
+
+In most cases access to the domain wil",
+457,new_urls,457,Trmlabs,no,https://trmlabs.com/careers,https://trmlabs.com/careers,https://trmlabs.com/careers,trmlabs.com,FOUND,https://trmlabs.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:09.220796+00:00,https://trmlabs.com/careers,https://www.trmlabs.com/careers,200,TRM Careers | Join us in building a safer world,,0,3,https://www.trmlabs.com/training-and-certifications/crypto-compliance-specialist | https://www.trmlabs.com/training-and-certifications/crypto-seizure-specialist-certification | https://www.trmlabs.com/training-and-certifications/crypto-tax-specialist-certification,confirmed_career_page_active,Employer-career language plus job records or job links,"This website uses technologies such as cookies to support essential site functionality and to provide analytics, personalization, and targeted advertising. For more information, please visit our To learn more, view the following link: Privacy Policy
+MANAGE PREFERENCES
+
+Be aware of scammers Learn how to protect yourself from recruitment fraud.
+
+SOLUTIONS
+PRODUCTS
+RESOURCES
+CUSTOMERS
+COMPANY
+LOGIN
+REQUEST A DEMO
+EN
+Search
+Extraordinary people, unyielding mission
+
+We’re on a mission to fight crime and build a safer world for billions of people.
+
+SEE OPEN ROLES
+INTRODUCTION
+WHAT WE’RE DOING
+WORKING AT TRM
+BENEFITS
+GLOBAL
+SEE OPEN ROLES
+
+TRM is a security technology company that combines blockchain data, threat intelligence, and advanced analytics to link cryptocurrency activity to global security threats.
+
+Governments, financial institutions, and crypto businesses use our data, tools, and services to protect communities and fight crime.
+
+Join the fight against
+Fraud and Scams
+
+Supporting victims of investment fraud with Massachusetts Attorney General
+
+Fentanyl Crisis
+
+Disrupting a prominent fentanyl vendor with Homeland Security Investigations
+
+Terrorist Fighting
+
+Tracking ISIS use of cryptocurrency
+
+Cybercrime
+
+Taking Down Qakbot malware with the FBI
+
+Hacks
+
+Seizing $12 billion of stolen Bitcoin
+
+Working at TRM
+
+Our customers use our technology to create a safer world. Our team combines expertise from law enforcement, data science, engineering, and financial intelligence to comb",
+460,new_urls,460,Tugo,no,https://tugo.com/careers,https://tugo.com/careers,https://tugo.com/careers,tugo.com,FOUND,https://tugo.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:09.657722+00:00,https://tugo.com/careers,https://tugo.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+458,new_urls,458,Tropicanabrandsgroup,no,https://tropicanabrandsgroup.com/careers,https://tropicanabrandsgroup.com/careers,https://tropicanabrandsgroup.com/careers,tropicanabrandsgroup.com,FOUND,https://tropicanabrandsgroup.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:10.238226+00:00,https://tropicanabrandsgroup.com/careers,https://www.tropicanabrandsgroup.com/careers,200,Tropicana Brands Group – Reinventing the Future of Juice,,0,2,https://recruiting2.ultipro.com/TRO1005TPDI/JobBoard/c0674661-e7dc-49dd-891d-71965310ce41/?q=&o=postedDateDesc&w=&wc=&we=&wpst= | https://recruiting2.ultipro.com/TRO1005TPDI/JobBoard/c0674661-e7dc-49dd-891d-71965310ce41/?q=&o=postedDateDesc&w=&wc=&we=&wpst=,confirmed_career_page_active,Employer-career language plus job records or job links,"About Us
+Leadership
+Brands
+News
+Careers
+HCPs
+Contact
+Working at Tropicana Brands Group
+Tropicana Brands Group offers a unique career opportunity.
+
+Join us to embrace the spirit of an entrepreneur, build a company around global brands that consumers love, and rapidly gain a set of experiences that will advance your career.
+
+We like to articulate this Dynamic, Entrepreneurial and Impactful career experience as “Our Juice, Your Journey.”
+
+We are committed to building a diverse, high-performing team.
+
+Diversity, inclusion and representation are critical tenets of our culture. We believe having diversity of perspective, gender and race is crucial to success so that we both reflect the consumers that we serve, and all members of our team feel seen, respected and valued.
+
+Apply here for all roles
+Brands
+Tropicana
+Naked
+Kevita
+Copella
+Punica
+About Us
+Leadership
+HCPs
+News
+Careers
+Contact
+
+*Availability of products varies by region and market.
+©Tropicana Brands Group and its licensors. All rights reserved.
+
+Privacy policy
+Terms
+Cookie Preferences
+Modern Slavery Statement
+Form 8937
+Section 1273 Statement
+Apply here for all roles
+
+Cookie Consent & Privacy Policy
+
+Your privacy is important to us. We use cookies on this website to improve your experience, serve you with tailored advertising, analyse our traffic and integrate with social media.
+
+Customize
+DeclineAccept",
+463,new_urls,463,Umattr,no,https://umattr.com/careers,https://umattr.com/careers,https://umattr.com/careers,umattr.com,FOUND,https://umattr.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:14.579752+00:00,https://umattr.com/careers,https://www.umattr.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+462,new_urls,462,Careers,no,https://careers.uipath.com/,https://careers.uipath.com/,https://careers.uipath.com/,careers.uipath.com,FOUND,https://careers.uipath.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:16.459956+00:00,https://careers.uipath.com/,https://www.uipath.com/careers/jobs/,200,UiPath Jobs - Join the Leader of Agentic Automation & AI | UiPath,ashby,0,24,https://www.uipath.com/resources/automation-analyst-reports/forrester-wave-document-mining-and-analytics-platforms | https://www.uipath.com/resources/automation-analyst-reports/forrester-wave-document-mining-and-analytics-platforms | https://www.uipath.com/resources/automation-analyst-reports/gartner-magic-quadrant-ai-augmented-software-testing-tools | https://www.uipath.com/resources/automation-analyst-reports/gartner-magic-quadrant-ai-augmented-software-testing-tools | https://www.uipath.com/resources/automation-analyst-reports,confirmed_external_ats_active,ashby page with job records or job links,"FUSION is coming.
+56days
+14hours
+52minutes
+Register now
+Solutions
+Platform
+Why agentic
+Developers
+Search
+Close
+
+Contact us
+
+Sign in
+
+Try UiPath Free
+Careers
+
+UiPath Jobs
+
+UIPATH CAREERS
+
+Agents think.
+Robots do.
+People lead.
+
+Explore careers at UiPath.
+
+Careers page
+Careers blog
+Open Positions (117)
+Department
+Corporate
+Engineering
+Marketing
+Product
+Sales
+Sales Support
+Services
+Location
+, Remote
+Australia, Melbourne
+Australia, Sydney
+Brazil, Remote-Sao Paulo
+Canada, Toronto
+China, Beijing
+China, Remote-Shenzhen
+China, Shanghai
+France, Paris
+Hong Kong, Hong Kong
+India, Bangalore
+India, Bangalore - Engineering
+India, Jaipur
+Indonesia, Remote-Jakarta
+Italy, Milan
+Japan, Tokyo
+Mexico, Remote-Mexico City
+Norway, Remote-Oslo
+Poland, Remote-Warsaw
+Romania, Bucharest
+Romania, Cluj
+South Africa, Remote-Johannesburg
+South Korea, Seoul
+Spain, Madrid
+Taiwan, Remote-Taipei
+United Arab Emirates, Dubai
+United Kingdom, London
+United Kingdom, Manchester
+United States, Austin
+United States, Bellevue
+United States, New York
+United States, Remote-California
+United States, Remote-Colorado
+United States, Remote-Florida
+United States, Remote-Maryland
+United States, Remote-North Carolina
+United States, Remote-Texas
+Workplace Type
+On-site
+Remote
+Requisition ID
+Department
+Location
+Workplace Type
+Area Vice-President ANZ
+R14988
+Sales
+Australia, Sydney
+On-site
+Associate Sales Representative (Agentic AI Automation)
+R15168
+Sales
+Taiwan, Remote-Taipei
+Remote
+Associate Sales Representative (Agentic AI Automa",
+461,new_urls,461,Jobs,no,https://jobs.uhaul.com/,https://jobs.uhaul.com/,https://jobs.uhaul.com/,jobs.uhaul.com,FOUND,https://jobs.uhaul.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:17.164045+00:00,https://jobs.uhaul.com/,https://jobs.uhaul.com/,200,UhaulJobs.com,workday,0,0,,external_ats_needs_review,"workday detected, but no jobs were confidently identified","English
+Saved Jobs Returning Applicants Benefits
+Retail Stores
+GET YOUR
+CAREER MOVING
+Any
+Assembly, Manufacturing & Warehouse
+Automotive Maintenance & Repair
+Call Center
+Corporate
+Information Technology
+Insurance
+Remote
+Retail Stores, Regional Management & Support
+Transportation/Driver
+   
+OUR CORE VALUE BELIEFS
+
+We work at never forgetting that our quality self-move, self-storage, and closely related services and products are to improve human lives. We work at never forgetting that these collective services and products are for the do-it-yourself moving public.
+
+
+
+
+
+
+
+
+MORE THAN JUST A JOB
+WELLNESS & BENEFITS
+
+Get your career moving with a company who empowers team members to the healthiest version of themselves! We provide robust wellness benefits, events and resources to help team members becomes the happiest and healthiest they can be.
+
+ 
+COMMUNITY OUTREACH
+
+Through volunteer opportunities for our employees to in-kind donations of equipment, products, and services. U-Haul is committed to helping the communities in which we do business in.
+
+ 
+MILITARY SUPPORT
+
+We are a strong supporter of our troops, providing ample employment opportunities and partnering with military and veteran organizations to support and honor those who have served.
+
+ 
+SUSTAINABILITY
+
+We are committed to sustainability through environmental protection, social responsibility and economic efficiency. U-Haul is dedicated to continually improving the performance of our products, services, and activities.
+",
+464,new_urls,464,Jobs-ups,no,https://www.jobs-ups.com/,https://www.jobs-ups.com/,https://www.jobs-ups.com/,jobs-ups.com,FOUND,https://www.jobs-ups.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:19.528389+00:00,https://www.jobs-ups.com/,https://www.jobs-ups.com/ca/en,200,Careers at United Parcel Service | United Parcel Service jobs,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+UPS Jobs
+Hiring Process
+About UPS
+Benefits
+Job Alerts
+FAQ
+🌐 Language Selector
+Saved jobs
+(0)
+-
+Moving our world forward by delivering what matters. 
+_____
+Search job title
+Location
+Search Jobs
+Featured Jobs
+Operations
+87 available jobs
+Automotive
+6 available jobs
+Global Logistics
+6 available jobs
+Airline
+2 available jobs
+View all
+Who We Hire
+_____
+Operational
+Learn More
+Professional
+Learn More
+Follow Us
+_____
+
+Stay up to date with UPS on social media.
+skip this widget
+	
+	
+
+
+	
+	
+Instagram @upsjobs TikTok @upsjobs
+ 
+UPS Jobs
+UPS Jobs
+Hiring Process
+About UPS
+Benefits
+Job Alerts
+FAQ
+Other UPS Sites
+About UPS
+UPS.com
+UPSers.com
+Connect With Us
+Facebook
+Instagram
+LinkedIn
+YouTube
+Copyright ©1994- 2024 United Parcel Service of America, Inc. All rights reserved.
+ 
+Privacy Notice
+Religious Accommodation Questions
+Service Terms and Conditions
+Website Terms of Use
+Protect Against Fraud
+Sitemap",
+466,new_urls,466,Vsoftconsulting,no,https://vsoftconsulting.com/careers,https://vsoftconsulting.com/careers,https://vsoftconsulting.com/careers,vsoftconsulting.com,FOUND,https://vsoftconsulting.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:22.638833+00:00,https://vsoftconsulting.com/careers,https://www.vsoftconsulting.com/careers/,200,Careers - V-Soft Consulting | Enterprise AI & Digital Transformation,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","What We Do
+Who We Are
+Technologies
+More
+Talk to a Human
+Careers
+Build the Future of
+Enterprise Transformation
+
+Since 1997, V-Soft has evolved from connecting top IT talent to building full-stack systems that solve enterprise challenges. From our ServiceNow Elite partnership to our Global AI Labs, we enable businesses to move beyond legacy limits and invite you to help drive what’s next.
+
+ Browse Open Roles
+Submit Resume
+
+Let us do the work for you. We can match you with positions that best match your qualifications.
+
+Contact Recruiter
+
+Need some guidance in your job search? Our dedicated recruiters are here to help
+
+ Contact Now
+What We Value
+Make A Positive Difference
+
+We build mission-critical solutions for global enterprises. Every decision we make starts with a simple question: How does this create real value for our clients?
+
+Deliver with Passion
+
+We challenge assumptions, push boundaries, and continuously raise the bar for ourselves and for the impact we deliver
+
+Think and Act Like an Owner
+
+At V-Soft, ownership isn’t a title, it’s a mindset. We take responsibility for outcomes. We care about the full picture, collaborate across teams, and never say, “That’s not my job.”
+
+Velocity Through Iteration
+
+Progress doesn’t come from perfection. It comes from iteration. We believe in moving fast, learning faster, and improving every day that compounds into meaningful transformations.
+
+Innovate Through Collaboration
+
+Our strength is our global footprint. We default to transparen",
+465,new_urls,465,Upwork,no,https://www.upwork.com/careers,https://www.upwork.com/careers,https://www.upwork.com/careers,upwork.com,FOUND,https://www.upwork.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:23.630050+00:00,https://www.upwork.com/careers,https://www.upwork.com/careers,200,Careers | Upwork,,0,4,https://www.upwork.com/careers/jobs/explore | https://www.upwork.com/careers/jobs/explore | https://www.upwork.com/careers/jobs/explore | https://apps.apple.com/us/developer/upwork-global-inc/id329377609,confirmed_career_page_active,Employer-career language plus job records or job links,"___
+Skip to content
+Hire talent
+Get outcomes
+Find work
+Why Upwork
+Pricing
+Enterprise
+Log in
+Sign up
+Careers
+Life at Upwork
+Diversity, Inclusion & Belonging
+Open Positions
+Contract Roles
+Upwork Teams
+Come change the way the world works
+
+Be part of the team that's bringing this vision to life.
+
+Open Positions
+See Contract Roles
+Upwork exists to create opportunity in every era of work.
+
+Upwork is the world’s human and AI-powered work marketplace, connecting businesses with highly skilled, AI-enabled independent talent across the globe. From entrepreneurs to Fortune 100 enterprises, companies rely on Upwork’s trusted platform and mindful AI companion, Uma, to find and hire expert talent, unlock AI-powered work solutions, and drive business transformation. We enable businesses of all sizes to scale, innovate, and build agile teams for every era of work.
+
+“I have an opportunity to make a real impact at Upwork. Everyone is empowered to lead, take ownership, and drive meaningful change in their areas. That’s only possible because of the incredible culture of support and teamwork; it’s a place where people genuinely want to see each other succeed.”
+Karim Rahemtulla
+Lead, Strategy Operations
+Our key values
+Read more about our values & working principles
+Play to win as a team.
+Build and break fearlessly.
+Commit to excellence.
+Own outcomes.
+Be customer zero.
+“I value the people at Upwork — the humans behind the stories. I joined to capture stories of economic opportunity, and what I foun",
+468,new_urls,468,Vancity,no,https://www.vancity.com/AboutVancity/Careers/,https://www.vancity.com/AboutVancity/Careers/,https://www.vancity.com/AboutVancity/Careers/,vancity.com,FOUND,https://www.vancity.com/AboutVancity/Careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:25.136937+00:00,https://www.vancity.com/AboutVancity/Careers/,https://www.vancity.com/aboutvancity/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+467,new_urls,467,Valtech,no,https://valtech.com/careers,https://valtech.com/careers,https://valtech.com/careers,valtech.com,FOUND,https://valtech.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:26.675285+00:00,https://valtech.com/careers,https://www.valtech.com/career/jobs/,200,Jobs | Valtech,,0,104,https://www.valtech.com/career/jobs/#valtech-content | https://www.valtech.com/career/jobs/ | https://www.valtech.com/career/jobs/#contact-us-form | https://www.valtech.com/career/jobs/4906383101/ | https://www.valtech.com/career/jobs/4926106101/,blocked_or_challenge,Page contains an access challenge or bot-block marker,"Cookies on Valtech website
+Cookie declaration
+About
+
+This Website collects standard Internet log information including your IP address, browser type and language, geolocation, access times and referring website addresses. To ensure that our website is well managed and to facilitate improved navigation, we or our service provider(s) may also use cookies (small text files stored in a user's browser) or Web beacons (electronic images that allow the website to count visitors who have accessed a particular page and to access certain cookies) to collect aggregate data. Additional information on how we use cookies and other tracking technologies and how you can control these can be found in our cookie notice.
+
+Change your cookie settings
+Necessary
+Preferences
+Statistics
+Marketing
+Refuse all cookies
+Allow all cookies
+Skip to content
+Our work
+Offerings
+Careers
+Our insights
+About us
+Contact us
+home
+ careers
+ who we are
+ joblist
+
+Our collective mindset to make, learn and grow fuels our ability to transform digital experiences. Excited to join this entrepreneurial culture? We’re hiring! Find our job openings below.
+
+All Areas
+All Expertises
+All Countries
+100 job results 158
+Forward Deployed Product Manager
+Xstore L2 analyst (24*7)
+Project Manager
+Hub Support(Saleforce-Multi Cloud)
+Business Analyst
+Pre Sales Manager
+Senior Visual UI Designer
+Senior Visual UI Designer
+Experience Design Lead
+AI Product Manager / Product Owner – Google Cloud & AI Search
+Marketing Event Manager
+AEM Technical ",
+470,new_urls,470,Vantagegroup,no,https://vantagegroup.com/careers,https://vantagegroup.com/careers,https://vantagegroup.com/careers,vantagegroup.com,FOUND,https://vantagegroup.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:31.241338+00:00,https://vantagegroup.com/careers,https://www.vantagegroup.com/careers/,200,Careers - Airport Consulting & Operations Jobs | Vantage Group,icims,0,1,https://uscareers-vantageairportgroup.icims.com/jobs/search?ss=1&hashed=-435596323,confirmed_external_ats_active,icims page with job records or job links,"Opens a new window
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Allow all
+Allow selection
+Deny
+Skip to Main Content
+Contact
+Careers
+News & Media
+ Search
+Who We Are
+Solutions
+Location Profiles
+Resource Hub
+Build Your Career with Vantage Group
+
+Our network is ever-expanding, and so is our team. Become a part of a dynamic, innovative company committed to transforming ideas into reality.
+
+Together, we shape the future of sustainable and connected transportation hubs.
+
+Join the Best in the Business to Deliver Solutions That Inspire
+
+At Vantage Group, we bring ideas to life, transforming transportation to deliver solutions that inspire. But what truly sets us apart? Our people. We welcome unique backgrounds, perspectives, and skills, because a team with varied viewpoints drives our shared success.
+
+Check Out These Opportunities to Join the Journey
+Canada & International Career Openings   
+Opens a new window
+United States Career Openings   
+Opens a new window
+Who We Are
+
+Vantage Group is a global leader in airport and transportation investment, development, and management. See how we’re",
+471,new_urls,471,Venasolutions,no,https://www.venasolutions.com/careers,https://www.venasolutions.com/careers,https://www.venasolutions.com/careers,venasolutions.com,FOUND,https://www.venasolutions.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:34.058806+00:00,https://www.venasolutions.com/careers,https://vena.pinpointhq.com/,200,Jobs at Vena Solutions | Vena Solutions Careers,,0,33,https://vena.pinpointhq.com/en/postings/af235b29-5ff3-4447-85be-9917fdd0de41 | https://vena.pinpointhq.com/en/postings/af235b29-5ff3-4447-85be-9917fdd0de41 | https://vena.pinpointhq.com/en/postings/7f494397-9247-4cd7-afae-12e43f010d19 | https://vena.pinpointhq.com/en/postings/7f494397-9247-4cd7-afae-12e43f010d19 | https://vena.pinpointhq.com/en/postings/8119f524-4c19-4796-a487-a7f80a8707c7,confirmed_career_page_active,Employer-career language plus job records or job links,"View Jobs
+One Team, One Purpose, Infinite Possibilities
+At Vena, we believe in the power of people. We empower every team member to take initiative, grow their career, and make a meaningful impact - while being fully supported and celebrated for who they are. Inclusion is at the core of our culture, and we know that our diversity makes us stronger, more innovative, and more connected. As one team with one purpose, we collaborate with integrity, hold each other to high standards, and always act with our customers’ success in mind. Join us and discover a place where you can thrive, have fun, and truly love coming to work.
+🌱Why Choose Vena?
+💰Total Rewards
+We offer competitive and comprehensive total rewards packages that we review yearly to stay ahead of the market! Transparency is key, we keep you in the loop on how we design our comp programs. Build your future with our Employee Stock Option Program, Retirement Savings, Support & 401k Matching Programs.
+🎓Personal Growth & Learning
+Level up your skills with Vena! 🚀 We support your journey with education subsidies, professional development programs, and learning opportunities to help you grow your career and reach your goals. Your future is bright and we’re here to invest in it!
+🧘‍♀️ Health & Wellness
+Your well-being = our priority!  Great health & dental plans, wellness sessions (virtual & in-person), Employee Assistance Program (EAP), and a free Headspace subscription to support your mental health.
+
+
+
+🌍 Global Reach
+Vena is ev",
+473,new_urls,473,Vermill,no,https://vermill.io/careers,https://vermill.io/careers,https://vermill.io/careers,vermill.io,FOUND,https://vermill.io/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:34.200394+00:00,https://vermill.io/careers,https://vermill.io/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+472,new_urls,472,Veriforce,no,https://veriforce.com/careers,https://veriforce.com/careers,https://veriforce.com/careers,veriforce.com,FOUND,https://veriforce.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:35.890502+00:00,https://veriforce.com/careers,https://veriforce.com/company/careers,200,"Company Careers, Job Opportunities, and Benefits - Veriforce",,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to main content
+🇺🇸  United States
+🇨🇦  Canada - EN
+🇨🇦  Canada - FR
+ Login Contact Us
+Solutions
+ Hiring Clients
+Hiring Clients
+Simplify supply chain risk management at every stage of the supplier engagement lifecycle.
+DEPARTMENT
+Safety
+Build your safety culture.
+Operations
+Keep projects on track and on budget.
+Procurement
+Make quick, informed hiring decisions.
+USE CASES
+Contractor Management
+See all contractor compliance at a glance.
+Operator Qualification (OQ)
+Develop a defensible OQ program.
+Learning Management
+Implement a training requirement.
+Worksite Management
+Know that the right workers are doing the right work the right way.
+Subcontractor Management
+Track and manage subcontractor compliance.
+Environmental, Social & Governance (ESG)
+Create and implement an ESG mandate.
+Expert Services
+Optimize processes with auditing, consulting, custom training, and more.
+Regulatory Services
+Achieve and maintain compliance with PHMSA and DOT regulations.
+ Contractors
+Contractors
+Maximize your exposure to hiring clients and demonstrate your safety and compliance.
+USE CASES
+Contractor Subscription
+Join the Veriforce Contractor Network.
+Train Your Workers
+Find an authorized instructor near you.
+Learning Management
+Deliver world-class training to your workers.
+Training Catalog
+See all available instructor-led safety training.
+Subcontractor Management
+Track and manage subcontractor compliance.
+The Veriforce HUB
+Access to exclusive member benefits.
+ Instructors/Evaluators
+Become an Instr",
+474,new_urls,474,Versacom,no,https://versacom.ca/careers,https://versacom.ca/careers,https://versacom.ca/careers,versacom.ca,FOUND,https://versacom.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:38.132553+00:00,https://versacom.ca/careers,https://www.versacom.ca/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+475,new_urls,475,Versatileagency,no,https://versatileagency.com/careers,https://versatileagency.com/careers,https://versatileagency.com/careers,versatileagency.com,FOUND,https://versatileagency.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:40.493758+00:00,https://versatileagency.com/careers,https://www.hugedomains.com/domain_profile.cfm?d=versatileagency.com,200,VersatileAgency.com is for sale | HugeDomains,,0,0,,needs_manual_review,Insufficient evidence for automatic classification,"We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking ""Accept All"", you consent to our use of cookies.
+
+Customize
+Reject All
+Accept All
+Skip to main content
+ Search
++1-303-893-0552
+Home
+FAQs
+About us
+Contact us
+My account
+VersatileAgency.com
+Buy now:
+$4,095
+▸ Buy now
+or
+▸ Start payment plan
+Only $170.63/mo. for 24 months
+See details
+30-day money back guarantee
+Take immediate ownership
+Safe and secure shopping
+VersatileAgency.com
+
+This domain is for sale: $4,095
+
+Favorite
+Questions? Talk to a domain expert: 1‑303‑893‑0552
+Since 2005, we've helped thousands of people get the perfect domain name
+K
+
+Great service!
+
+- Kofi Yeboah, April 22, 2026
+Y
+
+Purchase went smooth.
+
+- Yvonne Perkins, April 21, 2026
+T
+
+Huge domains is always a pleasure to deal with and the payment plan to pay off domains is absolutely exquisite.
+
+- Tony Ciccocelli, April 21, 2026
+A
+
+It worked smoothly so far, as I bought domain with a payment plan.
+
+- Aivar Podra, April 20, 2026
+C
+
+Perfect transaction. Highly recommend.
+
+- Caesare Belvano, April 20, 2026
+See more testimonials
+Our promise to you
+30-day money back guarantee
+
+HugeDomains provides a 100% satisfaction guarantee on every domain name that we sell through our website. If you buy a domain and are unhappy with it, we will accept the return within 30 days and issue a full refund – no questions asked.
+
+Quick delivery of the domain
+
+In most cases access to the doma",
+477,new_urls,477,Viralnation,no,https://viralnation.com/careers,https://viralnation.com/careers,https://viralnation.com/careers,viralnation.com,FOUND,https://viralnation.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:45.278298+00:00,https://viralnation.com/careers,https://www.viralnation.com/careers,200,Careers | Viral Nation,greenhouse,0,0,,external_ats_needs_review,"greenhouse detected, but no jobs were confidently identified","Skip to content
+Brands
+Social AI
+Creators
+About
+CONTACT US →
+CAREERS
+The future of social starts here.
+
+Join one of the fastest-growing companies in North America and help define what the future of social media can be. If you're driven by culture, energized by innovation, and motivated by impact, you'll find your people here.
+
+Join our team
+400+
+EMPLOYEES
+8+
+COUNTRIES
+68%
+WOMEN
+51%
+BIPOC
+Living and breathing social.
+
+At Viral Nation, social isn't a department. It's the business.
+
+We work where creators, platforms, culture, and technology meet. We help global brands show up on the world's biggest social platforms and build the data systems that power decisions at scale. The work doesn't live in decks. It lives in the feed.
+
+You'll work with award-winning teams, world-class creators, and major brands. You'll shape moments in real time, build systems that scale globally, and solve problems that don't have answers yet.
+
+If you want to build things that matter and move culture forward, you should be here.
+
+Viral Nation drives the industry.
+The World’s Biggest Brands
+
+Work with the brands shaping culture right now, from Meta to e.l.f. Cosmetics to Audible, using social intelligence and creativity across the global social stage.
+
+The Greatest Moments
+
+You'll be first on the trends that break the internet, like we were with Demure. You'll watch campaigns you built sell out in minutes, like Mikayla's lip duo. You'll help creators like the McCartys launch projects that shift culture. A",
+476,new_urls,476,Vertisystem,no,https://vertisystem.com/careers,https://vertisystem.com/careers,https://vertisystem.com/careers,vertisystem.com,FOUND,https://vertisystem.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:48.266547+00:00,https://vertisystem.com/careers,https://vertisystem.com/careers,200,Careers at Vertisystem (MOURI Tech) | Global Tech & IT Jobs,,0,1,https://vertisystem.com/careers#,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to content
+Vertisystem is now a MOURI Tech Company
+Home
+About Us
+Services & Solution
+Industries
+Success Stories
+Careers
+Blogs
+CONTACT US
+Career
+Careers
+
+Power the Future with Vertisystem(A MOURI Tech Company)
+
+Join a global team of innovators, trouble-shooters, and tech enthusiasts.
+
+At Vertisystem (A MOURI Tech Company), we believe that success is driven by the passion and expertise of our team. As a leading provider of cloud consulting, data migration services, and AI-driven solutions, we are committed to fostering a dynamic and inclusive workplace where innovation thrives.
+
+WHY JOIN VERTISYSTEM?
+Collaborative Culture: Work alongside industry experts in an environment that fosters teamwork and continuous learning.
+Global Opportunities: With offices across five continents—including our headquarters in Fremont, CA, and branches in Las Vegas (NV), Indore (India) and Bonifacio Global City (Philippines), we offer roles that span the globe.
+Professional Growth: Gain access to mentorship programs, training sessions, and workshops designed to enhance your skills and accelerate your career.
+Current Openings
+AWS Cloud Engineer
+Senior Marketing Data Scientist
+Trading Processing Consultant
+IBM Content Manager Administrator
+Devops Engineer
+Data Engineer with DataStage
+API QA
+PLSQL Developer
+Frontend Developer
+Software Developer
+Data Engineer
+Jki-facebook-light
+ 
+Jki-linkedin-light
+Headquarters:
+39560 Stevenson Place, Suite 217, Fremont, CA 94539
+Corporate Office:
+10701, Esk Drive, ",
+482,new_urls,482,Vrize,no,https://vrize.com/careers,https://vrize.com/careers,https://vrize.com/careers,vrize.com,FOUND,https://vrize.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:55.319377+00:00,https://vrize.com/careers,https://vrize.com/careers,200,Careers at VRIZE | Power Your Passion in Digital Engineering,,2,22,https://www.linkedin.com/talent/hire/1848898802/job-post?jobId=4318542137 | https://www.linkedin.com/talent/hire/1848898802/job-post?jobId=4318542137 | https://www.linkedin.com/jobs/view/4264679460/ | https://www.linkedin.com/jobs/view/4264679460/ | https://www.linkedin.com/jobs/view/4264678192/,confirmed_career_page_active,Employer-career language plus job records or job links,"Who we areWhat we doInsightsNewsroomCareersContact Us
+Build a future where your career takes flight and your dreams find their runway
+
+At VRIZE, our code is our canvas, and our people are the artists. Together, we engineer innovative solutions that shape the digital landscape of tomorrow. Guided by collaboration and fueled by continuous learning, we compose strategic growth that resonates beyond bytes and pixels.
+
+Babuji Abraham
+
+Chief Strategy &
+People Officer
+
+The Industrial Era, the Information Era, the Digital Era, the Globalization Era, the Sustainability Era, the Post-Truth Era, the Biotech Era—you name it, we’ve heard it, witnessed it, and we now want more!!
+
+Dictated mandates never made history. VRIZE hollers all tech rebels, disruptors, creators, innovators, problem solvers, and whatever verb you bring for the creation of a ‘frictionless tech’ era.
+
+The buck is 'YOU.' Are you ready to code your legacy?
+
+Why Join Us?
+Open Positions
+Culture of continuous learning
+
+VRIZE loves success, but do we hold our learnings dearer – a resounding ‘YES’. Where learning, relearning, and unlearning always take the front foot. We let you adorn your curiosity cap and applaud when your innovation walks the stage.
+
+Flexible Working Hours
+
+Don’t get us wrong - We do clock in okay!, but we sync up more often. Your personal rhythm is as important to us as our tuning the clocks.
+
+Wellness Activities
+
+Stay connected and engaged through a variety of virtual team events and programs.
+
+Goal-Base",
+483,new_urls,483,W3global,no,https://w3global.com/careers,https://w3global.com/careers,https://w3global.com/careers,w3global.com,FOUND,https://w3global.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:57.284736+00:00,https://w3global.com/careers,https://www.w3global.com/careers,200,Careers | W3Global,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, and analyze website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”
+Preferences
+Decline
+Accept
+ (972) 393-4471  info@w3global.com
+Timecard Login
+US
+ Upload Resume
+JOBS
+EMPLOYERS
+SERVICES
+INDUSTRIES
+ABOUT US
+BLOG
+CONTACT US
+WORK WITH US
+home careers
+Join The Team at W3Global
+
+As a pioneering leader in specialized staffing solutions, W3Global is dedicated to making a positive impact on individuals' lives. When you join W3Global, you'll have the chance to progress in your career while playing a pivotal role in connecting candidates and businesses, ensuring they discover the right opportunities and talent for their success. Furthermore, W3Global is committed to providing employees with a challenging and rewarding work environment, and offers a variety of competitive benefits.
+
+Why Work for W3Global
+Opportunity to work with top talent
+W3Global has a strong reputation for recruiting and placing top talent in a variety of industries. By working for W3Global, you will have the opportunity to collaborate with and learn from some of the brightest minds in the business.
+Competitive compensation and benefits
+W3",
+484,new_urls,484,Wagepoint,no,https://wagepoint.com/careers,https://wagepoint.com/careers,https://wagepoint.com/careers,wagepoint.com,FOUND,https://wagepoint.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:07:59.599709+00:00,https://wagepoint.com/careers,https://www.wagepoint.com/careers/,200,Careers - Wagepoint,,0,9,https://wagepoint.teamtailor.com/jobs/8116291-principal-software-development-engineer-applied-ai?utm_campaign=jobs-widget&utm_source=wagepoint.teamtailor.com&utm_content=jobs&utm_medium=web | https://wagepoint.teamtailor.com/jobs/8105198-staff-software-development-engineer-applied-ai?utm_campaign=jobs-widget&utm_source=wagepoint.teamtailor.com&utm_content=jobs&utm_medium=web | https://wagepoint.teamtailor.com/jobs/8046050-territory-account-executive-partner-channel?utm_campaign=jobs-widget&utm_source=wagepoint.teamtailor.com&utm_content=jobs&utm_medium=web | https://wagepoint.teamtailor.com/jobs/7974450-staff-software-development-engineer?utm_campaign=jobs-widget&utm_source=wagepoint.teamtailor.com&utm_content=jobs&utm_medium=web | https://wagepoint.teamtailor.com/jobs/7938557-software-development-engineer?utm_campaign=jobs-widget&utm_source=wagepoint.teamtailor.com&utm_content=jobs&utm_medium=web,confirmed_career_page_active,Employer-career language plus job records or job links,"Skip to content
+
+🇨🇦 Celebrate Canada Day all summer long, get 59% off payroll for 2 months. Learn more >
+
+Business type
+Partner Program
+Pricing
+Company
+Resources
+Login
+Contact us
+Select province
+Book a demo
+Start a free trial
+Careers at Wagepoint
+Work from anywhere.
+Grow from everywhere.
+
+We’re building the friendliest payroll software in the world — and we’re doing it with a remote-first team of smart, curious, and kind humans.
+
+ If that sounds like your vibe, you might just be Wagepoint people.
+
+View open roles
+The perks of joining Wagepoint
+Remote and flexible work
+
+Work 100% remotely from anywhere in Canada, the U.S., or India. Enjoy flexible hours, paid lunch breaks, and a healthy work-life balance that actually works.
+
+Compensation and perks
+
+Expect competitive compensation with transparent, market-tested salary bands. We also offer RRSP matching, recognition rewards, parental leave bonuses, and fun company and team events.
+
+Health and well-being
+
+Your well-being comes first. Canadian team members receive fully paid health benefits, plus a $250 per year flexible HSA to use beyond standard coverage. Across regions, we offer dental coverage, extended mental health support, and a “Right to Disconnect” policy that helps you truly log off.
+
+Home office support
+
+We support remote work from day one. New hires receive a home office set-up allowance to create a workspace that works for them, along with a company-provided laptop (Canada and the U.S.) and access to the tools you n",
+485,new_urls,485,Wand,no,https://wand.ai/careers,https://wand.ai/careers,https://wand.ai/careers,wand.ai,FOUND,https://wand.ai/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:01.350277+00:00,https://wand.ai/careers,https://wand.ai/careers,200,Careers,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to content
+PRODUCT
+CAREERS
+BLOG
+Careers
+Come Work With Us
+Join Wand in leading the Agentic Shift
+Wand AI is building the world's first Agentic Labor Infrastructure, the operating system where humans and AI agents work together as one continuously evolving workforce, powering governments and global enterprises into the next phase of growth.
+
+We're aiming high. Very high. Our goal is to become the company the world thinks of first when it thinks about using AI to create real business value, and we're hiring the people who will get us there.
+
+What you can expect from us
+A team that holds the same bar you do. Real ownership from day one. The chance to help define a category, not iterate inside one. And work that, if we get it right, will change how organizations everywhere operate.
+
+
+If you want to architect the infrastructure that powers the future of work, not just talk about it, this is where you belong.
+
+Who we're looking for
+We're growing quickly across engineering, product, go-to-market, and marketing:
+
+Engineers - who want to build foundational infrastructure at the frontier of AI, from the agent runtime and orchestration layer to the products customers touch every day.
+
+
+Product builders - who can shape an entirely new category, turning ambiguous, frontier problems into products that humans and agents both rely on.
+
+
+Go-to-market builders - sales, partnerships, and solutions leaders who can translate a category-defining product into category-defining customer outcome",
+486,new_urls,486,Wmg,no,https://www.wmg.com/careers,https://www.wmg.com/careers,https://www.wmg.com/careers,wmg.com,FOUND,https://www.wmg.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:03.559200+00:00,https://www.wmg.com/careers,https://www.wmg.com/careers,200,Warner Music Group Careers | Join Music's Biggest Force,lever,0,0,,external_ats_needs_review,"lever detected, but no jobs were confidently identified","Skip to content
+
+Warner Music Group
+
+RECORDING ARTISTS
+SONGWRITERS
+NEWS
+INVESTORS
+CAREERS
+Change site to dark mode
+CAREERS
+OUR PEOPLE:
+THE WORLD OF WMG
+
+Our global team is made up of knowledgeable, passionate, and creative individuals.  
+
+We strive to set WMG apart by embracing originality and innovation, while creating a nurturing environment for artists, songwriters, and the people behind the music – at every stage of their careers.
+
+We believe in each individual’s value and encourage applications from people of any age, gender identity, sexual orientation, race, religion, ethnicity, disability, veteran status, and any other characteristic or identity. Join us as a part of one of the most influential forces in culture today.
+
+U.S. Careers
+Global Careers
+Technology Careers
+
+We are also dedicated to establishing strategic opportunities to engage with early career professionals. Our aim is to equip them with the essential skills needed to begin successful careers within the music industry.
+
+Emerging Talent Associate Program
+Ethics & Compliance
+
+Our Code of Conduct (CoC) ensures that we uphold the highest business standards. It reflects who we are and guides our actions, especially in ethically questionable situations. We also have a robust compliance training program that covers a wide range of topics. Our collective commitment maintains our reputation as a leader in both the music industry and the global business community.
+
+Code of Conduct
+OUR IMPACT:
+WMG IN THE WORLD
+
+At Wa",
+488,new_urls,488,Careers,no,https://careers.wholefoodsmarket.com/,https://careers.wholefoodsmarket.com/,https://careers.wholefoodsmarket.com/,careers.wholefoodsmarket.com,FOUND,https://careers.wholefoodsmarket.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:07.801820+00:00,https://careers.wholefoodsmarket.com/,https://careers.wholefoods.com/,200,Careers at Whole Foods Market,,0,20,https://careers.wholefoods.com/assembly-team-member-food-plant/job/PAF-WFM-97C738BB-63A1-4F40-91B7-BD525B678DA8_2739_1770322216_0 | https://careers.wholefoods.com/assembly-team-member-food-plant/job/PAF-WFM-97C738BB-63A1-4F40-91B7-BD525B678DA8_2739_1770322216_0 | https://careers.wholefoods.com/assistant-plant-operations-manager-fresh-food-manufacturing/job/PAF-WFM-375521B5-780D-4C86-B81F-0EAE5374FF01_1850_1779147616_0 | https://careers.wholefoods.com/assistant-plant-operations-manager-fresh-food-manufacturing/job/PAF-WFM-375521B5-780D-4C86-B81F-0EAE5374FF01_1850_1779147616_0 | https://careers.wholefoods.com/assistant-store-manager-associate-store-team-leader/job/PAF-WFM-2BD7E54D-E08F-4B96-89A1-7B36D373F0FE_7371_1785183537_0,confirmed_career_page_active,Employer-career language plus job records or job links,"Careers
+Where You’ll Work
+Who We Are
+Early Careers
+Country
+Search All Jobs
+Search All Jobs
+Whole Foods Market Careers
+
+Explore careers across Stores, Support Offices, and Non-Retail Facilities - each playing a vitral role in bringing the Whole Foods mission to life.
+
+Use your location
+Search
+People. Purpose. Possibilities.
+   
+
+Join a workplace where your career can grow with purpose. At Whole Foods Market, we’re more than just a grocery store – we’re a community driven by values, committed to nourishing people and the planet. Explore unique career paths and discover how your passion can thrive here
+
+Benefits
+Benefits
+Culture
+Culture
+   
+
+Join a workplace where your career can grow with purpose. At Whole Foods Market, we’re more than just a grocery store – we’re a community driven by values, committed to nourishing people and the planet. Explore unique career paths and discover how your passion can thrive here
+
+Stores
+Store Support Offices
+Non-Retail Facilities
+Stores
+
+Join us as a store Team Member and become the face of Whole Foods Market in your community. You'll be right at the heart of our products and customers, making every day an opportunity to learn, grow your skills, and create a meaningful impact. Your career journey starts locally at our Whole Foods Market stores.
+
+Search Store Careers
+Search Store Careers
+Store Support Offices
+
+At our Store Support offices, we take our work seriously but not ourselves. Forget the suit and bring your authentic self to work. Our de",
+489,new_urls,489,Wcscanada,no,https://wcscanada.org/careers,https://wcscanada.org/careers,https://wcscanada.org/careers,wcscanada.org,FOUND,https://wcscanada.org/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:08.386022+00:00,https://wcscanada.org/careers,https://wcscanada.org/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+487,new_urls,487,Webuildgroup,no,https://webuildgroup.com/careers,https://webuildgroup.com/careers,https://webuildgroup.com/careers,webuildgroup.com,FOUND,https://webuildgroup.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:09.268974+00:00,https://webuildgroup.com/careers,https://www.webuildgroup.com/it/carriere/,200,Carriere | Webuild Group,,0,2,https://www.webuildgroup.com/it/governance/sistema-governance/management/ | https://www.webuildgroup.com/it/governance/sistema-governance/management/,possible_job_listing_needs_review,Job-like links detected without clear career-page language,"LE PAGINE PIÙ RICERCATE
+
+RISULTATI FINANZIARI
+PERCHÉ INVESTIRE IN WEBUILD
+PROGETTI
+PONTE SULLO STRETTO DI MESSINA
+NUOVA DIGA FORANEA DI GENOVA
+LAVORA CON NOI
+CANTIERE LAVORO ITALIA
+Webuild Worldwide
+Cerca
+IT
+GRUPPO
+AREE DI BUSINESS
+PROGETTI
+VIDEO & STORIE
+auto_awesome
+SOSTENIBILITÀ
+INVESTITORI
+GOVERNANCE
+MEDIA
+CARRIERE
+Homepage
+chevron_right
+Carriere
+Carriere
+
+Partecipa alla costruzione di un futuro migliore. Unisciti a noi
+
+Perché lavorare in Webuild
+
+Lavorare in Webuild significa accogliere sfide sempre nuove in un ambiente internazionale e multiculturale fatto di persone che guardano al futuro innovando con opere di valore.
+
+Una squadra che da 120 anni porta avanti una ricchissima storia di infrastrutture realizzate in 5 continenti, dalle grandi città alle aree tropicali, dai deserti fino alle aree ghiacciate del mondo. Webuild.
+
+SCOPRI DI PIÙ
+
+UNISCITI A NOI
+
+Cresci con noi, costruisci il futuro
+
+Entrare in Webuild significa unirsi a circa 95.000 persone di otre 125 nazionalità con competenze specializzate e far parte di una realtà dinamica e competitiva, con un solido patrimonio di passione per il costruire, know-how e ricerca dell’eccellenza.
+
+Coltiviamo un ambiente inclusivo, dove la diversità è riconosciuta come una ricchezza e ogni talento può contribuire alla crescita comune.
+
+Scopri le posizioni aperte
+
+Posizioni Aperte Worldwide
+VAI ALLE POSIZIONI APERTE
+Posizioni Aperte in Italia
+VAI ALLE POSIZIONI APERTE
+Pensa in Grande. Cantiere Lavoro Italia
+SCOPRI DI PIÙ E CA",
+490,new_urls,490,Wiremasters,no,https://wiremasters.com/careers,https://wiremasters.com/careers,https://wiremasters.com/careers,wiremasters.com,FOUND,https://wiremasters.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:12.202174+00:00,https://wiremasters.com/careers,https://www.wiremasters.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+491,new_urls,491,Wordminds,no,https://wordminds.com/careers,https://wordminds.com/careers,https://wordminds.com/careers,wordminds.com,FOUND,https://wordminds.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:13.317211+00:00,https://wordminds.com/careers,https://wordminds.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+493,new_urls,493,Workerbee,no,https://workerbee.tv/careers,https://workerbee.tv/careers,https://workerbee.tv/careers,workerbee.tv,FOUND,https://workerbee.tv/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:14.108137+00:00,https://workerbee.tv/careers,https://workerbee.tv/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+494,new_urls,494,Wes,no,https://www.wes.org/careers/,https://www.wes.org/careers/,https://www.wes.org/careers/,wes.org,FOUND,https://www.wes.org/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:20.743869+00:00,https://www.wes.org/careers/,https://www.wes.org/about-wes/careers-at-wes/,200,Explore Careers at WES - Join Our Team - WES,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to navigation
+Skip to content
+Skip to footer
+Back to Homepage
+Help
+About WES
+English
+Credential Evaluations
+Partners
+Social Impact
+Resource Library
+Get an Evaluation
+Applicant Sign In
+Explore Career Opportunities at WES
+
+For 50 years, WES has been helping people learn, work, and thrive in new places. We believe building a better future means ensuring that everyone can contribute their skills and talents wherever they are—and that includes our team.
+
+As a trailblazing social enterprise devoted to the global mobility and success of immigrants, refugees, international students, and their communities, WES is an exciting place to do meaningful work. We invite you to explore our career opportunities.
+
+Why Work at WES
+DEIBJ
+Application Process
+Talent Community
+WES is proud to be recognized for having one of the best workplace cultures in 2025 by CultureCon.
+See Why WES is a Top Workplace
+Why Work at WES
+
+Joining our team at WES means embarking on a purpose-driven career with a global impact, where you contribute daily to making a tangible difference in the lives of people worldwide. You’ll thrive in an employee-centric environment, with access to learning opportunities, pathways for personal and professional development, and recognition of your achievements. Our inclusive, mission-driven culture values employees and focuses on investing in our people through our culture, people framework, and programming, while offering the flexibility of remote work options.
+
+Work-Life Harmony",
+495,new_urls,495,Wowmobile,no,https://wowmobile.ca/careers,https://wowmobile.ca/careers,https://wowmobile.ca/careers,wowmobile.ca,FOUND,https://wowmobile.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:22.569497+00:00,https://wowmobile.ca/careers,https://wowmobile.ca/en,200,Smartphones and Canadian Phone Plans | WOW! mobile boutique,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Press Alt+1 for screen-reader mode, Alt+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+EN 
+ Conestoga Mall
+Book An Appointment
+OUR STORY
+DEVICES
+ACCESSORIES
+DEVICE PROTECTION
+TRADE-IN
+CARRIERS
+STORE LOCATOR
+Careers
+Contact
+Small Business
+New to Canada?
+Community
+Promotions
+Shop Online
+ 
+Personalized. Unbiased. Advice.
+1
+2
+3
+4
+Less Stress.
+More WOW!
+
+Choosing the right mobile plan and device for your needs can be daunting.
+
+With hundreds of options available to you, WOW! mobile boutique will work with you to find the right carrier, plan, and device for your needs and budget.
+
+With five wireless carriers to choose from, we cater to your mobile needs all across Canada. And, we provide the ultimate trade-in program that allows you to get an instant in-store credit towards your cell phone and help reduce e-waste.
+
+Shop Devices
+Shop Accessories
+Find Your WOW!
+You're only minutes away from your nearest WOW! mobile boutique
+ Find Your Location!
+
+Your nearest WOW! mobile boutique location is:
+
+Conestoga Mall
+
+550 King St N,
+Waterloo, ON, CA,
+N2L5W6
+
+Phone: (519) 747-3459
+
+Boutique Hours:
+
+Monday:
+10:00am - 9:00pm
+
+Tuesday:
+10:00am - 9:00pm
+
+Wednesday:
+10:00am - 9:00pm
+
+Thursday:
+10:00am - 9:00pm
+
+Friday:
+10:00am - 9:00pm
+
+Saturday:
+10:00am - 6:00pm
+
+Sunday:
+11:00am - 5:00pm
+
+View More Locations
+
+Our Story
+Devices
+Accessories
+Device Protection
+Trade-In
+Carriers
+Store Locator
+Careers
+Contact
+Small Business
+New to Canada?
+Community
+Book An Appoi",
+496,new_urls,496,Wurth,no,https://wurth.ca/careers,https://wurth.ca/careers,https://wurth.ca/careers,wurth.ca,FOUND,https://wurth.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:24.807357+00:00,https://wurth.ca/careers,https://shop.wurth.ca/,200,"Shop Wurth Canada | Industrial, Construction, MRO and Automotive Supplier",,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Need Help? Call 1-800-263-5002 EN | FR
+Use up and down arrows to select available result. Press enter to go to selected search result. Touch devices users can use touch and swipe gestures.
+Quick Order Pad  |  0
+PRODUCTS
+CATALOGUE
+SOLUTIONS
+STORES
+WHY US
+ MADE IN CANADA
+Register | Login 
+Flash Sale: Save Up to 35%* and Get a Free Scarf (SCARF26) OR Sunglasses (GLASSES26) on $99+ Orders**. Details
+❮
+❯
+PRODUCT CATEGORIES
+Abrasives
+Adhesives & Tapes
+Anchors
+Auto Bulbs & Work Lights
+Cleaning, Detailing & Sanitation
+Cutting
+Electrical
+Equipment & Storage
+Fasteners
+Fittings, Hoses & Tubing
+Lubricants & Greases
+ORSY Systems & Solutions
+Paints & Primers
+Power Tools
+Rust Proofing & Rust Remover
+Safety Supplies & First Aid
+Sealants, O-Rings
+Tools
+Vehicle Repair & Components
+Welding Supplies
+New
+Check out our newest products!
+›
+Hot Deals
+Limited quantities available, shop now!
+›
+Clearance
+Don’t miss a chance to save!
+›
+Email Sign Up
+Sign up for emails and grab latest deals!
+›
+COMPANY
+About Us
+The Wurth Group
+Quality And ISO 9001
+Careers
+Safety Data Sheets
+VOC Regulations
+SERVICES & SOLUTIONS
+National Accounts
+Electronic Procurement
+Inventory Solutions
+Online Customer Tools
+Wiper Blade Search
+Titanium Lead Portal
+SHOPPING TOOLS
+Master Catalogue
+System Cases
+Spot Weld Solutions
+Sealants
+Speedpress
+ASSY® Wood Screws
+Eco Friendly And NSF® Certified Products
+Made In Canada
+TPMS
+CUSTOMER SUPPORT
+Contact
+FAQ
+Email Sign Up
+Company Locations
+
+Call 1-800-263-5002 for Assistance
+
+    
+Privacy Polic",
+497,new_urls,497,Xero,no,https://www.xero.com/about/careers/,https://www.xero.com/about/careers/,https://www.xero.com/about/careers/,xero.com,FOUND,https://www.xero.com/about/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:27.205355+00:00,https://www.xero.com/about/careers/,https://careers.xero.com/,200,Careers @ Xero | Help Build the Future of Small Business | Xero,ashby,0,9,https://careers.xero.com/jobs/saved-jobs/ | https://careers.xero.com/jobs/?origin=global | https://careers.xero.com/jobs/?origin=global | https://careers.xero.com/jobs/saved-jobs/ | https://careers.xero.com/jobs/,confirmed_external_ats_active,ashby page with job records or job links,"Skip to main content
+Inside Xero
+Our teams
+Xero around the world
+Humans of Xero Blog
+Search jobs
+0
+We’ve been keeping these <strong>jobs</strong> saved for you<em>{{name}}</em>
+
+Welcome to Xero
+
+Your next step starts here
+Search jobs:
+Location:
+Location
+Cape Town
+Copenhagen
+Denver
+Hawthorn
+London
+Manchester
+Milton Keynes
+Napier
+New York
+NZ: Remote
+Parnell
+San Mateo
+Singapore
+Sydney
+Toronto
+UK: Remote
+US: Remote
+Vancouver
+Wanchai
+Wellington
+Let's find your perfect role
+Let's find your perfect role
+
+Scroll to explore
+
+Welcome to life inside Xero, where we’re building the future of small business around the world
+
+No matter where you join us from, you’ll find a team that’s connected to our global community.
+
+Step into our world
+Step into our world
+
+SO
+Sofia
+JA
+Jack
+We make it Xero
+through our values:
+
+Xero's values guide us in making decisions that align with our purpose and influence the way we work to make the lives of small businesses better around the globe.
+
+Go Bold
+
+01
+
+Build what’s next. Make magic happen.
+
+Go Fast
+
+02
+
+The future doesn’t wait. Neither do we.
+
+Go Further
+
+03
+
+Aim higher. Care deeper.
+
+Go Together
+
+04
+
+Play with grit. Win as one.
+
+Ready for your next challenge?
+Take me to all jobs
+Take me to all jobs
+Senior Manager, Web Strategy
+Save
+Hawthorn, Victoria, Australia
+Product
+Engineer
+Save
+Toronto, Ontario, Canada
+Engineering
+Senior GTM Manager - UK
+Save
+London, United Kingdom
+Strategy & Operations
+Engineer
+Save
+Vancouver, British Columbia, Canada
+Engineering
+S",
+498,new_urls,498,Xplore,no,https://www.xplore.ca/careers/,https://www.xplore.ca/careers/,https://www.xplore.ca/careers/,xplore.ca,FOUND,https://www.xplore.ca/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:28.138150+00:00,https://www.xplore.ca/careers/,https://www.xplore.ca/about/careers/,200,Careers | Rural Canada Internet Provider | Xplore | Xplore,adp,0,1,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=81e28e3d-f0af-48e5-87d6-51554d87a085&ccId=19000101_000001&type=JS&lang=en_CA,confirmed_external_ats_active,adp page with job records or job links,"SKIP TO MAIN CONTENT
+﻿
+Xplore
+Search
+Primary Navigation
+Shop
+Support
+Blog
+Contact Us
+Log in / Register
+Site Switcher
+Residential
+Business
+Functional Navigation
+Call to Get Started 1-866-630-6955
+Webmail
+FR
+About  /  Careers
+Careers
+
+If you are passionate about providing the best in class Internet and home phone services to all Canadians, we may be the perfect match for you. Find out why you should be excited to join our team and how to apply for a role with us today!
+
+See open positions
+Looking for a great place to work? You have found it!
+
+As a rural-focused company, founded in New Brunswick, and with offices in most provinces across the country, we at Xplore feel a deep connection to our Canadian customers living in rural regions of Canada. We believe that rural Canadians deserve to feel peace of mind when it comes to their Internet connection, and we keep this belief at the centre of every decision we make.
+
+Our work environment is exciting, vibrant, and fast-paced. We work collaboratively as a team towards a single, common goal: servicing our customers. We are currently looking to expand upon our team with driven, inquisitive, and passionate individuals who possess a positive attitude and growth mindset. Your talents, coupled with our cutting-edge innovation and technology will get us closer to our goals.
+
+
+
+
+Learn and grow into a career you can be proud of
+
+We are invested in and dedicated to your growth and development as an individual. We believe that together through ",
+499,new_urls,499,Xprize,no,https://www.xprize.org/careers,https://www.xprize.org/careers,https://www.xprize.org/careers,xprize.org,FOUND,https://www.xprize.org/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:29.408564+00:00,https://www.xprize.org/careers,https://www.xprize.org/careers,200,Careers | XPRIZE Foundation,applytojob,0,6,https://xprize.applytojob.com/apply/job_20260727193904_UYXB8RTLYDKWAIZY | https://xprize.applytojob.com/apply/job_20260629212533_OGSTGWNFORH9ZWR3 | https://xprize.applytojob.com/apply/job_20260623221749_46LXWO1FGHKWKC37 | https://xprize.applytojob.com/apply/job_20260610035504_MWWKGM0SYEDQX6K5 | https://xprize.applytojob.com/apply/job_20260526202044_GPN2VOS9TBHYBWHK,confirmed_external_ats_active,applytojob page with job records or job links,"Cookie Disclaimer
+
+We use cookies as specified in the privacy policy and use similar technologies for technical purposes. With your consent, we’d like to set optional cookies to optimize site functionality and give you the most relevant browsing experience. Denying consent may make related features unavailable.
+
+I agreeI declineChange my preferences
+News + Insights
+Team Portal
+Who We Are
+Grand Challenges
+Our Impact
+Our Ecosystem
+Get Involved
+Donate
+Our Focus
+Deep Tech + Exploration
+Energy + Climate + Nature
+Food + Water + Waste
+Health
+Learning + Society
+Careers
+Open Positions
+At XPRIZE, we turn audacious ideas into breakthroughs that reshape industries and improve lives. Join a team driven by purpose, rigor, and imagination, where every role helps accelerate solutions to humanity’s toughest challenges.
+Director, Community
+ Full Time
+ (Multiple States), United States
+Jul 27, 2026
+Prize Designer (First Principles Thinker)
+ Full Time
+ (Multiple States), United States
+Jun 29, 2026
+VP, Communications
+ Full Time
+ Los Angeles, CA, United States
+Jun 23, 2026
+Technical Prize Director, Energy Efficient AI
+ Full Time
+ (Multiple States), United States
+Jun 10, 2026
+Manager, Partnerships & Impact
+ Full Time
+ (Multiple States), United States
+May 26, 2026
+Chief Operating Officer
+ Full Time
+ (Multiple States), United States
+May 13, 2026
+Our Focus
+Deep Tech + Exploration
+Energy + Climate + Nature
+Food + Water + Waste
+Health
+Learning + Society
+Who We Are
+Our Mission
+About XPRIZE
+Our People
+Our ",
+501,new_urls,501,Ymcaottawa,no,https://www.ymcaottawa.ca/careers/,https://www.ymcaottawa.ca/careers/,https://www.ymcaottawa.ca/careers/,ymcaottawa.ca,FOUND,https://www.ymcaottawa.ca/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:31.565843+00:00,https://www.ymcaottawa.ca/careers/,https://www.ymcaottawa.ca/careers/,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+500,new_urls,500,Yelp,no,https://www.yelp.careers/,https://www.yelp.careers/,https://www.yelp.careers/,yelp.careers,FOUND,https://www.yelp.careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:33.658910+00:00,https://www.yelp.careers/,https://www.yelp.careers/us/en,200,Careers at Yelp | Search for jobs at Yelp,icims,0,5,https://www.yelp.careers/us/en/preparing-for-your-sales-manager-interview | https://blog.yelp.com/life-at-yelp/from-account-executive-to-regional-director-jamess-journey-in-enterprise-sales/ | https://blog.yelp.com/life-at-yelp/from-account-executive-to-regional-director-jamess-journey-in-enterprise-sales/ | https://www.yelp.careers/us/en/job/13997/Digital-Campaign-Measurement-Specialist-Enterprise-Brand-Sales-Remote | https://uscareers-yelp.icims.com/jobs/13997/digital-campaign-measurement-specialist%2c-enterprise-brand-sales-%28remote%29/job,confirmed_external_ats_active,icims page with job records or job links,"We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page.
+Reject All Allow All
+Skip to main content
+Home
+Life at Yelp
+Locations
+Teams
+Events
+ 
+Language selected
+English
+United States 
+ Saved Jobs (0)
+-
+Be part of an empowering mission and build a rewarding career that grows with you.
+Let's connect people to great local businesses.
+ Search
+You're in good company
+Yelp is powered by a global community of collaborative people. We’re tenacious individuals who commit to our values and unite in our mission to connect people to great local businesses. Yelp is a remote workplace where your work makes a difference, you are seen as a whole person, and you can grow.
+Search open positions
+A remote workplace designed for life
+Our remote work model allows our folks to live where it makes sense for their lifestyle and build a rewarding career that will grow along with them. We believe autonomy promotes productivity and success, and flexibility means we can build a rewarding career while enjoying an enriching life outside of work. At Yelp, your ongoing learning is designed to grow with you for life. We invest in your development as a whole person, and your achievements are part of our collective success.
+Learn more
+Who you are is our greatest strength
+Our people are at the heart of our global employee community. We are creating an inclusive space wher",
+504,new_urls,504,Zebrosys,no,https://zebrosys.com/careers,https://zebrosys.com/careers,https://zebrosys.com/careers,zebrosys.com,FOUND,https://zebrosys.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:36.882610+00:00,https://zebrosys.com/careers,https://www.zebrosys.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+503,new_urls,503,Zapier,no,https://zapier.com/jobs,https://zapier.com/jobs,https://zapier.com/jobs,zapier.com,FOUND,https://zapier.com/jobs,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:38.152692+00:00,https://zapier.com/jobs,https://zapier.com/jobs,200,Job openings at Zapier | Work from anywhere,ashby,0,27,https://zapier.com/partnerdirectory | https://zapier.com/developer-platform | https://zapier.com/developer-platform/integrations | https://zapier.com/developer-platform/embed-tools | https://zapier.com/developer-platform/partner-program,confirmed_external_ats_active,ashby page with job records or job links,"Skip to content
+Products
+Solutions
+Resources
+Enterprise
+Pricing
+GitHub
+Explore apps
+Contact sales
+Log in
+Sign up
+Join us from anywhere
+
+We’re on a mission to make automation work for everyone. And we’re hiring!
+
+View job openings
+
+Building the future of AI and Automation at Zapier
+
+We’re seeking teammates who believe in our mission
+
+At Zapier, you have the opportunity to empower others to do more through automation and AI. We put people first through our mission of making automation work for everyone. And we build teams to meet and champion the diverse needs of our customers.
+
+You’re bullish about what’s possible with AI and automation
+
+You believe in the power of automation and AI and in making them accessible to everyone. You take initiative to explore new tools, experiment with what’s possible, and apply what works. Whether you’re building with Zapier or imagining new ways to “build the robot,” you embrace an AI-first mindset to unlock creativity, impact, and scale.
+
+You embrace innovation and continuous improvement
+
+You’re always looking for ways to work smarter — whether that’s refining a process, automating a task, or experimenting with new tools. You thrive in change, think beyond your role, and bring a problem-solving mindset to every challenge. When things get complex, you lean into collaboration, take initiative, and help move the work forward.
+
+You center your decisions on the customer experience
+
+You’re enthusiastic about helping customers grow their businesses an",
+505,new_urls,505,Zenduit,no,https://zenduit.com/careers,https://zenduit.com/careers,https://zenduit.com/careers,zenduit.com,FOUND,https://zenduit.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:41.387569+00:00,https://zenduit.com/careers,https://zenduit.com/careers/,200,Careers at ZenduIT | Join a Global Team Driving Innovation,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Solutions
+Products
+Resources
+Company
+Get a Demo
+EN
+Join Us to Make an Impact
+Explore Our Open Positions
+Why Work With Zenduit?
+
+At Zenduit, we foster a culture of innovation, collaboration, and excellence, where every team member is valued, empowered to grow, and inspired to make a meaningful impact on a global scale.
+
+Integrity
+
+Teamwork
+
+Excellence
+
+Growth
+
+90%
+
+Employee Satisfaction
+
+10+
+
+Years of Innovation
+
+20
+
+Countries Worldwide
+
+Kartik Saxena
+Fullstack Developer, Canada
+“As a Fullstack Developer at Zenduit, I thrive in a culture that embraces innovation and forward-thinking technology. We’re constantly exploring new advancements in telematics and fleet management, ensuring we stay ahead of the curve. With an open mindset and a passion for progress, we turn challenges into opportunities—pushing the boundaries of what’s possible and shaping the future of our industry.”
+Iffa Anwar
+Culture Engagement Manager
+
+“At Zenduit, diversity isn’t just a checkbox—it’s what drives our innovation. With a global team bringing unique perspective, we collaborate, learn and grow together, making every challenge more exciting and every solution more impactful.”
+Zainab Yusufzai
+Global Brand Manager, Toronto
+“Working at ZenduIT is truly inspiring. I’m proud to witness firsthand the remarkable impact we’re making, not just locally but across the globe. The energy and pace at which we’re growing is incredible and transformative, as we continue to innovate and grow worldwide.”
+Maimoona Bukhari",
+478,new_urls,478,Virginplus,no,https://virginplus.ca/careers,https://virginplus.ca/careers,https://virginplus.ca/careers,virginplus.ca,FOUND,https://virginplus.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:53.434904+00:00,https://virginplus.ca/careers,https://retail.jobs.virginplus.ca/en/,200,Jobs - Virgin Plus,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","Skip to Main Content
+Home
+Language Selected:
+EN
+Come work at Virgin Plus
+
+Everyone wants a great place to work and we are that place. In fact, we offer an inclusive environment with a competitive salary and great benefits. Plus we’re just fun. At Virgin we believe people are at their best when they can be themselves. So come be yourself with us.
+
+Join our retail team at a location near you
+
+View our store jobs
+
+Navigate to interactive map section to explore store locations
+Explore our retail job opportunities
+Brand
+Virgin Plus
+Location
+Select location
+Interactive map showing Virgin Plus store locations with job openings. Use arrow keys to navigate markers.
+2
++
+−
+Refine your search
+Location
+Country
+Province
+City
+Job Type
+Sort by:
+Most Relevant
+Posting Date
+Showing 1 to 3 of 6 entries
+Retail Sales Associate, Ste-Catherine
+Montréal, QC
+431293
+Req Id: 431293  At Virgin Plus, we don’t have “customers”, we have Members. And Members get access to exclusive music events, VIP treatment, and killer music, entertainment, fashion and travel deals from the world’s must-have brands.  If you think you’ve got what it takes to mak...
+Retail Sales Associate, Carrefour Du Nord
+Saint-Jérôme, QC
+431030
+Req Id: 431030  At Virgin Plus, we don’t have “customers”, we have Members. And Members get access to exclusive music events, VIP treatment, and killer music, entertainment, fashion and travel deals from the world’s must-have brands.  If you think you’...
+Retail Sales Associate, Promenades Gatineau",
+431,new_urls,431,Careers,no,https://careers.telus.com/,https://careers.telus.com/,https://careers.telus.com/,careers.telus.com,FOUND,https://careers.telus.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:58.315908+00:00,https://careers.telus.com/,https://careers.telus.com/,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+459,new_urls,459,Careers,no,https://careers.trupanion.com/,https://careers.trupanion.com/,https://careers.trupanion.com/,careers.trupanion.com,FOUND,https://careers.trupanion.com/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:08:59.970372+00:00,https://careers.trupanion.com/,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.trupanion.com/
+Call log:
+  - navigating to ""https://careers.trupanion.com/"", waiting until ""load""
+"
+469,new_urls,469,Vantapartners,no,https://vantapartners.com/careers,https://vantapartners.com/careers,https://vantapartners.com/careers,vantapartners.com,FOUND,https://vantapartners.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:02.079507+00:00,https://vantapartners.com/careers,https://vantapartners.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+479,new_urls,479,Visionintegrity,no,https://visionintegrity.com/careers,https://visionintegrity.com/careers,https://visionintegrity.com/careers,visionintegrity.com,FOUND,https://visionintegrity.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:04.760980+00:00,https://visionintegrity.com/careers,https://visionintegrity.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+480,new_urls,480,Vivatechsolutions,no,https://vivatechsolutions.com/careers,https://vivatechsolutions.com/careers,https://vivatechsolutions.com/careers,vivatechsolutions.com,FOUND,https://vivatechsolutions.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:06.245608+00:00,https://vivatechsolutions.com/careers,https://vivatechsolutions.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
+481,new_urls,481,Jobs,no,https://jobs.von.ca/,https://jobs.von.ca/,https://jobs.von.ca/,jobs.von.ca,FOUND,https://jobs.von.ca/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:07.951133+00:00,https://jobs.von.ca/,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.von.ca/
+Call log:
+  - navigating to ""https://jobs.von.ca/"", waiting until ""load""
+"
+492,new_urls,492,Workconsulting,no,https://workconsulting.ca/careers,https://workconsulting.ca/careers,https://workconsulting.ca/careers,workconsulting.ca,FOUND,https://workconsulting.ca/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:09.949925+00:00,https://workconsulting.ca/careers,,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://workconsulting.ca/careers
+Call log:
+  - navigating to ""https://workconsulting.ca/careers"", waiting until ""load""
+"
+502,new_urls,502,Zainithagency,no,https://zainithagency.com/careers,https://zainithagency.com/careers,https://zainithagency.com/careers,zainithagency.com,FOUND,https://zainithagency.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T01:09:12.090461+00:00,https://zainithagency.com/careers,https://zainithagency.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,"Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"

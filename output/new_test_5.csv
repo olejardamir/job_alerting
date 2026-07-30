@@ -1,0 +1,216 @@
+record_id,source_file,source_row,organization_name_original,unresolved_q_identifier,input_website,final_website,canonical_website,normalized_domain,original_status,career_url,link_text,score,ats_provider_detected,evidence,candidate_count,initial_classification,classification_reason,retry_category,recommended_next_action,processing_queue,error,organization_name_resolved,ottawa_relationship,ottawa_evidence,validation_status,validation_notes,last_processed,checked_at_utc,requested_url,loaded_url,http_status,page_title,detected_ats,jsonld_jobposting_count,probable_job_link_count,sample_job_links,validation_result,validation_reason,body_text_sample,crawl_error
+1,new_urls,1,Jobs,no,https://jobs.ashbyhq.com/11x,https://jobs.ashbyhq.com/11x,https://jobs.ashbyhq.com/11x,jobs.ashbyhq.com,FOUND,https://jobs.ashbyhq.com/11x,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T00:30:29.240859+00:00,https://jobs.ashbyhq.com/11x,https://jobs.ashbyhq.com/11x,200,Jobs,ashby,0,0,,external_ats_needs_review,"ashby detected, but no jobs were confidently identified","Page not found
+
+The page you requested was not found
+
+Powered by 
+
+Privacy PolicySecurityVulnerability Disclosure",
+2,new_urls,2,360learning,no,https://360learning.com/company/careers/,https://360learning.com/company/careers/,https://360learning.com/company/careers/,360learning.com,FOUND,https://360learning.com/company/careers/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T00:30:32.594268+00:00,https://360learning.com/company/careers/,https://360learning.com/company/careers/,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
+3,new_urls,3,3pillar,no,https://www.3pillar.ai/careers/career-opportunities/,https://www.3pillar.ai/careers/career-opportunities/,https://www.3pillar.ai/careers/career-opportunities/,3pillar.ai,FOUND,https://www.3pillar.ai/careers/career-opportunities/,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T00:30:41.333663+00:00,https://www.3pillar.ai/careers/career-opportunities/,https://www.3pillar.ai/careers/career-opportunities/,200,3Pillar Career Opportunities,lever,0,0,,external_ats_needs_review,"lever detected, but no jobs were confidently identified","Skip to main content
+What We Do
+HelixAI
+Insights
+About
+Careers
+CONTACT
+Career opportunities
+All Locations
+United States
+Canada
+Mexico
+Guatemala
+Costa Rica
+India
+Romania
+Noida
+Czech Republic
+Moldova
+Pune
+Toronto
+All Employment Types
+Full-time
+Contractor
+Fixed term
+Part-time
+
+UNITED STATES, FULL-TIME / REMOTE
+
+Principal Client Partner
+See more
+
+UNITED STATES, FULL-TIME / REMOTE
+
+Field CTO
+See more
+
+CANADA, FULL-TIME / REMOTE
+
+Field CTO
+See more
+
+MEXICO, FULL-TIME / REMOTE
+
+Lead AI Integration Engineer
+See more
+
+GUATEMALA, FULL-TIME / REMOTE
+
+Lead AI Integration Engineer
+See more
+
+COSTA RICA, FULL-TIME / REMOTE
+
+Lead AI Integration Engineer
+See more
+
+COSTA RICA, FULL-TIME / REMOTE
+
+Lead Data Engineer (Azure)
+See more
+
+GUATEMALA, FULL-TIME / REMOTE
+
+Lead Data Engineer (Azure)
+See more
+
+MEXICO, FULL-TIME / REMOTE
+
+Lead Data Engineer (Azure)
+See more
+
+INDIA, CONTRACTOR / REMOTE
+
+Senior Data Engineer (Snowflake & Python)
+See more
+
+ROMANIA, CONTRACTOR / REMOTE
+
+Senior Data Engineer (Snowflake & Python)
+See more
+
+ROMANIA, FULL-TIME / REMOTE
+
+Senior Data Engineer Python - Looker
+See more
+
+UNITED STATES, CONTRACTOR / REMOTE
+
+Senior Python Backend Engineer
+See more
+
+COSTA RICA, FULL-TIME / REMOTE
+
+Senior Python Data Engineer
+See more
+
+GUATEMALA, FULL-TIME / REMOTE
+
+Senior Python Data Engineer
+See more
+
+MEXICO, FULL-TIME / REMOTE
+
+Senior Python Data Engineer
+See more
+
+CANADA, UNDEFINED / REMOTE
+
+Senior Software Engineer
+See more
+
+ROMANIA, FULL-TIME / REMOTE
+
+UX Design Manager
+See more
+
+NO",
+4,new_urls,4,Ca,no,https://www.ca.abbott/en/careers.html,https://www.ca.abbott/en/careers.html,https://www.ca.abbott/en/careers.html,ca.abbott,FOUND,https://www.ca.abbott/en/careers.html,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T00:30:47.204322+00:00,https://www.ca.abbott/en/careers.html,https://www.ca.abbott/en/careers.html,200,Abbott Jobs in Canada / Careers in Canada,,0,0,,probable_career_page_needs_review,"Career language detected, but job state is unclear","CAREERS
+MEDIA
+(FRANÇAIS)
+PRODUCTS
+ABOUT US
+HOME
+CAREERS
+Previous
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+
+ABBOTT PROUD TO BE
+RANKED AS A MONTRÉAL
+TOP EMPLOYER
+LEARN MORE
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+
+ABBOTT PROUD TO BE
+RANKED AS A MONTRÉAL
+TOP EMPLOYER
+LEARN MORE
+
+CAREERS
+
+BUILD BETTER, HEALTHIER LIVES, EVERY DAY WITH ABBOTT.
+
+SEARCH JOBS
+Next
+1
+2
+DISCOVER CAREERS
+WORKING WITH US
+
+Discover unparalleled opportunities at Abbott.
+
+ 
+
+ 
+
+PROFESSIONALS
+
+Learn how you can make a positive impact in the world.
+
+ 
+
+ 
+
+STUDENTS
+
+Help others while you gain experience across our global healthcare businesses.
+
+ 
+
+ 
+
+WORKING AT ABBOTT
+
+Join our global team helping people live fuller, healthier lives. Every day we strive to reach more people in more places with innovative health technologies. Our goal is to reach 3 billion people each year by 2030. At Abbott you can be part of this, doing work that matters while living your own best life personally and professionally.
+
+ 
+
+ 
+
+PRODUCTS
+ABOUT US
+RESPONSIBILITY
+PARTNERS
+CAREERS
+MEDIA
+SITE MAP
+CONTACTS
+GLOBAL WEBSITES
+PRIVACY POLICY
+TERMS & CONDITIONS
+ACCESSIBILITY
+
+© 2026 Abbott. All Rights Reserved. Please read the Legal Notice for further details.
+
+Unless otherwise specified, all product and service names appearing in this Internet site are trademarks owned by or licensed to Abbott, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, o",
+5,new_urls,5,Abra3,no,https://abra3.com/careers,https://abra3.com/careers,https://abra3.com/careers,abra3.com,FOUND,https://abra3.com/careers,,,,,,,,,validate_page_and_extract_jobs,career_validation,,,,,unreviewed,,,2026-07-29T00:30:50.143786+00:00,https://abra3.com/careers,https://abra3.com/careers,,,,0,0,,crawl_failed,All configured retries failed,,HttpClientStatusCodeError: Client error status code returned (status code: 404).
